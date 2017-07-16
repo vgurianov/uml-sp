@@ -1,4 +1,4 @@
 # uml-sp
 Object-oriented simulation language
 
-20170715 start project 
+more information see  https://vgurianov.github.io/uml-sp/
