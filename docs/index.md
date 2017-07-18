@@ -1,7 +1,8 @@
 
 The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation models. It is profile based on UML 2.5. 
 
-<section>
+
+
 
       <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
@@ -74,4 +75,4 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation
 </div>
 
 
-      </section>
+     
