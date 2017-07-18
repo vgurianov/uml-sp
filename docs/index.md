@@ -4,9 +4,9 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation
 
 
 
-      <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+      Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.
 
-<p><a href="another-page">Link to another page</a>.</p>
+<a href="another-page">Link to another page</a>.
 
 <p>There should be whitespace between paragraphs.</p>
 
@@ -32,47 +32,3 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation
   <li>This is an unordered list following a header.</li>
 </ul>
 
-<h5 id="header-5"><a href="#header-5"></a>Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="small-image">Small image</h3>
-
-<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt=""></p>
-
-<h3 id="large-image">Large image</h3>
-
-<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt=""></p>
-
-<h3 id="definition-lists-can-be-used-with-html-syntax">Definition lists can be used with HTML syntax.</h3>
-<div class="highlighter-rouge"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-</code></pre>
-</div>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>The final element.
-</code></pre>
-</div>
-
-
-     
