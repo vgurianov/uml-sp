@@ -10,8 +10,9 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation
 <li><a href="another-page">Tutorial</a></li>
 <li><a href="another-page"><a href="another-page">Examples</a></li>
 </ol>
+
 <h2 id="header-2"><a href="#header-2"></a>Documents</h2>
-<a href="another-page">Metamodel and definition of stereotypes</a>.
+<a href="another-page">Metamodel and definition of stereotypes</a>
 
 <h2 id="header-2"><a href="#header-2"></a>Installation</h2>
 <a href="another-page">Install</a>
