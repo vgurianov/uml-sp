@@ -24,7 +24,7 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation
 
 <h3 id="header-3"><a href="#header-3"></a>Header 3</h3>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
+
 <ul>
   <li>This is an unordered list following a header.</li>
   <li>This is an unordered list following a header.</li>
