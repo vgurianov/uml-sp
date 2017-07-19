@@ -14,9 +14,11 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 </ul>
 
 <h2 id="header-4"><a href="#header-2"></a>Documentation</h2>
-<a href="another-page">Metamodel and definition of stereotypes</a><br/>
-<a href="another-page">Manual</a><br/>
-<a href="another-page">Bibliography</a>
+<ul>
+<li><a href="another-page">Metamodel and definition of stereotypes</a><br/></li>
+<li><a href="another-page">Manual</a><br/></li>
+<li><a href="another-page">Bibliography</a></li>
+</ul>
 
 <h2 id="header-5"><a href="#header-2"></a>Installation</h2>
 UML2 SAP implementation on StarUML v. 5.0 editor. To install UML SP, use the following:<br/>
