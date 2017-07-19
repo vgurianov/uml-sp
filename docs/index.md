@@ -5,7 +5,7 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 <br/><a href="another-page">See more information</a>
 <h1 id="header-2"><a href="#header-1"></a>Contents</h1>
 
-<p>This site include all important information to work with UML2 SP.</p>
+<p>This site containts all necessary information to work with UML2 SP.</p>
 
 <h2 id="header-3"><a href="#header-2"></a>Learning</h2>
 <ul>
@@ -15,8 +15,8 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 
 <h2 id="header-4"><a href="#header-2"></a>Documentation</h2>
 <ul>
-<li><a href="another-page">Metamodel and definition of stereotypes</a><br/></li>
-<li><a href="another-page">Manual</a><br/></li>
+<li><a href="another-page">Metamodel and definition of stereotypes</a></li>
+<li><a href="another-page">Manual</a></li>
 <li><a href="another-page">Bibliography</a></li>
 </ul>
 
