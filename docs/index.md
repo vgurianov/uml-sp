@@ -1,8 +1,8 @@
 
-<h1 id="header-1"><a href="#header-1"></a>UML2 SP</h1>
+<h1 id="header-1"><a href="#header-1"></a>UML2 SP. What Is It?</h1>
 The UML2 SP (UML Scientific Profile) is UML-profile for development a simulation models. It is profile based on UML 2.5.
 UML2 SP is like a lite version of standard profile for Unified Process and support Use-Case Model, Analysis Model, Design Model for process of development of simulator. 
-<br/><a href="another-page">See more information</a>
+<br/><a href="introduction">See more information</a>
 <h1 id="header-2"><a href="#header-1"></a>Contents</h1>
 
 <p>This site containts all necessary information to work with UML2 SP.</p>
