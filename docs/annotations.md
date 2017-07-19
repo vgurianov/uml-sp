@@ -1,4 +1,4 @@
-#About UML2 SP
+# About UML2 SP
 A simulation include next steps:
 1. define goals and requirement to simulator
 2. conceptual modeling
@@ -8,4 +8,5 @@ A simulation include next steps:
 6. make general plan
 7. tactical plan and make experiments
 8. result
-UML2 SP support three first step
+
+UML2 SP support three first step.
