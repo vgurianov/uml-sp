@@ -23,7 +23,8 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 
 <h2 id="header-5"><a href="#header-2"></a>Installation</h2>
 UML2 SAP implementation on StarUML ver. 5.0 editor. To install UML SP, use the following:<br/>
-<a href="another-page">Install</a>
+<a href="install">Install</a>
 
 <h2 id="header-6"><a href="#header-2"></a>License</h2>
-<a href="another-page">See License</a>
+This project is licensed under the terms of the BSD 2-Clause license
+<a href="LICENSE">See License</a>
