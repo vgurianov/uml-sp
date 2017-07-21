@@ -19,8 +19,8 @@ UML2 SP support three first step.
 
 ## 1. Define goals and requirement to simulator
 In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.<br/>
-Goal: What will Mr. Goldsmith answer?<br/>
-Plan of experiment: asks Mr. Goldsmith
+Goal: What willMr. Brown answer?<br/>
+Plan of experiment: asks Mr. Brown
 
 
 ## 2. Conceptual modeling
