@@ -26,5 +26,5 @@ UML2 SP implementation on StarUML ver. 5.0 editor for Windows.<br/>
 <a href="https://github.com/vgurianov/uml-sp/blob/master/UML2%20SP/readme.md">Install</a>
 
 <h2 id="header-6"><a href="#header-2"></a>License</h2>
-This project is licensed under the terms of the BSD 2-Clause license<br/>
-<a href="https://github.com/vgurianov/uml-sp/blob/master/LICENSE">See LICENSE</a>
+This project is licensed under the terms of the [BSD 2-Clause license](https://github.com/vgurianov/uml-sp/blob/master/LICENSE)<br/>
+
