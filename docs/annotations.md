@@ -18,8 +18,8 @@ UML2 SP support three first step.
 -- Not bad, thank you /Thanks, not so well.
 
 ## 1. Define goals and requirement to simulator
-In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.
-Goal: What will Mr. Goldsmith answer?
+In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.<br/>
+Goal: What will Mr. Goldsmith answer?<br/>
 Plan of experiment: asks Mr. Goldsmith
 
 
