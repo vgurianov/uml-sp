@@ -10,3 +10,21 @@ A simulation include next steps:
 8. result
 
 UML2 SP support three first step.
+
+# Simple example
+## Application domain: Greeting
+-- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
+-- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
+-- Not bad, thank you /Thanks, not so well.
+
+## 1. Define goals and requirement to simulator
+In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.
+Goal: What will Mr. Goldsmith answer?
+Plan of experiment: asks Mr. Goldsmith
+
+
+## 2. Conceptual modeling
+In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.
+
+## 3. Formal describe
+In UML2 SP this step is a Design model.Design model is an artefact of Design workflow.
