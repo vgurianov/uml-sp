@@ -1,13 +1,13 @@
 # About UML2 SP
 A simulation include next steps:
-1. define goals and requirement to simulator
+1. define goals modeling and requirements to simulator
 2. conceptual modeling
 3. formal describe
 4. programing
 5. verification and validation
-6. make general plan
-7. tactical plan and make experiments
-8. result
+6. make general plan of experiments
+7. make up tactical plan and execute experiment
+8. analyze results of experiments
 
 UML2 SP support three first step.
 
@@ -17,9 +17,9 @@ UML2 SP support three first step.
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.
 
-## 1. Define goals and requirement to simulator
+## 1. Define goals modeling and requirements to simulator
 In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.<br/>
-Goal: What willMr. Brown answer?<br/>
+Goal: What will Mr. Brown answer?<br/>
 Plan of experiment: asks Mr. Brown
 
 
