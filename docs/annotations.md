@@ -19,17 +19,17 @@ UML2 SP support three first step.
 It's necessary create a simulation model of dialog.
 
 ## 1. Define goals modeling and requirements to simulator
-In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.
+In UML2 SP this step is a *Requirement* workflow. Use-Case model is an artefact of *Requirement* workflow.
 
 **Goal:** What will Mr. Brown answer?<br/>
-**Plan of experiment:** asks Mr. Brown.<br/>
+**Plan of experiment:** observe Mr. Brown and Mr. Goldsmith dialog.<br/>
 
 <p><img src="UseCase.png" alt="" /></p>
-Use-Case model define the functional requirements of the simulator.
+*Use-Case model* define the functional requirements of the simulator (system makes "Prepare" and "Step").
 
 ## 2. Conceptual modeling
-In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.<br/><br/>
-Realization *Run* use case :
+In UML2 SP this step is an *Analysis* workflow. *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
+Realization "Run" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
@@ -44,10 +44,10 @@ A "Node" frame define concept "Greeting" and has "msg" slot. It is the system un
 Class operations define a rule of change of slot.<br>
 
 **Computational semantics.**<br> 
-The class diagram is variant of pattern Composite.<br>
+The class diagram is variant of a *Composite* pattern .<br>
 
 ## 3. Formal describe
-In UML2 SP this step is a Design model.Design model is an artefact of Design workflow.
+In UML2 SP this step is a *Design* workflow.*Design model* is an artefact of *Design* workflow.
 
 
 # Further - programming, testing and etc.
