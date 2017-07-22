@@ -47,9 +47,9 @@ Class operations define a rule of change of slot.<br>
 The class diagram is variant of a *Composite* pattern .<br>
 
 ## 3. Formal describe
-In UML2 SP this step is a *Design* workflow.*Design model* is an artefact of *Design* workflow.
-
-
+In UML2 SP this step is a *Design* workflow.*Design model* is an artefact of *Design* workflow.<br>
+<p><img src="ActivityDiagram1.png" alt="" /></p> <br>
+On this workflow select a platform and design an algorithms for operations of classes. For Analysis model can be created several Design models.<br>
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
 
