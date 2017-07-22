@@ -15,8 +15,8 @@ UML2 SP support three first step.
 ## Application domain: Greeting
 -- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
--- Not bad, thank you /Thanks, not so well.<br/>
-it's necessary create simulation model of dialog.
+-- Not bad, thank you /Thanks, not so well.<br/><br/>
+It's necessary create a simulation model of dialog.
 
 ## 1. Define goals modeling and requirements to simulator
 In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requirement workflow.
@@ -31,7 +31,7 @@ Use-Case model define the functional requirements of the simulator.
 In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.<br/><br/>
 Realization *Run* use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
-Class diagram, build from realization:
+Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
 ## 3. Formal describe
