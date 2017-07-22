@@ -23,7 +23,7 @@ In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requi
 Goal: What will Mr. Brown answer?<br/>
 Plan of experiment: asks Mr. Brown.<br/>
 
-<p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/UseCase.jpg" alt="" /></p>
+<p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/UseCase.emf" alt="" /></p>
 Use-Case model define the functional requirements of the simulator.
 
 ## 2. Conceptual modeling
