@@ -29,3 +29,9 @@ In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analy
 
 ## 3. Formal describe
 In UML2 SP this step is a Design model.Design model is an artefact of Design workflow.
+
+
+# Reference
+The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
+
+[See in GetHub](https://github.com/vgurianov/uml-sp/tree/master/examples) 
