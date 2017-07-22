@@ -3,7 +3,7 @@ A simulation include next steps:
 1. define goals modeling and requirements to simulator
 2. conceptual modeling
 3. formal describe
-4. programing
+4. programming
 5. verification and validation
 6. make general plan of experiments
 7. make up tactical plan and execute experiment
@@ -34,11 +34,23 @@ Realization *Run* use case :
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
+**Application domain semantics.**<br>
+In UML2 SP conceptual model is an ontology. Further we use the terms of knowledge engineering.<br>
+A "Component" frame define concept "Subject" . This frame has "name" and "next" slots.<br>
+A "Leaf" frame  define concept "Human".<br>
+A "Composite" frame define concept "Dialog space" and has "pl" slot.<br>
+A "Root" frame define concept "Environment". It is initial and boundary conditions.<br>
+A "Node" frame define concept "Greeting" and has "msg" slot. It is the system under study.<br>
+Class operations define a rule of change of slot.<br>
+
+**Computational semantics.**<br> 
+The class diagram is variant of pattern Composite.<br>
+
 ## 3. Formal describe
 In UML2 SP this step is a Design model.Design model is an artefact of Design workflow.
 
 
-# Reference
+# Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
 
-[See in GetHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample) 
+[See in GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample) 
