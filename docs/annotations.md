@@ -23,11 +23,11 @@ In UML2 SP this step is a Use-Case model. Use-Case model is an artefact of Requi
 Goal: What will Mr. Brown answer?<br/>
 Plan of experiment: asks Mr. Brown.<br/>
 
-<p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/UseCase.png" alt="" /></p>
+<p><img src="UseCase.png" alt="" /></p>
 Use-Case model define the functional requirements of the simulator.
 
 ## 2. Conceptual modeling
-In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.<br>
+In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.<br/><br/>
 Realization:
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Class diagram:
