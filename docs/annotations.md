@@ -29,7 +29,7 @@ Use-Case model define the functional requirements of the simulator.
 ## 2. Conceptual modeling
 In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analysis workflow.<br>
 Realization:
-<p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/UseCaseRealization.png" alt="" /></p> <br>
+<p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Class diagram:
 <p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p> <br>
 
