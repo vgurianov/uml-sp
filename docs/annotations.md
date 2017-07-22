@@ -31,7 +31,7 @@ In UML2 SP this step is a Analysis model. Analysis model is an artefact of Analy
 Realization:
 <p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/UseCaseRealization.png" alt="" /></p> <br>
 Class diagram:
-<p><img src="https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/SP%20ClassDiagram.png" alt="" /></p>
+<p><img src="https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample/SP%20ClassDiagram.png" alt="" /></p> <br>
 
 ## 3. Formal describe
 In UML2 SP this step is a Design model.Design model is an artefact of Design workflow.
