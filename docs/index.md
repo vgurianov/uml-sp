@@ -25,6 +25,6 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 UML2 SP implementation on StarUML ver. 5.0 editor for Windows.<br/>
 <a href="https://github.com/vgurianov/uml-sp/blob/master/UML2%20SP/readme.md">Install</a>
 
-<h1 id="header-6"><a href="#header-2"></a>License</h2>
+<h1 id="header-6"><a href="#header-1"></a>License</h1>
 This project is licensed under the terms of the [BSD 2-Clause license](https://github.com/vgurianov/uml-sp/blob/master/LICENSE)<br/>
 
