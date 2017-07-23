@@ -1,6 +1,9 @@
 /*-----------------------------------------------------------------------*
  * filename - AppBaseClasses.h
- * Autor: Vasily I. Gurianov
+ * Author: Vasily I. Gurianov
+ * Date: 2017-07-22
+ * Version: 1.0
+ * Testing: CodeGear™ C++ Builder® 2007  Version 11.0.2987.10779
  *
  *  Base classes definitions for Application by SimpleExample
  *
@@ -14,7 +17,15 @@
 #include <StdCtrls.hpp>
 #include <Dialogs.hpp>
 
-//---------------------------------------------------------------------------
+//========================================================================
+
+/*-----------------------------------------------------------------------*
+ * name - class Component
+ *
+ *  Abstract class for Composite pattern
+ *
+ *-----------------------------------------------------------------------*/
+
 class Component { // Concept = Subject of communication
 private:
 public:
@@ -30,6 +41,13 @@ Component *next;
 	void virtual putMessage(AnsiString s) { //$ {Concept = Resept message} $//
 	}
 };
+
+/*-----------------------------------------------------------------------*
+ * name - class Leaf
+ *
+ *  Leaf class for Composite pattern
+ *
+ *-----------------------------------------------------------------------*/
 
 class Leaf : public Component { // Concept = Human
 	class DialogList {
@@ -67,6 +85,13 @@ public:
 
 };
 
+/*-----------------------------------------------------------------------*
+ * name - class Composite
+ *
+ *  Composite class for Composite pattern
+ *
+ *-----------------------------------------------------------------------*/
+
 class Composite : public Component {
 private:
 protected:
@@ -76,9 +101,18 @@ public:
 	}
 };
 
+/*-----------------------------------------------------------------------*
+ * name - class Node
+ *
+ *  Concrete class for Composite pattern
+ *
+ *-----------------------------------------------------------------------*/
 class Node : public Composite {
 private:
 	AnsiString msg;
+	void nextItem(){
+	pl = pl->next;
+	}
 public:
 	Node() {
 	pl = new Leaf("Goldsmith");
@@ -89,17 +123,24 @@ public:
 void Run() { // <<Exist>>
 	if (pl != NULL) {
 	pl->putMessage(msg); pl->Run(); msg = pl->getMessage();
-	pl = pl->next;
+	this->nextItem();
 	probe = msg; // measurement
 	} else probe = "<close dialog>";
 }
 };
-//
+/*-----------------------------------------------------------------------*
+ * name - class Root
+ *
+ *  Concrete class for Composite pattern
+ *  Define initial and boundary conditions for Node class
+ *
+ *-----------------------------------------------------------------------*/
+
 class Root : public Composite {
 private:
 public:
 	Root() {
-	this->pl = new TreeNode;
+	this->pl = new Node;
 	}
 	void Run() { // <<Exist>>
 	this->pl->Run();
