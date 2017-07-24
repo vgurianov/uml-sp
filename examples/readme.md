@@ -1,4 +1,4 @@
-# UML2 examples
+# UML2 SP examples
 # 1. General simulation models
 - **SimpleExample** - [Case study](https://vgurianov.github.io/uml-sp/annotations)
 
