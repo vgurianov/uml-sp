@@ -12,7 +12,7 @@ A simulation include next steps:
 UML2 SP support three first step.
 
 # Simple example
-**Application domain**: Greeting
+**Application domain**: Greeting <br/>
 -- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
