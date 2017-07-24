@@ -20,15 +20,16 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
-Apply UML2 SP approach:
+Start StarUml editor. Apply UML2 SP approach:
 <p><img src="images/Start_1.png" alt="" /></p>
 and created new project:
-<p><img src="images/Start_2.png" alt="" /></p>
+<p><img src="images/Start_2.png" alt="" /></p><br/>
+Save your project.
 ## 1. Define goals of modeling and requirements to simulator
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
 
 **Goal:** What will Mr. Brown answer?<br/>
-**Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/>
+**Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
 Go "SP UseCase" tab and draw Use Case diagram .<br>
 <p><img src="UseCase.png" alt="" /></p>
 A *Use-Case model* define the functional requirements of the simulator: system must do "Prepare","Step" and "Visualize".
@@ -55,7 +56,7 @@ Class diagram (build from realization):
 
 ### 2.4. Description application domain semantics
 
-In UML2 SP conceptual model is an ontology. Further we use the terms of knowledge engineering.<br>
+In UML2 SP conceptual model is an ontology. You must very good understand  a domain of application. Further we use the terms of knowledge engineering.<br>
 A "Component" frame define concept "Subject" . This frame has "name" and "next" slots.<br>
 A "Leaf" frame  define concept "Human".<br>
 A "Composite" frame define concept "Dialog space" and has "pl" slot.<br>
