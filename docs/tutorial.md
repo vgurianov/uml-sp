@@ -12,7 +12,7 @@ A simulation include next steps:
 UML2 SP support three first step.
 
 # Simple example
-## Application domain: Greeting
+**Application domain**: Greeting
 -- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
@@ -20,27 +20,36 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
-
+Apply UML2 SP approach:
+<p><img src="images/Start_1.png" alt="" /></p>
+and created new project:
+<p><img src="images/Start_2.png" alt="" /></p>
 ## 1. Define goals of modeling and requirements to simulator
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
 
 **Goal:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/>
-
+Go "SP UseCase" tab and draw Use Case diagram .<br>
 <p><img src="UseCase.png" alt="" /></p>
-A *Use-Case model* define the functional requirements of the simulator (system must do "Prepare","Step" and "Visualize").
+A *Use-Case model* define the functional requirements of the simulator: system must do "Prepare","Step" and "Visualize".
 
 ## 2. Conceptual modeling
 Analysis model is main part of a simulation model.<br/>
 In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
 
 ### 2.1. Apply "Simulation" pattern
+Select "SP Class diagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
+<p><img src="images/SimulatorPattern_1.png" alt="" /></p><br/>
+Apply pattern:
+<p><img src="images/SimulatorPattern_2.png" alt="" /></p>
 
 ### 2.2. Development realisation of use cases 
+Go "UseCaseRealization" tab.<br>
 Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 
 ### 2.3. Development of an Analysis classes
+Go "SP Class diagram" tab.<br>
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
