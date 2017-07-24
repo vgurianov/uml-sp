@@ -20,7 +20,7 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
-Start StarUml editor. Apply UML2 SP approach:
+Run StarUml editor. Apply UML2 SP approach:
 <p><img src="images/Start_1.png" alt="" /></p>
 and created new project:
 <p><img src="images/Start_2.png" alt="" /></p><br/>
