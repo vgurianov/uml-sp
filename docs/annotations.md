@@ -22,13 +22,14 @@ It's necessary create a simulation model of dialog.
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
 
 **Goal:** What will Mr. Brown answer?<br/>
-**Plan of experiment:** observe Mr. Brown and Mr. Goldsmith dialog.<br/>
+**Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/>
 
 <p><img src="UseCase.png" alt="" /></p>
-*Use-Case model* define the functional requirements of the simulator (system must do "Prepare","Step" and "Visualize").
+A *Use-Case model* define the functional requirements of the simulator (system must do "Prepare","Step" and "Visualize").
 
 ## 2. Conceptual modeling
-In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
+In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/>
+Analysis model is main part of a simulation model.<br/><br/>
 Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Class diagram (build from realization):
@@ -47,7 +48,7 @@ Class operations define a rule of change of slot.<br>
 The class diagram is variant of a *Composite* pattern .<br>
 
 ## 3. Formal describe
-In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
+In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br><br/>
 An algorithm for the Run operation of the Node class:<br>
 <p><img src="ActivityDiagram1.png" alt="" /></p> <br>
 On this workflow select a platform and design an algorithms for operations of classes. For Analysis model can be created several Design models.<br>
