@@ -1,6 +1,6 @@
 # About UML2 SP
 A simulation include next steps:
-1. define goals modeling and requirements to simulator
+1. define goals of modeling and requirements to simulator
 2. conceptual modeling
 3. formal describe
 4. programming
@@ -18,7 +18,7 @@ UML2 SP support three first step.
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
 It's necessary create a simulation model of dialog.
 
-## 1. Define goals modeling and requirements to simulator
+## 1. Define goals of modeling and requirements to simulator
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
 
 **Goal:** What will Mr. Brown answer?<br/>
@@ -29,7 +29,7 @@ In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefac
 
 ## 2. Conceptual modeling
 In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
-Realization "Run" use case :
+Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
@@ -48,7 +48,7 @@ The class diagram is variant of a *Composite* pattern .<br>
 
 ## 3. Formal describe
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
-An algorithm for the Run operation of the Node class.<br>
+An algorithm for the Run operation of the Node class:<br>
 <p><img src="ActivityDiagram1.png" alt="" /></p> <br>
 On this workflow select a platform and design an algorithms for operations of classes. For Analysis model can be created several Design models.<br>
 # Further - programming, testing and etc.
