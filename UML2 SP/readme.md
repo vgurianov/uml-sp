@@ -8,8 +8,8 @@ StarUML - The Open Source UML/MDA Platform StarUML is an open source project to 
 `\StarUML5\modules\staruml-sp`<br>
 <p><img src="star-uml-folder.png" alt="" /></p>
 <br>
-3. Download a copy of the `uml2sp-pattern.zip` in, unzip and place it in the following folder:<br>
-`\StarUML5\modules\staruml-pattern\pattern repository`<br>
+3. Download a copy of `the` uml2sp-pattern.zip in, unzip and place it in the following folder:<br>
+\StarUML5\modules\staruml-pattern\pattern repository\UML2SP\Simulator<br>
 <p><img src="star-uml-pattern-folder.png" alt="" /></p>
 <br>
 4. Run StarUML and create new project with UML2 SP Approach <br><br>
