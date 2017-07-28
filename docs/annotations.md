@@ -36,8 +36,9 @@ Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
 **Application domain semantics.**<br>
-In UML2 SP conceptual model is an ontology. Further we use the terms of knowledge engineering.<br>
+In UML2 SP conceptual model is an ontology.<br> 
 `The ontology must be true, otherwise the simulation model will not be correct.`<br>
+Further we use the terms of knowledge engineering.<br>
 A "Component" frame define concept "Subject" . This frame has "name" and "next" slots.<br>
 A "Leaf" frame  define concept "Human".<br>
 A "Composite" frame define concept "Dialog space" and has "pl" slot.<br>
