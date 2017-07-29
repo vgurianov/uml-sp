@@ -63,11 +63,11 @@ A definition from Wikipedia:
 > people, and a literary and theatrical form that depicts such an exchange."<br>
 
 Formal describe this definition is a ontology depicted in class diagram.<br> 
-The "Component" frame define "Subject" concept. This frame has "name" and "next" slots.<br>
-The "Leaf" frame  define "Human" concept.<br>
-The "Composite" frame define "Dialog space" concept and has "pl" slot.<br>
-The "Root" frame define "Environment" concept . It is initial and boundary conditions.<br>
-The "Node" frame define "Greeting" concept and has "msg" slot. It is the system under study.<br>
+- The "Component" frame define "Subject" concept. This frame has "name" and "next" slots.<br>
+- The "Leaf" frame  define "Human" concept.<br>
+- The "Composite" frame define "Dialog space" concept and has "pl" slot.<br>
+- The "Root" frame define "Environment" concept . It is initial and boundary conditions.<br>
+- The "Node" frame define "Greeting" concept and has "msg" slot. It is the system under study.<br>
 Class operations define a rule of change of slot.<br>
 
 ### 2.5. Description computational semantics<br> 
