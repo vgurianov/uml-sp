@@ -61,6 +61,7 @@ You must very good understand  a domain of application.The ontology must be true
 A definition from Wikipedia:<br>
 > "Dialogue (sometimes spelled dialog in U.S. English) is a written or spoken conversational exchange between two or more 
 > people, and a literary and theatrical form that depicts such an exchange."<br>
+
 Formal describe this definition is a ontology depicted in class diagram.<br> 
 The "Component" frame define "Subject" concept. This frame has "name" and "next" slots.<br>
 The "Leaf" frame  define "Human" concept.<br>
