@@ -58,7 +58,7 @@ Class diagram (build from realization):
 
 In UML2 SP conceptual model is an ontology.  Further we use the terms of knowledge engineering.<br>
 You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
-A definition from Wikipedia:<br>
+A definition from Wikipedia:
 > "Dialogue (sometimes spelled dialog in U.S. English) is a written or spoken conversational exchange between two or more 
 > people, and a literary and theatrical form that depicts such an exchange."<br>
 
