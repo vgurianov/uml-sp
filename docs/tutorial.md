@@ -68,7 +68,8 @@ Formal describe this definition is a ontology depicted in class diagram.<br>
 - The "Composite" frame define "Dialog space" concept and has "pl" slot.<br>
 - The "Root" frame define "Environment" concept . It is initial and boundary conditions.<br>
 - The "Node" frame define "Greeting" concept and has "msg" slot. It is the system under study.<br>
-Class operations define a rule of change of slot.<br>
+Class operations define a rule of change of slot.<br><br>
+An ontology is main artefact in the UML2 SP.
 
 ### 2.5. Description computational semantics<br> 
 The class diagram is variant of a *Composite* pattern .<br>
