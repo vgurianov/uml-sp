@@ -6,7 +6,7 @@ In this example we shall simulated dialogs between humans.<br/>
 – Not bad, thank you /Thanks, not so well.<br/>
 
 <p>Ontology depicted in picture:</p><br>
-<p><img src="case_studies/dialogs.png" alt="" /></p><br>
+<p><img src="dialogs.png" alt="" /></p><br>
 <p>Formal describe this definition is a ontology depicted in class diagram.<br /></p>
 <ul>
   <li>The “Component” frame define “Subject” concept. This frame has “name” and “next” slots.<br /></li>
