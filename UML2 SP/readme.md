@@ -17,5 +17,6 @@ Must to be:<br>
 4. Run StarUML and create new project with UML2 SP Approach <br><br>
 <p><img src="pic1.jpg" alt="" /></p>
 
-# UML2 SP Release
-See [this](release.md)
+# Release
+UML2 SP for StarUML release v.1.0.1 (2017-08-30)
+UML2 SP release see [this](release.md) 
