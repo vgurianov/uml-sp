@@ -2,8 +2,8 @@
 On this page present a scientific simulation models as example.<br/>
 Contents:<br/>
 <ul>
-  <li><a href="case_studies/dialogs">Dialogs</a></li>
   <li><a href="#paradox-of-barber">Paradox of barber</a></li>
+  <li><a href="case_studies/dialogs">Dialogs</a></li>
 </ul>
 
 
