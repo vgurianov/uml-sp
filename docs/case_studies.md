@@ -1,9 +1,9 @@
-<h1 id="Case Studies">Case Studies</h1>
+<h1 id="case_studies">Case Studies</h1>
 On this page present a scientific simulation models as example.<br/>
 Contents:<br/>
 <ul>
   <li><a href="#dialogs">Dialogs</a></li>
-  <li>paradox-of-barber</li>
+  <li><a href="#paradox-of-barber">Paradox of barber</a></li>
 </ul>
 
 
@@ -24,7 +24,7 @@ In this example we shall simulated dialogs between humans.<br/>
   <li>The “Root” frame define “Environment” concept . It is initial and boundary conditions.<br /></li>
   <li>The “Node” frame define “Greeting” concept and has “msg” slot. It is the system under study.<br />
 Class operations define a rule of change of slot.<br/>
-
+<a href="#case_studies">UP</a>
 
 
 <h3 id="paradox-of-barber">Paradox of barber</h3> 
@@ -36,4 +36,5 @@ Figure 2: An object-oriented simulation model of a queue to the barber
 
 The model implementation make with C++. The queue simulate as a linked list comprising of an instances of Leaf class. The list is a circular (loop) list. The barber serve client and the list shift on one item (Run() method of Node class). In case Figure 10 the barber can be insert in this list (see Node() constructor). A general structure of model defines the Composite pattern. A Root class set the boundary and initial conditions. The «Exist» methods define a unit of discrete time. We follow the rule "Simulation as programming". The element names of UML-diagram reflect compute semantics of model. This style is a best useful style for a development of a model. In the class diagram we allow superfluity for most clarity. In particular, we do not use SPSlot stereotype. Also, we simplify the class diagram and omit classes with "EScene" and "ETool" stereotypes. It is a model of the measuring instrument.<br/>
 The Figure 2 below shows as used the UML2 SP profile. The class diagram can be read as a semantic net. Concepts of semantic net defined as Frames. The attributes of class interpret as Slots and the operations of class - as Attached Procedures. It is the semantics of application domain and it is a conceptual model. However, if the class diagram read as a class diagram then it is the compute semantics, i.e. semantics of program. In a Design Model will be adding a lot compute entities which do not has semantics of application domain and so do not has stereotypes.<br/>
+<a href="#case_studies">UP</a>
 
