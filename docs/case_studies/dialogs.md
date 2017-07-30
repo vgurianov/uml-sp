@@ -15,4 +15,4 @@ In this example we shall simulated dialogs between humans.<br/>
   <li>The “Root” frame define “Environment” concept . It is initial and boundary conditions.<br /></li>
   <li>The “Node” frame define “Greeting” concept and has “msg” slot. It is the system under study.<br />
 Class operations define a rule of change of slot.<br/>
-<a href="https://github.com/vgurianov/uml-sp/edit/master/docs/case_studies">Case Studies</a>
+<a href="https://vgurianov.github.io/uml-sp/case_studies">Case Studies</a>
