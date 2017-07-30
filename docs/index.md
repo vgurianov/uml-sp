@@ -14,7 +14,7 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 
 - <a href="conception">Conception UML2 SP</a>
 - <a href="metamodel">Metamodel and definition of stereotypes</a>
-- [UML2 SP User’s Guide](https://github.com/vgurianov/uml-sp/wiki)(on Wiki)
+- [UML2 SP User’s Guide (on Wiki)](https://github.com/vgurianov/uml-sp/wiki)
 - <a href="bibliography">Bibliography</a>
 
 
