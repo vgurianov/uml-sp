@@ -9,7 +9,7 @@ software-based systems as well as for modeling business and similar processes.
 ## 2. Overview
 A general structure profile builds on semiotic approach. It understands of profile as a sign system. A stereotype has attributes named "tagged values". The tagged value assigns a term. Terms reflect the semantics of application domain. The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype "AbstractConceptualElement" (see Figure 1). The "referent" is a stereotype, the "meaning" is a tagged value of "Concept", and "symbol" is a tagged value of "ID". All stereotypes of UML2 SP are children for the stereotype. Instance, there is situation the "author The Adventures of Tom Sawyer". A model of the author is an object with "Individual" stereotype. The stereotype has the tagged value of Concept = “A man is Samuel Clemens” and the tagged value of ID = “Mark Twain”.
 
- 
+<p><img src="https://github.com/vgurianov/uml-sp/blob/master/Metamodel%20UML2%20SP/pic2.jpg" alt="" /></p> 
 Figure 2: An object-oriented simulation model of a queue to the barber
 
 According semiotics a sign system has three aspects: syntactics, semantics and pragmatics. We group stereotypes as three packages. It is Semantic Net Elements, Architectural Elements and SP Models.
