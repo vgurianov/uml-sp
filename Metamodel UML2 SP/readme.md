@@ -1,2 +1,2 @@
 Metamodel UML-profile<br/>
-Relise UML2 SP v.1.0
+Release UML2 SP v.1.0
