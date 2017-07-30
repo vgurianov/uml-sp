@@ -24,8 +24,8 @@ Class operations define a rule of change of slot.<br/>
 
 
 
-### Paradox of barber
+<h3 id="paradox-of-barber">Paradox of barber</h3> 
 
-**Application domain:** The paradox of barber by Bertrand Russell<br/> 
+<strong>Application domain:</strong> The paradox of barber by Bertrand Russell<br/> 
 A traditional model of DES is a queue. A concrete queue considers for model of the barber paradox by Bertrand Russell. Suppose we want to build model for the paradox of barber by Bertrand Russell. We do not discuss paradox, but present an object-oriented model. Remind, the barber is the "one who shaves all those, and those only, who do not shave themselves." The question is, does the barber shave himself? The queue is the sequence of village males to the barber. A class diagram from an Analysis Model depicted in Figure 10<br/>
 <p><img src="examples/barber.png" alt="" /></p><br>
