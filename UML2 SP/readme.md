@@ -18,5 +18,5 @@ Must to be:<br>
 <p><img src="pic1.jpg" alt="" /></p>
 
 # Release
-UML2 SP for StarUML release v.1.0.1 (2017-08-30)
+UML2 SP for StarUML release v.1.0.1 (2017-08-30)<br />
 UML2 SP release see [this](release.md) 
