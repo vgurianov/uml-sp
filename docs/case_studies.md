@@ -1,6 +1,6 @@
-h1 id="Case Studies">Case Studies</h1>
+<h1 id="Case Studies">Case Studies</h1>
 On this page present a scientific simulation models as example.<br/>
-
+Contents:<br/>
 <ul>
   <li><a href="#dialogs">Dialogs</a></li>
   <li>paradox-of-barber</li>
