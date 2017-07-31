@@ -10,7 +10,7 @@ The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning�
 For example, the “author The Adventures of Tom Sawyer” situation  is modeled as
 <p><img src="define/MarkTwin.png" alt="" /></p>
 
-(but, if `Concept = Human` for `Leaf` then `Concept = A man is human` and `ID = Samuel Clemens`  for `leaf` object.
+(but, if `Concept = Human` for `Leaf` then `Concept = A man is human` and `ID = Samuel Clemens`  for `leaf` object).
 
 
 **Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communicative process and a computinal simulator is communicative process. In simulation a communicative process is general abstration.
