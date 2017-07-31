@@ -7,5 +7,8 @@ Any object of reality is a communicative process consist a communicative acts. I
 
 **Semiotic approach.** 
 The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype “AbstractConceptualElement”. The “referent” is a stereotype, the “meaning” is a tagged value of “Concept”, and “symbol” is a tagged value of “ID”. All stereotypes of UML2 SP are children AbstractConceptualElement stereotype.
+For example, the “author The Adventures of Tom Sawyer” situation  is modeled as
+<p><img src="define/MarkTwin.png" alt="" /></p>
 
-**Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communicative process and a computinal simulator is communicative process. In simulation a communicative process is general abstration.
+**Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communicative process and a computinal simulator is communicative process. In simulation a communicative process is general abstration.<br/>
+In application domain semantics Analysis Class Diagram is an ontology of application domain. In computinal semantics Analysis Class Diagram is model of program.
