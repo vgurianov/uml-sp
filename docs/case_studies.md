@@ -3,6 +3,7 @@ On this page present a scientific simulation models as example.<br/><br/>
 Contents:<br/>
 <ul>
   <li>Queuing simulation</li>
+  <li>Fast Food Restaurant</li>
   <li><a href="case_studies/barber">Paradox of barber</a></li>
   <li>Mechanical movement</li>
   <li>Koch's snowflake</li>
