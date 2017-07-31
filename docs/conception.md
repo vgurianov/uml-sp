@@ -3,7 +3,7 @@
 A foundation UML2 SP consist a three principles: communicative paradigm, double semantics and semiotic approach.
 
 **Communicative paradigm.** 
-A every object of reality is a communicative process consist a communicative acts. It is a abstraction.
+A every object of reality is a communicative process consist a communicative acts. It is a abstraction like a matematical abstration.
 
 **Semiotic approach.** 
 The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype “AbstractConceptualElement”. The “referent” is a stereotype, the “meaning” is a tagged value of “Concept”, and “symbol” is a tagged value of “ID”. All stereotypes of UML2 SP are children AbstractConceptualElement stereotype.
