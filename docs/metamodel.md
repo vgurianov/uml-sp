@@ -2,9 +2,7 @@
 Version 1.0
 
 ## 1. Scope
-This specification defines the UML2 Scientific Profile (UML2 SP), revision 1.0. The objective of UML is to provide
-system architects, software engineers, and software developers with tools for analysis, design, and implementation of
-software-based systems as well as for modeling business and similar processes.
+This specification defines the UML2 Scientific Profile (UML2 SP), revision 1.0. The objective of UML2 SP is to provide software engineers,software developers and scientists  with tools for analysis and design of simulation models.
 
 ## 2. Overview
 A general structure profile builds on semiotic approach. It understands of profile as a sign system. A stereotype has attributes named "tagged values". The tagged value assigns a term. Terms reflect the semantics of application domain. The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype "AbstractConceptualElement" (see Figure 0). The "referent" is a stereotype, the "meaning" is a tagged value of "Concept", and "symbol" is a tagged value of "ID". All stereotypes of UML2 SP are children for the stereotype. Instance, there is situation the "author The Adventures of Tom Sawyer". A model of the author is an object with "Individual" stereotype. The stereotype has the tagged value of Concept = “A man is Samuel Clemens” and the tagged value of ID = “Mark Twain”.
