@@ -2,9 +2,10 @@
 Version 1.0
 
 ## 1. Scope
-This specification defines the UML2 Scientific Profile (UML2 SP), revision 1.0. The objective of UML2 SP is to provide software engineers,software developers and scientists  with tools for analysis and design of simulation models.
-
+This specification defines the UML2 Scientific Profile (UML2 SP), revision 1.0. The objective of UML2 SP is to provide software engineers,software developers and scientists  with tools for analysis and design of simulation models. The UML2 SP define a metamodel of a profile on base of the UML2 metamodel.
+ 
 ## 2. Overview
+UML (Unified Modeling Language) is a visual language for specifying, constructing and documenting the artifacts of software systems and now UML is the one most widely accepted and used. The Unified Process (UP) is a methodology of a development of object-oriented software and uses the UML, more precisely, UML Standard Profile. The Unified Process can be used for development of a simulation models. It is possible if define a special UML profile, similar UML Standard Profile. The UML2 SP allows to applying Unified Process for development object-oriented simulation model.<br/>
 A general structure profile builds on semiotic approach. It understands of profile as a sign system. A stereotype has attributes named "tagged values". The tagged value assigns a term. Terms reflect the semantics of application domain. The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype "AbstractConceptualElement" (see Figure 0). The "referent" is a stereotype, the "meaning" is a tagged value of "Concept", and "symbol" is a tagged value of "ID". All stereotypes of UML2 SP are children for the stereotype. Instance, there is situation the "author The Adventures of Tom Sawyer". A model of the author is an object with "Individual" stereotype. The stereotype has the tagged value of Concept = “A man is Samuel Clemens” and the tagged value of ID = “Mark Twain”.
 
 <p><img src="define/Fig1.png" alt="" /></p> 
@@ -13,7 +14,7 @@ Figure 1: A general structure UML2 SP <br/>
 According semiotics a sign system has three aspects: syntactics, semantics and pragmatics. We group stereotypes as three packages. It is Semantic Net Elements, Architectural Elements and SP Models.
 
 ## 3.	Syntactics of UML SP
-The «Semantic Net Elements» package comprises a set of stereotypes which define a semantic net. A semantic net is a main tool to a conceptual modeling in Modeling SP. Concepts of net define as Frames, i.e. semantic net is a frame semantic net. It very like to ontology, but do not is ontology. A definition of Frames and elements of Frame depicted in Figure 3.
+The «Semantic Net Elements» package comprises a set of stereotypes which define a semantic net. A semantic net is a main tool to a conceptual modeling in Modeling SP. Concepts of net define as Frames, i.e. semantic net is a frame semantic net. It very like to ontology, but do not is ontology. A definition of Frames and elements of Frame depicted in Figure 2.
  
 <p><img src="define/Fig2.png" alt="" /></p>
 Figure 2: A definition of stereotypes for Frames<br/>
@@ -52,4 +53,7 @@ The «SP Models» package comprises a set of stereotypes which define pragmatics
 <p><img src="define/Fig8.png" alt="" /></p> 
 Figure 8: A models definition in UML2 SP<br/>
 
+## REFERENCES
+1. Object Management Group. OMG Unified Modeling Language (OMG UML) v2.5, OMG document number: formal/2015-03-01, 2015.
+2. Object Management Group. UML 2.0 Infrastructure Specification, OMG document number formal/2011-08-05, 2011. http://www.omg.org/spec/UML/
 
