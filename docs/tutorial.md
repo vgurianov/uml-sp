@@ -60,7 +60,8 @@ The class diagram is variant of a *Composite* pattern .<br>
 
 ### 2.5. Description of an application domain semantics
 
-In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
+In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation by Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
+
 A [definition of dialog](https://en.wikipedia.org/wiki/Dialogue) from Wikipedia:
 > "Dialogue (sometimes spelled dialog in U.S. English) is a written or spoken conversational exchange between two or more 
 > people, and a literary and theatrical form that depicts such an exchange."<br>
