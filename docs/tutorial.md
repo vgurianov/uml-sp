@@ -55,10 +55,12 @@ Go "SP Class diagram" tab.<br>
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
-### 2.4. Description of an application domain semantics
+### 2.4. Description of a computational semantics<br> 
+The class diagram is variant of a *Composite* pattern .<br>
 
-In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). <br>
-You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
+### 2.5. Description of an application domain semantics
+
+In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
 A [definition of dialog](https://en.wikipedia.org/wiki/Dialogue) from Wikipedia:
 > "Dialogue (sometimes spelled dialog in U.S. English) is a written or spoken conversational exchange between two or more 
 > people, and a literary and theatrical form that depicts such an exchange."<br>
@@ -72,8 +74,6 @@ Formal describe this definition is a ontology depicted in class diagram.<br>
 Class operations define a rule of change of slot.<br><br>
 An ontology is main artefact in the UML2 SP.
 
-### 2.5. Description of a computational semantics<br> 
-The class diagram is variant of a *Composite* pattern .<br>
 
 ## 3. Formal describe
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br><br/>
