@@ -2,7 +2,8 @@
 On this page present a scientific simulation models as example.<br/><br/>
 Contents:<br/>
 <ul>
-  <li>Queuing simulation</li>
+  <li><a href="case_studies/queue/queuing_theory.md">Queuing simulation</a></li>
+
   <li>Fast Food Restaurant</li>
   <li><a href="case_studies/barber">Paradox of barber</a></li>
   <li>Mechanical movement</li>
