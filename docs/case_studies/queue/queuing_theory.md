@@ -1,5 +1,5 @@
-# The queuing theory
-The barber simulation is a classical example of queuing theory.
+# Queueing theory
+The barber simulation is a classical example of queueing theory.
 
 ## The barber simulation model
 
@@ -14,7 +14,7 @@ The analysis class diagram of barber model depicted in Fig.1.
 <p><img src="barber_ClassDiagram.png" alt="" /></p>
 Figure 1. 	Analysis class diagram of barber model<br/>
 
-The key elements of queuing systems are the customers and servers. The term “customer” can refer to people, 
+The key elements of queueing systems are the customers and servers. The term “customer” can refer to people, 
 parts, trucks, e-mails etc. and the term “server” clerks, mechanics, repairmen, CPUs etc. 
 Further we shall accurately define these concepts.<br/>
 The "Component" frame defines "Service" notion (concept). Service is a server or a queuing system. 
