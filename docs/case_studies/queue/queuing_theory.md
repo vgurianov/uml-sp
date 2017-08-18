@@ -16,7 +16,7 @@ The analysis class diagram of barber model depicted in Fig.1.
 Figure 1. 	Analysis class diagram of barber model<br/>
 
 ### Description of a computational semantics
-The object of TreeRoot class and the object of TreeNode class interact  according Producer-Consumer pattern.
+The object of TreeNode class and the object of TreeLeaf class interact  according Producer-Consumer pattern [1].
 The Producer-Consumer pattern is standard solution for interaction two and more threads. 
 
 ### Description of an application domain semantics
@@ -34,7 +34,7 @@ The "TreeLeaf" frame defines **Server** concept. The Run method is realization a
 This operation defines a rule of change of slots value.<br/>
 #### Singleton
 The "Composite" frame defines **Singleton** concept. The *Ontology Category* stereotype defines a group (category) of 
-a queuing system. In this model is the single-server queue system.<br/>
+a queuing system. In this model it is the single-server queue system.<br/>
 #### Queuing System
 The "TreeNode" frame defines **Queuing System** concept. It is main notion in the Queuing Theory. The frame has "Queue" slot. 
 It is define "Customer queue" concept. A type of the slot is Queue. The "Queue" class is not a frame. 
@@ -45,6 +45,5 @@ as the calling population, may be assumed to be finite or infinite.
 It is a boundary and initial condition for the queuing system.
 
 ## References
-[Myron Hlynka's Queueing Theory Page](http://web2.uwindsor.ca/math/hlynka/queue.html)
-
+1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
 
