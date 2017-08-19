@@ -32,9 +32,8 @@ The frame has "componentState" slot. It is state of a queuing entity.<br/>
 #### Server
 The "TreeLeaf" frame defines **Server** concept. The Run method is realization abstract operation Run. 
 This operation defines a rule of change of slots value.<br/>
-#### Singleton
-The "Composite" frame defines **Singleton** concept. The *Ontology Category* stereotype defines a group (category) of 
-a queuing system. In this model it is the single-server queue system.<br/>
+#### Single-server queue system
+The "Composite" frame defines **Single-server queue system** concept. The *Ontology Category* stereotype defines a group (category) of a queuing system. In this model it is the single-server queue system.<br/>
 #### Queuing System
 The "TreeNode" frame defines **Queuing System** concept. It is main notion in the Queuing Theory. The frame has "Queue" slot. 
 It is define "Customer queue" concept. A type of the slot is Queue. The "Queue" class is not a frame. 
