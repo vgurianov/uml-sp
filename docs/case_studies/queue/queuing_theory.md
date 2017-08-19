@@ -43,7 +43,8 @@ The "TreeRoot" frame defines **Calling population** concept. The population of p
 as the calling population, may be assumed to be finite or infinite. 
 It is a boundary and initial condition for the queuing system.
 <br/><br/>
-**The simulation model in C++ code:**  [baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.cpp)
+### The simulation model in C++ code:  
+[baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.cpp)
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
