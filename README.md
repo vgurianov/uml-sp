@@ -3,7 +3,7 @@ Object-oriented simulation language UML2 SP. The UML-profile intend for the deve
 
 Folders:
 
-- **UML2SP metamodel **   -- Metamodel of the language
+- **UML2 SP metamodel**   -- Metamodel of the language
 - **UML2 SP**             -- An implementation of the language for StarUML editor
 - **examples**            -- The examles of simulation models on UML2 SP and C++
 
