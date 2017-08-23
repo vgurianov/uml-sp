@@ -42,7 +42,7 @@ The “BottomNode” frame defines Work Unit concept. Work unit is a middle leve
 The “TreeRoot” frame defines Calling population concept. The “TreeRoot” frame defines Calling population concept. It is a population of potential customers. This set may be finite or infinite. The concept set a boundary and initial condition for the queuing system.
 <br/><br/>
 ### The simulation model in C++ code:  
-[baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fast_food/baseClassOfFastFoodProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfFastFoodProject.cpp)
+[baseClassOfFastFoodProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fast_food/baseClassOfFastFoodProject.h), [baseClassOfFastFoodProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfFastFoodProject.cpp)
 
 ## References
 
