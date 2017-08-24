@@ -21,12 +21,13 @@ The wallclock time is a time of compute experiment on computer. In UML2 SP the t
 The *Analysis Model* defines a physical time. All objects have concurrent threads. 
 These threads interact according to the rules like in nature. Simple example is *Single Threaded Execution* pattern.
 The *Design Model* defines a system time. If selecting a sequential computing then system time is a quasi-parallel time. If selecting concurrent or distributed computing then system time is time of concurrency.
+
 We often use quasi-parallel model of time in Analysis Model for simplicity if it possible.
 
 ## UML2 SP and ABS
 The basic concept of agent based modeling (ABS) is an agents and their interaction. Pegden opinion “it is not a new discrete event world view”; it is variant object-oriented approach. We opinion a base idea of ABS is [net-centric](https://en.wikipedia.org/wiki/Net-centric) conception.
 Distinctive feature of UML2 SP is a building method of models. Agent in ABS is a primary element. 
-Properties of system are a result interact agents. Atomic object UML2 SP is analog to ABS-agent 
+Properties of system are a result interact agents. Atomic object of UML2 SP is analog to ABS-agent 
 but it is the result of decomposition of investigated system to subsystems.
 
 ## References
