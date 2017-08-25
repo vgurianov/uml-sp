@@ -36,10 +36,10 @@ Figure 2. A configuration space of the restaurant
 ### Restaurant
 The “TopNode” frame defines Restaurant concept. It is a queuing system consist three queuing. A every  server have one queue. The Order Pickup Window server have one queue, i.e. order from kitchen immediately pick up. The frame has “Queue” slot. It is define “Order queue to kitchen” concept. A type of the slot is Queue. The frame has “bottomNode” slot. This slot defines “Kitchen” concept.
 ### Work Unit
-The “BottomNode” frame defines Work Unit concept. Work unit is a middle level of structure of restaurant. The frame has “Queue” slot. It is define “Customer queue” concept. . The frame has “Client” slot. It is defines “Customer” concept.
+The “BottomNode” frame defines Work Unit concept. Work unit is a middle level of structure of restaurant. The frame has “Queue” slot. It is define “Customer queue” concept. The frame has “Client” slot. It is defines “Customer” concept.
 
 ### Calling population
-The “TreeRoot” frame defines Calling population concept. The “TreeRoot” frame defines Calling population concept. It is a population of potential customers. This set may be finite or infinite. The concept set a boundary and initial condition for the queuing system.
+The “TreeRoot” frame defines Calling population concept. It is a population of potential customers. This set may be finite or infinite. The concept set a boundary and initial condition for the queuing system.
 <br/><br/>
 ### The simulation model in C++ code:  
 [baseClassOfFastFoodProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fast_food/baseClassOfFastFoodProject.h), [baseClassOfFastFoodProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfFastFoodProject.cpp)
