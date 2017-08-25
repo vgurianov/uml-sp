@@ -1,5 +1,5 @@
 # Simulation model of a fast food restaurant
-That model good known and described as an example.
+That model good known and described as an example [1].
 
 ## Application domain
 We consider a simplified variant of simulation model of a fast food restaurant from [1]. 
@@ -18,7 +18,7 @@ The analysis class diagram of fast food restaurant model depicted in Fig.1.
 Figure 1. Analysis class diagram of the fast food restaurant
 
 ## Description of a computational semantics
-The object of TopNode class and the objects of TreeLeaf and BottomNode classes interact according Producer-Consumer pattern [1]. The Producer-Consumer pattern is standard solution for interaction two and more threads.
+The object of TopNode class and the objects of TreeLeaf and BottomNode classes interact according Producer-Consumer pattern [2]. The Producer-Consumer pattern is standard solution for interaction two and more threads.
 ## Description of an application domain semantics
 An ontology accurately define the application domain for the fast food restaurant. 
 ### Service
@@ -47,4 +47,5 @@ The “TreeRoot” frame defines Calling population concept. The “TreeRoot” 
 ## References
 
 1. Ricki G. Ingalls, INTRODUCTION TO SIMULATION, *Proceedings of the 2013 Winter Simulation Conference, R. Pasupathy, S.-H. Kim, A. Tolk, R. Hill, and M. E. Kuhl, eds*
+2. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
 
