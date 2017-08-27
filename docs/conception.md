@@ -19,8 +19,8 @@ For example, the “author The Adventures of Tom Sawyer” situation  is modeled
 
 Сlarify this picture:
 - UML-element "Class" for object:<br/>
-Concept = A man is writer, i.e. object is an instance of class. Usually this tagged value hidden on diagram.<br/>
-ID = Mark Twain, i.e. individual name of object.
+*Concept = A man is writer*, i.e. object is an instance of class. Usually this tagged value hidden on diagram.<br/>
+*ID = Mark Twain*, i.e. individual name of object.
 - UML-element "Class" for class:<br/>
 Tagged value *Concept* is notion, meaning of term.<br/> 
 Tagged value *ID* is designation of notion. Conveniently designation of notion denotes as name of class then this tagged value can hide on diagram.<br/>
