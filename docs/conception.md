@@ -28,6 +28,6 @@ Attributes and operations also define concepts and as rule hidden on diagram, bu
 <p><img src="define/MarkTwin1.png" alt="" /></p>
 <br/>
 
-If object or class has SP-stereotype then it is considered as frame by [Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). Not all classes are frames; most classes are defining of types of slots. Slots define semantics of these classes.
+If object or class has SP-stereotype then it is considered as frame by [Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). Not all classes are frames; most classes are defining of types of slots. Slots define semantics of these classes. A type is a set of value and authorized operations.
 
 
