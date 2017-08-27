@@ -23,11 +23,11 @@ Concept = A man is writer, i.e. object is an instance of class. Usually this tag
 ID = Mark Twain, i.e. individual name of object.
 - UML-element "Class" for class:<br/>
 Tagged value *Concept* is notion, meaning of term.<br/> 
-Tagged value *ID* is designation of notion. Сonveniently designation of notion denote as name of class then this tagged value can hidden on diagram.<br/>
+Tagged value *ID* is designation of notion. Conveniently designation of notion denotes as name of class then this tagged value can hide on diagram.<br/>
 Attributes and operations also define concepts and as rule hidden on diagram, but those elements locate in model.
 <p><img src="define/MarkTwin1.png" alt="" /></p>
 <br/>
 
-If object or class have SP-stereotype then it is considered as frame by [Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). Not all classes are frame, most classes are define of types of slots. Slots define semantics of these classes.
+If object or class has SP-stereotype then it is considered as frame by [Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). Not all classes are frames; most classes are defining of types of slots. Slots define semantics of these classes.
 
 
