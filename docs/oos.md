@@ -19,8 +19,7 @@ In works of simulation differentiate three kinds a time. It is a physical time, 
 The physical time is a time of investigated system. The simulation time is an image of time in model. 
 The wallclock time is a time of compute experiment on computer. In UML2 SP the time defines in models.
 The *Analysis Model* defines a physical time. All objects have concurrent threads. 
-These threads interact according to the rules like in nature. Simple example is *Single Threaded Execution* pattern.
-The *Design Model* defines a system time. If selecting a sequential computing then system time is a quasi-parallel time. If selecting concurrent or distributed computing then system time is time of concurrency.
+These threads interact according to the rules like in nature. Simple example is *Single Threaded Execution* and *Producer-Consumer* pattern.The *Design Model* defines a system time. If selecting a sequential computing then system time is a quasi-parallel time. If selecting concurrent or distributed computing then system time is time of concurrency.
 
 We often use quasi-parallel model of time in Analysis Model for simplicity if it possible.
 
