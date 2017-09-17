@@ -25,7 +25,7 @@ The key elements of queueing systems are the customers and servers. The term “
 parts, trucks, e-mails etc. and the term “server” clerks, mechanics, repairmen, CPUs etc. 
 Further we shall accurately define these concepts.<br/>
 #### Service
-The "Component" frame defines **Service** notion (concept). Service is a server or a queuing system. 
+The "Component" frame defines **Service** concept (notion). Service is a server or a queuing system. 
 Example, customer service in shopping is the provision of service to customers before, during and after a purchase.
 The frame has "input" and "output" slots. It is input and output of queuing system. Those attributes has type "QueueNode". 
 It is defined of "Customer". The "QueueNode" class isn’t a frame.<br/>
@@ -48,7 +48,7 @@ It is a boundary and initial condition for the queuing system.
 [baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.cpp)
 
 ## General Queueing Theory in UML2 SP
-In general case classes in Fig.1 linked as one to many. For reification this link we use ItemOfList class. 
+In general case Component and Composite classes in Fig.1 linked as one to many. For *reification* this link we use ItemOfList class. 
 In simple case it is linked list. It is depicted in Fig.2.
 <p><img src="refine.png" alt="" /></p>
 Figure 2. The reification<br/>
@@ -64,11 +64,18 @@ The classification is depicted in Fig.3.
 Figure 3. The classification of a queueing system in UML2 SP<br/>
 
 Further we shall discuss new frames and new concepts.<br/>
-The Containers frame define schemes of queueing systems.In our classification exist one scheme. 
-A ItemOfList frame define "Work site", i.e. cell to service, and links between them. It is a configuration space of system. 
-The Abstract classes frame define taxonomy of queueing systems and consist three abstract classes. 
-The DirectAccessComposite frame define G/G/s queuing system. The frame has "queue" slot. 
-It is definition of queue as in Fig.1. The SequentialAccessComposite frame defines multiphase queuing system. 
+#### Scheme of queueing system
+The Containers package define **schemes** of queueing systems.In our classification exist one scheme.
+#### Work site
+A ItemOfList frame define **Work site** concept, i.e. cell to service, and links between them. 
+It is a *configuration space* of system. 
+#### Taxonomy
+The Abstract classes package define **taxonomy** of queueing systems and consist three abstract classes.
+#### G/G/s queueing system
+The DirectAccessComposite frame define **G/G/s** queuing system concept. The frame has "queue" slot. 
+It is definition of queue as in Fig.1.
+#### Multiphase queuing system
+The SequentialAccessComposite frame defines **multiphase** queuing system concept. 
 The frame has "tail" slot. It is a result works this system.
 
 A typical example for used this classification are discussed in the subsequent section.
