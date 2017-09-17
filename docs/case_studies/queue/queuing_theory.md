@@ -33,8 +33,8 @@ The frame has "componentState" slot. It is state of a queuing entity.<br/>
 #### Server
 The "TreeLeaf" frame defines **Server** concept. The Run method is realization abstract operation Run. 
 This operation defines a rule of change of slots value.<br/>
-#### Single-server queue system
-The "Composite" frame defines **Single-server queue system** concept. The *Ontology Category* stereotype defines a group (category) of a queuing system. In this model it is the single-server queue system.<br/>
+#### Single-server queueing system
+The "Composite" frame defines **Single-server queueing system** concept. The *Ontology Category* stereotype defines a group (category) of a queuing system. In this model it is the single-server queueing system.<br/>
 #### Queuing System
 The "TreeNode" frame defines **Queuing System** concept. It is main notion in the Queuing Theory. The frame has "Queue" slot. 
 It is define "Customer queue" concept. A type of the slot is Queue. The "Queue" class is not a frame. 
@@ -64,9 +64,9 @@ The classification is depicted in Fig.3.
 <p><img src="qTheoryArchitectureEn.png" alt="" /></p>
 Figure 3. The classification of a queueing system in UML2 SP<br/>
 
-Further we shall discuss new frames and new concepts.
 In UML2 SP an architectural diagram is a [conceptual graph](https://en.wikipedia.org/wiki/Conceptual_graph) 
-and contains a packages and links (dependences) between them. Packages and dependences define concepts.
+and contains packages and links (dependences) between them. Packages and dependences define concepts.
+Further we shall discuss new frames and new concepts.
 #### Queueing theory
 The "Reusable component" package define **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
 #### Scheme of queueing system
