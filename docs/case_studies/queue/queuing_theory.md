@@ -52,6 +52,7 @@ In general case Component and Composite classes in Fig.1 linked as one to many. 
 In simple case it is linked list. It is depicted in Fig.2.
 <p><img src="refine.png" alt="" /></p>
 Figure 2. The reification<br/>
+
 Usually, queueing networks classified as open, closed or mixed network.
 However, in UML2 SP a classification is a tool to decomposition queueing network and the classification define elements of decomposition.
 First element of decomposition is multiphase queueing network. As instance is Tandem (Open) Queueing Network or a machine shop. This is a special case of a simple open network with N queues where jobs move sequentially from S1 to SN servers 
@@ -62,20 +63,19 @@ It is element describe as DirectAccessComposite class.
 The classification is depicted in Fig.3.
 <p><img src="qTheoryArchitectureEn.png" alt="" /></p>
 Figure 3. The classification of a queueing system in UML2 SP<br/>
-
 Further we shall discuss new frames and new concepts.<br/>
 #### Scheme of queueing system
-The Containers package define **schemes** of queueing systems.In our classification exist one scheme.
+The "Containers" package define **schemes** of queueing systems.In our classification exist one scheme.
 #### Work site
-A ItemOfList frame define **Work site** concept, i.e. cell to service, and links between them. 
+A "ItemOfList" frame define **Work site** concept, i.e. cells to service, and links between them. 
 It is a *configuration space* of system. 
 #### Taxonomy
-The Abstract classes package define **taxonomy** of queueing systems and consist three abstract classes.
+The "Abstract classes" package define **taxonomy** of queueing systems and consist three abstract classes.
 #### G/G/s queueing system
-The DirectAccessComposite frame define **G/G/s** queuing system concept. The frame has "queue" slot. 
+The "DirectAccessComposite" frame define **G/G/s** queuing system concept. The frame has "queue" slot. 
 It is definition of queue as in Fig.1.
 #### Multiphase queuing system
-The SequentialAccessComposite frame defines **multiphase** queuing system concept. 
+The "SequentialAccessComposite" frame defines **multiphase** queuing system concept. 
 The frame has "tail" slot. It is a result works this system.
 
 A typical example for used this classification are discussed in the subsequent section.
