@@ -53,7 +53,7 @@ In simple case it is linked list. It is depicted in Fig.2.
 <p><img src="refine.png" alt="" /></p>
 Figure 2. The reification<br/>
 
-Usually, queueing networks classified as open, closed or mixed network.
+Usually queueing networks classified as open, closed or mixed network.
 However, in UML2 SP a classification is a tool to decomposition queueing network and the classification define elements of decomposition.
 First element of decomposition is multiphase queueing network. As instance is Tandem (Open) Queueing Network or a machine shop. This is a special case of a simple open network with N queues where jobs move sequentially from S1 to SN servers 
 and then leave the system. It is element describe as SequentialAccessComposite class.
@@ -63,11 +63,13 @@ It is element describe as DirectAccessComposite class.
 The classification is depicted in Fig.3.
 <p><img src="qTheoryArchitectureEn.png" alt="" /></p>
 Figure 3. The classification of a queueing system in UML2 SP<br/>
-Further we shall discuss new frames and new concepts.<br/>
+Further we shall discuss new frames and new concepts.
+#### Queueing theory
+The "Reusable component" package define **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
 #### Scheme of queueing system
 The "Containers" package define **schemes** of queueing systems.In our classification exist one scheme.
 #### Work site
-A "ItemOfList" frame define **Work site** concept, i.e. cells to service, and links between them. 
+The "ItemOfList" frame define **Work site** concept, i.e. cells to service, and links between them. 
 It is a *configuration space* of system. 
 #### Taxonomy
 The "Abstract classes" package define **taxonomy** of queueing systems and consist three abstract classes.
