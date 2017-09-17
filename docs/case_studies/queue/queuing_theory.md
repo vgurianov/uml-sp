@@ -1,7 +1,7 @@
 # Queueing theory
 [Terms view on Wikipedia](https://en.wikipedia.org/wiki/Queueing_theory)
 
-## The M/M/1 queueing system
+## 1. The M/M/1 Queueing System
 The M/M/1 queue is a single server queue with an infinite number of waiting positions where the arrival process is Poisson and the service times are exponentially distributed.
 The barber simulation is a classical example of queueing theory.
 ### Application domain
@@ -47,7 +47,7 @@ It is a boundary and initial condition for the queuing system.
 ### The simulation model in C++ code:  
 [baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.cpp)
 
-## General Queueing Theory in UML2 SP
+## 2. General Queueing Theory in UML2 SP
 In general case Component and Composite classes in Fig.1 linked as one to many. For *reification* this link we use ItemOfList class. 
 In simple case it is linked list. It is depicted in Fig.2.
 <p><img src="refine.png" alt="" /></p>
@@ -63,26 +63,29 @@ It is element describe as DirectAccessComposite class.
 The classification is depicted in Fig.3.
 <p><img src="qTheoryArchitectureEn.png" alt="" /></p>
 Figure 3. The classification of a queueing system in UML2 SP<br/>
+
 Further we shall discuss new frames and new concepts.
+In UML2 SP an architectural diagram is a [conceptual graph](https://en.wikipedia.org/wiki/Conceptual_graph) 
+and contains a packages and links (dependences) between them. Packages and dependences define concepts.
 #### Queueing theory
 The "Reusable component" package define **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
 #### Scheme of queueing system
-The "Containers" package define **schemes** of queueing systems.In our classification exist one scheme.
+The "Containers" package define **schemes of queueing systems**. In our classification exist one scheme.
 #### Work site
 The "ItemOfList" frame define **Work site** concept, i.e. cells to service, and links between them. 
 It is a *configuration space* of system. 
 #### Taxonomy
 The "Abstract classes" package define **taxonomy** of queueing systems and consist three abstract classes.
 #### G/G/s queueing system
-The "DirectAccessComposite" frame define **G/G/s** queuing system concept. The frame has "queue" slot. 
+The "DirectAccessComposite" frame define **G/G/s queuing system** concept. The frame has "queue" slot. 
 It is definition of queue as in Fig.1.
 #### Multiphase queuing system
-The "SequentialAccessComposite" frame defines **multiphase** queuing system concept. 
+The "SequentialAccessComposite" frame defines **multiphase queuing system** concept. 
 The frame has "tail" slot. It is a result works this system.
 
 A typical example for used this classification are discussed in the subsequent section.
 
-## Example of queueing system decomposition
+## 3. Example of Decomposition of Queueing System 
 In Fig. 4 present a queueing system consist four servers. Server S1 is a CPU, S2 is Hard Disk (HD). 
 Both a CPU and HD are parts of computer. Peripheral device (PD) consists at S3 and S4 servers; 
 S3 is a printer, S4 is a fax.
