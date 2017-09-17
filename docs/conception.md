@@ -1,4 +1,4 @@
-# Conception UML2 SP
+# UML2 SP conception
 
 A foundation UML2 SP consist a three principles: communicative paradigm, double semantics, and semiotic approach.
 
