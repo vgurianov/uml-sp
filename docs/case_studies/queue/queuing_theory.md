@@ -65,22 +65,22 @@ The classification is depicted in Fig.3.
 Figure 3. The classification of a queueing system in UML2 SP<br/>
 
 In UML2 SP an architectural diagram is a [conceptual graph](https://en.wikipedia.org/wiki/Conceptual_graph) 
-and contains packages and links (dependences) between them. Packages and dependences define concepts.
+and contains packages and links (dependences) between them. Packages and dependences define concepts.<br/>
 Further we shall discuss new frames and new concepts.
 #### Queueing theory
-The "Reusable component" package define **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
+The "Reusable components" package defines **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
 #### Scheme of queueing system
-The "Containers" package define **schemes of queueing systems**. In our classification exist one scheme.
+The "Containers" package define **Schemes of queueing systems** (example is Fig.2). In our classification exist one scheme.
 #### Work site
-The "ItemOfList" frame define **Work site** concept, i.e. cells to service, and links between them. 
+The "ItemOfList" frame defines **Work site** concept, i.e. cells to service, and links between them. 
 It is a *configuration space* of system. 
 #### Taxonomy
-The "Abstract classes" package define **taxonomy** of queueing systems and consist three abstract classes.
+The "Abstract classes" package defines **Taxonomy** of queueing systems and consist three abstract classes.
 #### G/G/s queueing system
-The "DirectAccessComposite" frame define **G/G/s queuing system** concept. The frame has "queue" slot. 
+The "DirectAccessComposite" frame defines **G/G/s queuing system** concept. The frame has "queue" slot. 
 It is definition of queue as in Fig.1.
 #### Multiphase queuing system
-The "SequentialAccessComposite" frame defines **multiphase queuing system** concept. 
+The "SequentialAccessComposite" frame defines **Multiphase queuing system** concept. 
 The frame has "tail" slot. It is a result works this system.
 
 A typical example for used this classification are discussed in the subsequent section.
