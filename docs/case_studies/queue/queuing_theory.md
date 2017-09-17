@@ -1,7 +1,8 @@
 # Queueing theory
-[View on Wikipedia](https://en.wikipedia.org/wiki/Queueing_theory)
+[Terms view on Wikipedia](https://en.wikipedia.org/wiki/Queueing_theory)
 
-## The barber simulation model
+## The M/M/1 queueing system
+The M/M/1 queue is a single server queue with an infinite number of waiting positions where the arrival process is Poisson and the service times are exponentially distributed.
 The barber simulation is a classical example of queueing theory.
 ### Application domain
 There is a single-chair barbershop. 
@@ -45,6 +46,51 @@ It is a boundary and initial condition for the queuing system.
 <br/><br/>
 ### The simulation model in C++ code:  
 [baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.cpp)
+
+## General Queueing Theory in UML2 SP
+In general case classes in Fig.1 linked as one to many. For reification this link we use ItemOfList class. 
+In simple case it is linked list. It is depicted in Fig.2.
+<p><img src="refine.png" alt="" /></p>
+Figure 2. The reification<br/>
+Usually, queueing networks classified as open, closed or mixed network.
+However, in UML2 SP a classification is a tool to decomposition queueing network and the classification define elements of decomposition.
+First element of decomposition is multiphase queueing network. As instance is Tandem (Open) Queueing Network or a machine shop. This is a special case of a simple open network with N queues where jobs move sequentially from S1 to SN servers 
+and then leave the system. It is element describe as SequentialAccessComposite class.
+Second element of decomposition is G/G/s queueing system. In this case, element has one queue and N parallel servers. 
+Servers work as concurrent threads. This element has store-&-forward node (switch or router). The node route jobs to servers. 
+It is element describe as DirectAccessComposite class.
+The classification is depicted in Fig.3.
+<p><img src="qTheoryArchitectureEn.png" alt="" /></p>
+Figure 3. The classification of a queueing system in UML2 SP<br/>
+
+Further we shall discuss new frames and new concepts.<br/>
+The Containers frame define schemes of queueing systems.In our classification exist one scheme. 
+A ItemOfList frame define "Work site", i.e. cell to service, and links between them. It is a configuration space of system. 
+The Abstract classes frame define taxonomy of queueing systems and consist three abstract classes. 
+The DirectAccessComposite frame define G/G/s queuing system. The frame has "queue" slot. 
+It is definition of queue as in Fig.1. The SequentialAccessComposite frame defines multiphase queuing system. 
+The frame has "tail" slot. It is a result works this system.
+
+A typical example for used this classification are discussed in the subsequent section.
+
+## Example of queueing system decomposition
+In Fig. 4 present a queueing system consist four servers. Server S1 is a CPU, S2 is Hard Disk (HD). 
+Both a CPU and HD are parts of computer. Peripheral device (PD) consists at S3 and S4 servers; 
+S3 is a printer, S4 is a fax.
+<p><img src="Screenshot_queue.png" alt="" /></p>
+Figure 4. 	Example of queueing system
+
+Continuing in the same way, we must define concrete classes for the model.
+Model the queueing system is depicted in Fig.5
+
+<p><img src="qTheoryClassesEn.png" alt="" /></p>
+Figure 5. The Class diagram
+
+Tree Root class is model of environment, in our case it is a office. SimpleNode class is G/G/1 queueing system. 
+MiddleNode and TopNode classes are levels of decomposition of system.
+These classes used to assemble the queueing system from Fig.4. This communication diagram is depicted in Fig.6
+<p><img src="qtheoryObjectsEn.png" alt="" /></p>
+Figure 6. The communication diagram
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
