@@ -83,6 +83,8 @@ The "ItemOfList" frame defines **Work site** concept, i.e. cells to service, and
 It is a *configuration space* of system. 
 #### Taxonomy
 The "Abstract classes" package defines **Taxonomy** of queueing systems and consist three abstract classes.
+#### Queueing system
+Definition of concept as in Fig.1 but class has "next" method for move to members of system.
 #### G/G/s queueing system
 The "DirectAccessComposite" frame defines **G/G/s queuing system** concept. The frame has "queue" slot. 
 It is definition of queue as in Fig.1.
