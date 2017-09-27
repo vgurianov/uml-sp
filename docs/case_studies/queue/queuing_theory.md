@@ -1,7 +1,7 @@
 # Queueing theory
 [Terms view on Wikipedia](https://en.wikipedia.org/wiki/Queueing_theory)
 
-## 1. The M/M/1 Queueing System
+## 1. M/M/1 Queueing System
 The M/M/1 queue is a single server queue with an infinite number of waiting positions where the arrival process is Poisson and the service times are exponentially distributed.
 The barber simulation is a classical example of queueing theory.
 ### Application domain
@@ -68,9 +68,16 @@ In UML2 SP an architectural diagram is a [conceptual graph](https://en.wikipedia
 and contains packages and links (dependences) between them. Packages and dependences define concepts.<br/>
 Further we shall discuss new frames and new concepts.
 #### Queueing theory
-The "Reusable components" package defines **Queueing theory** concept. In UML2 SP a theory is a classification of systems. 
+The "Reusable components" package defines **Queueing theory** concept. In UML2 SP a theory include base elements of queueing system and classification of systems.
+#### Service
+Definition of concept as in Fig.1.Service is a server or a queuing system.
+#### Server
+The "AbstractTreeLeaf" frame defines **Server** concept.This definition of concept is like Fig.1 
+but a statistical distribution can be M,D,E, and G for daughters it class.
+#### Categorization
+Classification of queueing systems is a mapping of elements of "Abstract classes" package to "Containers" package and it is a dependency of packages. For each taxon assign one scheme. It is a functor [2].
 #### Scheme of queueing system
-The "Containers" package define **Schemes of queueing systems** (example is Fig.2). In our classification exist one scheme.
+The "Containers" package define **Schemes of queueing systems** (similarly Fig.4). In our classification exist one scheme.
 #### Work site
 The "ItemOfList" frame defines **Work site** concept, i.e. cells to service, and links between them. 
 It is a *configuration space* of system. 
@@ -106,4 +113,5 @@ Figure 6. The communication diagram
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
+2. Shreider YA, Sharov AA Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)
 
