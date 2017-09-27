@@ -73,7 +73,7 @@ The "Reusable components" package defines **Queueing theory** concept. In UML2 S
 Definition of concept as in Fig.1.Service is a server or a queuing system.
 #### Server
 The "AbstractTreeLeaf" frame defines **Server** concept.This definition of concept is like Fig.1 
-but a statistical distribution can be M,D,E, and G for daughters it class.
+but a statistical distribution can be M,D,E, and G for daughters of class.
 #### Categorization
 Classification of queueing systems is a mapping of elements of "Abstract classes" package to "Containers" package and it is a dependency of packages. For each taxon assign one scheme. It is a functor [2].
 #### Scheme of queueing system
@@ -95,6 +95,8 @@ The frame has "tail" slot. It is a result works this system.
 A typical example for used this classification are discussed in the subsequent section.
 
 ## 3. Example of Decomposition of Queueing System 
+
+### Application domain
 In Fig. 4 present a queueing system consist four servers. Server S1 is a CPU, S2 is Hard Disk (HD). 
 Both a CPU and HD are parts of computer. Peripheral device (PD) consists at S3 and S4 servers; 
 S3 is a printer, S4 is a fax.
@@ -107,7 +109,12 @@ Model the queueing system is depicted in Fig.5
 <p><img src="qTheoryClassesEn.png" alt="" /></p>
 Figure 5. The Class diagram
 
-Tree Root class is model of environment, in our case it is a office. SimpleNode class is G/G/1 queueing system. 
+### Description of a computational semantics
+The objects of daughters of Component class interact  according Producer-Consumer pattern [1]. 
+There are ten concurrent threads in total.
+
+### Description of an application domain semantics
+The TreeRoot class is model of environment, in our case it is a office. SimpleNode class is G/G/1 queueing system. 
 MiddleNode and TopNode classes are levels of decomposition of system.
 These classes used to assemble the queueing system from Fig.4. This communication diagram is depicted in Fig.6
 <p><img src="qtheoryObjectsEn.png" alt="" /></p>
