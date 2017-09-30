@@ -25,8 +25,8 @@ The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts.  
 The "value", "left", and "right" slots define this concepts.
 ## The simulation model in C++ code:  
-[ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h), 
-[ClassesOfMinskyProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/baseClassOfBarberProject.h)
+[ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.h), 
+[ClassesOfMinskyProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.cpp)
 ## References
 1. Minsky, Marvin. A framework for representing knowledge. MIT AI Laboratory Memo 306, June, 1974.
  
