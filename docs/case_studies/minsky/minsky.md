@@ -6,7 +6,7 @@ This is frame of cube (see section "Tracking the image of a cube"). We shall con
 The "A" and "B" symbols represent decorations on two facets of the cube. 
 Can be moved view point into right or revolve of cube into left.
 <p><img src="Image4.gif" alt="" /></p>
-Figure 1. The perspective appearances of a cube (picture from [site](http://web.media.mit.edu/~minsky/papers/Frames/frames.html))</br>
+Figure 1. The perspective appearances of a cube (picture from [site](http://web.media.mit.edu/~minsky/papers/Frames/frames.html))<br/><br/>
 If make excursion around the cube then the "A" facet is disappears and "C" facet is appears.
 ## Formal description of 'Cube' notion
 In UML2 SP a definition diagram is intended to accurate define of concepts. 
@@ -20,7 +20,7 @@ The frame has “currentItem” slot. It is slot define “face” concept. Face
 The slot has a type. The "ItemOfList" class defines the type; 
 «next» and «previous» operations define change rule of the slot value. The operations call from "Run" operation.<br/>
 A type is a set of values and authorized operations. The "ItemOfList" class is a set of objects. 
-This objects depicted in Fig.2. in M0 layer.<br/> 
+This objects depicted in Fig.2. in M0 layer.<br/><br/> 
 The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.1. in M2 layer. 
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts.  
 The "value", "left", and "right" slots define this concepts.
