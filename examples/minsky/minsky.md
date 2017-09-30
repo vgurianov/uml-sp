@@ -1,1 +1,0 @@
-Minsky's cube model
