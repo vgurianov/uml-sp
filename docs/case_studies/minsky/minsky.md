@@ -13,14 +13,14 @@ In UML2 SP a definition diagram is intended to accurate define of concepts.
 A definition diagram is a three-layer diagram and include M0 (objects layer), M1 (classes layer), and M2 (metamodel layer). 
 This diagram is depicted in Fig.2.
 <p><img src="cube.png" alt="" /></p>
-Figure 2. Formal describtion of the cube</br>
+Figure 2. Formal describtion of the cube<br/>
 The “List” frame define “Minsky’s cube” concept. The frame is instance "Ontology System" UML-element 
-(daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object.</br> 
+(daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object.<br/> 
 The frame has “currentItem” slot. It is slot define “face” concept. Face of cube is a visible facet of cube. 
 The slot has a type. The "ItemOfList" class defines the type; 
-«next» and «previous» operations define change rule of the slot value. The operations call from "Run" operation.</br>
+«next» and «previous» operations define change rule of the slot value. The operations call from "Run" operation.<br/>
 A type is a set of values and authorized operations. The "ItemOfList" class is a set of objects. 
-This objects depicted in Fig.2. in M0 layer. 
+This objects depicted in Fig.2. in M0 layer.<br/> 
 The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.1. in M2 layer. 
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts.  
 The "value", "left", and "right" slots define this concepts.
