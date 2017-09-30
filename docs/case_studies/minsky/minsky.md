@@ -6,14 +6,14 @@ This is frame of cube (see section "Tracking the image of a cube"). We shall con
 The "A" and "B" symbols represent decorations on two facets of the cube. 
 Can be moved view point into right or revolve of cube into left.
 <p><img src="Image4.gif" alt="" /></p>
-Figure 1. The perspective appearances of a cube (picture from http://web.media.mit.edu/~minsky/papers/Frames/frames.html)<br/>
+Figure 1. The perspective appearances of a cube (picture from [site](http://web.media.mit.edu/~minsky/papers/Frames/frames.html))</br>
 If make excursion around the cube then the "A" facet is disappears and "C" facet is appears.
 ## Formal description of 'Cube' notion
 In UML2 SP a definition diagram is intended to accurate define of concepts. 
 A definition diagram is a three-layer diagram and include M0 (objects layer), M1 (classes layer), and M2 (metamodel layer). 
 This diagram is depicted in Fig.2.
 <p><img src="cube.png" alt="" /></p>
-Figure 2. Formal describtion of the cube<br/>
+Figure 2. Formal describtion of the cube</br>
 The “List” frame define “Minsky’s cube” concept. The frame is instance "Ontology System" UML-element 
 (daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object.</br> 
 The frame has “currentItem” slot. It is slot define “face” concept. Face of cube is a visible facet of cube. 
