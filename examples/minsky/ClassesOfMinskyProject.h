@@ -28,7 +28,7 @@
 	 * Class:   <<Ontology Atom>> ItemOfList
      * 
      * Class is an item of linked list
-	 * ** this class is a slot facet of the "List" frame
+     * ** this class is a slot facet of the "List" frame
      * 
      * ***************************************************/
 	class ItemOfList  {
@@ -48,26 +48,26 @@
     /******************************************************
 	 * Class:   <<Ontology system>> List
      * 
-	 * Ñlass is a main class
+     *	Class is a main class
      * ** this class is a model of cube
      * ***************************************************/
 	class List {
 		private:
 		 void next() { //** move
-			face = face->right;
+			currentItem = currentItem->right;
 		}
 		 void previouse() { //** back move
-			face = face->left;
+			currentItem = currentItem->left;
 		}
 		public:
-		ItemOfList *face;  // ** facet
+		ItemOfList *currentItem;  // ** face
 
 		List() {
 		ItemOfList *a, *b, *c, *d;
 		a = new ItemOfList(A); b = new ItemOfList(B); c = new ItemOfList(C); d = new ItemOfList(D);
 		a->right = b; b->right = c; c->right = d; d->right = a;
 		a->left = d; b->left = a; c->left = b; d->left = c;
-		face = a;
+		currentItem = a;
 		}
 		void Run() { // <<Exist>>
 			//ShowMessage( "Visible: "+IntToStr(a->value));
