@@ -2,7 +2,7 @@
  * File:         ClassesOfMinskyProject.h
  * Author:       Vasily I.Gurianov
  * Create date:  2017-09-29
- * Testing:      CodeGear C++Builder® 2007
+ * Testing:      CodeGear C++Builder 2007
  *
  * Minsky's cube model
  *
@@ -53,10 +53,10 @@
      * ***************************************************/
 	class List {
 		private:
-		 void leftRotation() { //** rotation
+		 void next() { //** move
 			face = face->right;
 		}
-		 void rightRotation() { //** rotation
+		 void previouse() { //** back move
 			face = face->left;
 		}
 		public:
@@ -71,8 +71,8 @@
 		}
 		void Run() { // <<Exist>>
 			//ShowMessage( "Visible: "+IntToStr(a->value));
-			this->leftRotation();
-        }
+			this->next();
+		}
 	};
 //---------------------------------------------------------------------------
 #endif
