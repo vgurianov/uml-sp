@@ -15,7 +15,8 @@ This diagram is depicted in Fig.2.
 <p><img src="cube.png" alt="" /></p>
 Figure 2. Formal describtion of the cube<br/>
 - The “List” frame define “Minsky’s cube” concept. The frame is instance "Ontology System" UML-element 
-(daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object or the cube in Fig.1.<br/> 
+(daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object or the cube in Fig.1.
+Three state (currentItem=item1,item2,item3) of object are three structure to bottom in Fig.1.<br/> 
 The frame has “currentItem” slot. It is slot define “face” concept. Face of cube is a visible facet of cube. 
 The slot has a type and the “ItemOfList” class defines its the type; «next» and «previous» operations define 
 change rule of the slot value. The operations call from "Run" operation.<br/>
