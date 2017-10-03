@@ -14,6 +14,6 @@ It is example correct define type of data.
 In the class diagram we allow superfluity for most clarity. In particular, we do not use SPSlot stereotype. Also, we simplify the class diagram and omit classes with "EScene" and "ETool" stereotypes. It is a model of the measuring instrument.<br/>
 
 ## The simulation model in C++ code:  
-[baseClassOfBarberParadox.h](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/baseClassOfBarberParadox.h), [baseClassOfBarberParadox.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/baseClassOfBarberParadox.cpp)
+[baseClassOfBarberParadox.h](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/ClassesOFBarberParadoxProject.h), [baseClassOfBarberParadox.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/ClassesOFBarberParadoxProject.cpp)
 
 ## References
