@@ -120,7 +120,27 @@ These classes used to assemble the queueing system from Fig.4. This communicatio
 <p><img src="qtheoryObjectsEn.png" alt="" /></p>
 Figure 6. The communication diagram
 
+Assemblage the queueing system is
+```
+			SimpleNode *s1, *s2;
+			s1 = new SimpleNode; s2 = new SimpleNode;
+			// ** Computer
+			MiddleNodeA *ms = new MiddleNodeA(s1,s2);
+			// ** Peripheral device
+			TreeLeaf *s3, *s4;
+			s3 = new TreeLeaf; s4 = new TreeLeaf;
+			MiddleNodeB *md = new MiddleNodeB(s3,s4);
+			// ** Complex
+			head = new ItemOfList; head->_component = ms;
+			head->right = new ItemOfList; head->right->_component = md;
+      head->right->left = head;
+			tail = head->right;
+```
+
+### The simulation model in C++ code:  
+[baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.cpp)
+
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
-2. Shreider YA, Sharov AA Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)
+2. Shreider Y.A., Sharov A.A. Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)
 
