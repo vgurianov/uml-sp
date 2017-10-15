@@ -121,20 +121,20 @@ These classes used to assemble the queueing system from Fig.4. This communicatio
 Figure 6. The communication diagram
 
 Assemblage the queueing system is
-```
-			SimpleNode *s1, *s2;
-			s1 = new SimpleNode; s2 = new SimpleNode;
-			// ** Computer
-			MiddleNodeA *ms = new MiddleNodeA(s1,s2);
-			// ** Peripheral device
-			TreeLeaf *s3, *s4;
-			s3 = new TreeLeaf; s4 = new TreeLeaf;
-			MiddleNodeB *md = new MiddleNodeB(s3,s4);
-			// ** Complex
-			head = new ItemOfList; head->_component = ms;
-			head->right = new ItemOfList; head->right->_component = md;
-      head->right->left = head;
-			tail = head->right;
+```C++
+SimpleNode *s1, *s2;
+s1 = new SimpleNode; s2 = new SimpleNode;
+// ** Computer
+MiddleNodeA *ms = new MiddleNodeA(s1,s2);
+// ** Peripheral device
+TreeLeaf *s3, *s4;
+s3 = new TreeLeaf; s4 = new TreeLeaf;
+MiddleNodeB *md = new MiddleNodeB(s3,s4);
+// ** Complex
+head = new ItemOfList; head->_component = ms;
+head->right = new ItemOfList; head->right->_component = md;
+head->right->left = head;
+tail = head->right;
 ```
 
 ### The simulation model in C++ code:  
