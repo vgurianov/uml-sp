@@ -136,14 +136,14 @@ head->right = new ItemOfList; head->right->_component = md;
 head->right->left = head;
 tail = head->right;
 ```
+Also, other examples of object-oriented models of queueing system see  in [3,4].
 
 ### The simulation model in C++ code:  
 [BaseClassesOfTheoryProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.h), [BaseClassesOfTheoryProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.cpp)
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
-2. Shreider Y.A., Sharov A.A. Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)<br/>
-More object-oriented models view
+2. Shreider Y.A., Sharov A.A. Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)
 3. [Trub I., Trub N. Simulation modeling of computer systems. Training workshop. LAP Lambert Academic Publishing. - 2015. - 135 p.](http://simulation.su/uploads/files/default/2015-uch-praktikum-trub-trub.pdf)(in Russian)
 4. Trub I.I. Object-oriented simulation in C ++: Training course - Spb .: Peter, 2006. - 411 p.
 
