@@ -142,7 +142,7 @@ tail = head->right;
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
-2. Shreider Y.A., Sharov A.A. Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)
+2. Shreider Y.A., Sharov A.A. Systems and models. - M: Radio and communication, 1982 - 152 p. (Cybernetics)<br/>
 More object-oriented models view
 3. [Trub I., Trub N. Simulation modeling of computer systems. Training workshop. LAP Lambert Academic Publishing. - 2015. - 135 p.](http://simulation.su/uploads/files/default/2015-uch-praktikum-trub-trub.pdf)(in Russian)
 4. Trub I.I. Object-oriented simulation in C ++: Training course - Spb .: Peter, 2006. - 411 p.
