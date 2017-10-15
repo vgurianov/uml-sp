@@ -138,7 +138,7 @@ tail = head->right;
 ```
 
 ### The simulation model in C++ code:  
-[baseClassOfBarberProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.h), [baseClassOfBarberProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.cpp)
+[BaseClassesOfTheoryProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.h), [BaseClassesOfTheoryProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.cpp)
 
 ## References
 1. Mark Grand, Patterns in Java, Volume 1: A Catalog of Reusable Design Patterns Illustrated with UML, Second Edition, John Wiley & Sons, 2002
