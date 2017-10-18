@@ -30,12 +30,12 @@ Example, customer service in shopping is the provision of service to customers b
 The frame has "input" and "output" slots. It is input and output of queuing system. Those attributes has type "QueueNode". 
 It is defined of "Customer". The "QueueNode" class isn’t a frame.<br/>
 The frame has "componentState" slot. It is state of a queuing entity.<br/>
-#### Server
+#### Server (barber)
 The "TreeLeaf" frame defines **Server** concept. The Run method is realization abstract operation Run. 
 This operation defines a rule of change of slots value.<br/>
 #### Single-server queueing system
 The "Composite" frame defines **Single-server queueing system** concept. The *Ontology Category* stereotype defines a group (category) of a queuing system. In this model it is the single-server queueing system.<br/>
-#### Queuing System
+#### Queuing System (barbershop)
 The "TreeNode" frame defines **Queuing System** concept. It is main notion in the Queuing Theory. The frame has "Queue" slot. 
 It is define "Customer queue" concept. A type of the slot is Queue. The "Queue" class is not a frame. 
 The frame has "Client" slot. This slot defines "Client served". 
@@ -120,7 +120,7 @@ These classes used to assemble the queueing system from Fig.4. This communicatio
 <p><img src="qtheoryObjectsEn.png" alt="" /></p>
 Figure 6. The communication diagram
 
-Assemblage the queueing system is
+Assemblage of the queueing system is
 ```C++
 SimpleNode *s1, *s2;
 s1 = new SimpleNode; s2 = new SimpleNode;
