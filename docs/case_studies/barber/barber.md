@@ -17,3 +17,5 @@ It is example correct define type of data.
 [baseClassOfBarberParadox.h](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/ClassesOFBarberParadoxProject.h), [baseClassOfBarberParadox.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/barber_paradox/ClassesOFBarberParadoxProject.cpp)
 
 ## References
+1. Bertrand Russell. THE PHILOSOPHY OF LOGICAL ATOMISM/ The Monist, Vol. 29, No. 3 (JULY, 1919), pp. 345-380
+Published by: Oxford University Press
