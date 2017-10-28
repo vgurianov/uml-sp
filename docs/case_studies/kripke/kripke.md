@@ -2,13 +2,14 @@
 ## Introduction
 Sometimes in simulation research need to consider several simulation models at the same time, for example 
 result of study to one model used to other model.  Then there is dependency between models. 
-In UML2 SP used \<<World>>, \<<Worlds>>, and \<<Accessibility Relation>> stereotypes for description this dependence. 
-The <World> stereotype used for package of concrete classes of simulation model. 
-The \<<Worlds>> include \<World>> packages and \<Accessibility Relation>>  dependence between them.
-In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [1, 2].
+In UML2 SP used <<World\>\>, <<<Worlds\>\>, and <<Accessibility Relation\>\> stereotypes for description this dependence. 
+The <<World\>\> stereotype used for package of concrete classes of simulation model. 
+The <<Worlds\>> include <<World\>> packages and <<Accessibility Relation\>>  dependence between them.
+In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [1, 2].<br/>
+
 A [Kripke structure](https://en.wikipedia.org/wiki/Accessibility_relation) is a triple <G, K, R>, 
 where G is possible worlds, K (element G) is actual world, and R is the accessibility relation. 
-Actual world is world where disposition \<<Researcher>>.<br/>
+Actual world is world where disposition Researcher.<br/>
 There are three different Kripke structure:
 - direct accessibility (parallel worlds; it is ordinary case several versions of  model )
 - sequential accessibility (fractal or recursive worlds; first we create a VM [(virtual machine)](https://en.wikipedia.org/wiki/Virtual_machine), and then we build a model in it)
@@ -55,6 +56,7 @@ A Probe class don't see Leaf class but has access to it across Avm class.
 
 ## Design model
 In C++ realized package import as <<import>>. We use next reception.<br/>
+
 Definition of namespaces is
 ```
 namespace Data_Process {
