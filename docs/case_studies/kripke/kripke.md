@@ -23,10 +23,10 @@ It is use of a propositional concept.
 ## Analysis model
 Terms “Subject” and “Object” are antonyms. Subject reflect object. 
 A communication process between subject, object, and image of object is depicted in Fig.1.
-<p><img src="cube.png" alt="" /></p>
+<p><img src="AvmUseCaseRealization.png" alt="" /></p>
 Figure 1. The communication diagram<br/>
 Thus, as follows from communication diagram, a class diagram shall have a form as is depicted in Fig.2.
-<p><img src="cube.png" alt="" /></p>
+<p><img src="AvmUseCaseRealization.png" alt="" /></p>
 Figure 2. The class diagram
 
 ### Description of a computational semantics 
@@ -41,7 +41,7 @@ World described in manuscript us is an inaccessible. But it's world to be access
 For decipher can use a decryption machine. And conversely, world can make inaccessible if ciphered the text. 
 In this way, Kripke structure is a base notion of cryptology theory. 
 The architectural diagram is depicted in Fig.3.
-<p><img src="cube.png" alt="" /></p>
+<p><img src="AvmArchitecture.png" alt="" /></p>
 Figure 3. 	The architectural diagram
 For description of accessibility we use «access» stereotype. The UML 2.4.1 spec says "A package import is shown 
 using a dashed arrow with an open arrowhead from the importing namespace to the imported package. 
@@ -77,8 +77,8 @@ Label1->Caption = console->probe;
 ```
 
 ## The simulation model in C++ code:  
-[ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.h), 
-[ClassesOfMinskyProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.cpp)
+[ClassesOfAvmProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/kripke/ClassesOfAvmProject.h), 
+[ClassesOfAvmProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/kripke/ClassesOfAvmProject.cpp)
 
 ## Conclusion
 In this section we have discussed the reflection phenomena. It is the example use \<<World>>, \<<Worlds>>, 
