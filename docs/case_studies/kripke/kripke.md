@@ -2,9 +2,9 @@
 ## Introduction
 Sometimes in simulation research need to consider several simulation models at the same time, for example 
 result of study to one model used to other model.  Then there is dependency between models. 
-In UML2 SP used **World**, **Worlds**, and **Accessibility Relation** stereotypes for description this dependence. 
+In UML2 SP used \<<World>>, \<<Worlds>>, and \<<Accessibility Relation>> stereotypes for description this dependence. 
 The <World> stereotype used for package of concrete classes of simulation model. 
-The <<Worlds>> include <<World>> packages and <<Accessibility Relation>>  dependence between them.
+The \<<Worlds>> include \<<World>> packages and \<<Accessibility Relation>>  dependence between them.
 In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [1, 2]. 
 [Kripke structure](https://en.wikipedia.org/wiki/Accessibility_relation) is a triple <G, K, R>, 
 where G is possible worlds, K (element G) is actual world, and R is the accessibility relation. 
@@ -25,9 +25,10 @@ Terms “Subject” and “Object” are antonyms. Subject reflect object.
 A communication process between subject, object, and image of object is depicted in Fig.1.
 <p><img src="AvmUseCaseRealization.png" alt="" /></p>
 Figure 1. The communication diagram<br/>
+
 Thus, as follows from communication diagram, a class diagram shall have a form as is depicted in Fig.2.
-<p><img src="AvmUseCaseRealization.png" alt="" /></p>
-Figure 2. The class diagram
+<p><img src="AvmClassDiagram.png" alt="" /></p>
+Figure 2. The class diagram<br/>
 
 ### Description of a computational semantics 
 Abstract virtual machine (AVM) is model of the subject. AVM has memory, processor, input and output. 
@@ -42,7 +43,8 @@ For decipher can use a decryption machine. And conversely, world can make inacce
 In this way, Kripke structure is a base notion of cryptology theory. 
 The architectural diagram is depicted in Fig.3.
 <p><img src="AvmArchitecture.png" alt="" /></p>
-Figure 3. 	The architectural diagram
+Figure 3. 	The architectural diagram<br/>
+
 For description of accessibility we use «access» stereotype. The UML 2.4.1 spec says "A package import is shown 
 using a dashed arrow with an open arrowhead from the importing namespace to the imported package. 
 A keyword is shown near the dashed arrow to identify which kind of package import is intended. 
@@ -51,7 +53,7 @@ I.e. Leaf class for Probe class is a private element (in Word1) but is a public 
 A Probe class don't see Leaf class but has access to it across Avm class.
 
 ## Design model
-In C++ realized package import as <<import>>. We use next reception.
+In C++ realized package import as <<import>>. We use next reception.<br/>
 Definition of namespaces
 ```
 namespace Data_Process {
