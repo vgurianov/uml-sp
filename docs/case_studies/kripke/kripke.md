@@ -71,9 +71,12 @@ using namespace Data_Process;  // it is <<import>> but need <<access>>
 Using is
 ```
 // it is <<import>> (can not use):
-it is <<access>> (can use):
+//using namespace Abstract_Virtual_Machine;  
+//Leaf *d = new Leaf; d->value;  do see
+
+// it is <<access>> (can use):
 using Abstract_Virtual_Machine::Console;     
-//Leaf *d = new Leaf; d-> value;  //don't see
+//Leaf *d = new Leaf; d->value;  //don't see
 
 Console *console = new Console;
 console->Run();
