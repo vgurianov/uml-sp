@@ -55,6 +55,7 @@ The predefined keywords are «import» for a public package import, and «access
 I.e. Leaf class for Probe class is a private element (in Word1) but is a public element (in Word2) for Avm class. 
 A Probe class don't see Leaf class but has access to it across Avm class.
 
+P.S. Direct generalization of considered model is a fractal model of embedded virtual machines. If real world is arranged in this way then here and now exist many (or even infinitely many) other worlds.
 ## Design model
 In C++ realized package import as <<import>>. We use next reception.<br/>
 
