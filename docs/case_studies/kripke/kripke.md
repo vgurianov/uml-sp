@@ -2,15 +2,15 @@
 A topic this section is reflection and self-reflexion. This problem studied in reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
 
 ## Introduction
-Sometimes in simulation research need to consider several simulation models at the same time, for example 
+Sometimes in simulation research need to consider several simulation models at the same time. For example, 
 result of study to one model used to other model.  Then there is dependency between models. 
 In UML2 SP used «World», «Worlds», and «Accessibility Relation» stereotypes for description this dependence. 
 The «World» stereotype used for package of concrete classes of simulation model. 
 The «Worlds» include «World» packages and «Accessibility Relation»  dependence between them.
 In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [2, 3].<br/>
 A [Kripke structure](https://en.wikipedia.org/wiki/Accessibility_relation) is a triple <G, K, R>, 
-where G is possible worlds, K (element G) is actual world, and R is the accessibility relation. 
-Actual world is world where dispose «Researcher».<br/>
+where G is a set of possible worlds, K (element G) is actual world, and R is the accessibility relation. 
+Actual world is world, where dispose «Researcher».<br/>
 There are three different Kripke structure:
 - direct accessibility (parallel worlds; it is ordinary case several versions of  model )
 - sequential accessibility (fractal or recursive worlds; first we create a VM [(virtual machine)](https://en.wikipedia.org/wiki/Virtual_machine), and then we build a model in it)
@@ -40,8 +40,8 @@ The input operation calls a copy constructor and creates copy of 'date' object. 
 The operator executes an authorized operation to data. It is Operation1() operation.
 
 ### Description of an application domain semantics
-What is inaccessibility, inaccessible world? Assume that data is a ciphertext (for example, Maya codices). 
-World described in manuscript us is an inaccessible. But it's world to be accessible if text will be deciphered. 
+What is inaccessibility, inaccessible world? Assume, that data is a ciphertext (for example, Maya codices). 
+World, described in manuscript, us is an inaccessible. But it's world to be accessible if text will be deciphered. 
 For decipher can use a decryption machine. And conversely, world can make inaccessible if ciphered the text. 
 In this way, Kripke structure is a base notion of cryptology theory. 
 The architectural diagram is depicted in Fig.3.
@@ -51,13 +51,13 @@ Figure 3. 	The architectural diagram<br/>
 For description of accessibility we use «access» stereotype. The UML 2.4.1 spec says "A package import is shown 
 using a dashed arrow with an open arrowhead from the importing namespace to the imported package. 
 A keyword is shown near the dashed arrow to identify which kind of package import is intended. 
-The predefined keywords are «import» for a public package import, and «access» for a private package import."[6, page 112] 
+The predefined keywords are «import» for a public package import, and «access» for a private package import."[6, page 112]. 
 I.e. Leaf class for Probe class is a private element (in Word1) but is a public element (in Word2) for Avm class. 
 A Probe class don't see Leaf class but has access to it across Avm class.
 
 P.S. Direct generalization of considered model is a fractal model of embedded virtual machines. If real world is arranged in this way then here and now exist many (or even infinitely many) other worlds.
 ## Design model
-In C++ realized package import as <<import>>. We use next reception.<br/>
+In C++ realized package import as «import». We use next reception.<br/>
 
 Definition of namespaces is
 ```
@@ -92,8 +92,8 @@ Label1->Caption = console->probe;
 [ClassesOfAvmProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/kripke/ClassesOfAvmProject.cpp)
 
 ## Conclusion
-In this section we have discussed the reflection phenomena. It is the example use \<<World>>, \<<Worlds>>, 
-and \<<Accessibility Relation>> stereotypes. 
+In this section we have discussed the reflection phenomena. It is the example use «World», «Worlds», 
+and «Accessibility Relation» stereotypes. 
 The considered theme (topic) is very an extensive and this section is limited introduction in the problem.
 
 ## References
