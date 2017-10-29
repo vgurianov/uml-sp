@@ -1,5 +1,5 @@
 # Reflexion
-A topic this section is reflection and self-reflexion. This problem studied in detail in  reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
+A topic this section is reflection and self-reflexion. This problem studied in reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
 
 ## Introduction
 Sometimes in simulation research need to consider several simulation models at the same time, for example 
