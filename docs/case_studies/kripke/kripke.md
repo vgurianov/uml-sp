@@ -18,7 +18,7 @@ There are three different Kripke structure:
 
 These models suggest in work [4]. In this section consider a particular case of fractal worlds, it is a reflection.
 
-## Application domain. 
+## Application domain
 In the book [5, p.248] considered a conceptual graphs for representation knowledge. 
 There an example is given conceptual graph of the statement “Tom believes that Jane likes pizza”. 
 It is use of a propositional concept. 
@@ -34,7 +34,7 @@ Thus, as follows from communication diagram, a class diagram shall have a form a
 Figure 2. The class diagram<br/>
 
 ### Description of a computational semantics 
-Abstract virtual machine (AVM) is model of the subject. AVM has memory, processor, input and output. 
+Abstract virtual machine (AVM) is model of the subject. AVM has memory, processor, program for processor, input and output. 
 On console executed next a sequence commands. It are input data, program execute, and print of result. 
 The input operation calls a copy constructor and creates copy of 'date' object. The program consists at a one operator. 
 The operator executes an authorized operation to data. It is Operation1() operation.
@@ -75,7 +75,7 @@ Using is
 ```
 // it is <<import>> (can not use):
 //using namespace Abstract_Virtual_Machine;  
-//Leaf *d = new Leaf; d->value;  do see
+//Leaf *d = new Leaf; d->value;  //do see
 
 // it is <<access>> (can use):
 using Abstract_Virtual_Machine::Console;     
@@ -95,7 +95,7 @@ In this section we have discussed the reflection phenomena. It is the example us
 and \<<Accessibility Relation>> stereotypes. 
 The considered theme (topic) is very an extensive and this section is limited introduction in the problem.
 
-## References.
+## References
 1. [Lefevre V.A. Conflicting structures. The second edition, revised and supplemented. - Moscow: Publishing house "Soviet radio", 1973 (In Russian).](http://314159.ru/lefebvre/lefebvre1.htm) 
 2.	S. Kripke. A Completeness Theorem in Modal Logic, Journal of Symbolic Logic 24(1):1–14. 1959.
 3.	S. Kripke. Semantical Considerations on Modal Logic, Acta Philosophica Fennica 16:83–94,1963.
