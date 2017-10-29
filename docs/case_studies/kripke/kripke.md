@@ -1,11 +1,13 @@
 # Reflexion
+A topic this section is reflection and self-reflexion. This problem studied in detail in  reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
+
 ## Introduction
 Sometimes in simulation research need to consider several simulation models at the same time, for example 
 result of study to one model used to other model.  Then there is dependency between models. 
 In UML2 SP used «World», «Worlds», and «Accessibility Relation» stereotypes for description this dependence. 
 The «World» stereotype used for package of concrete classes of simulation model. 
 The «Worlds» include «World» packages and «Accessibility Relation»  dependence between them.
-In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [1, 2].<br/>
+In methodology SSP this elements consider as an interpretation of modal logic by S. Kripke [2, 3].<br/>
 A [Kripke structure](https://en.wikipedia.org/wiki/Accessibility_relation) is a triple <G, K, R>, 
 where G is possible worlds, K (element G) is actual world, and R is the accessibility relation. 
 Actual world is world where dispose «Researcher».<br/>
@@ -14,10 +16,10 @@ There are three different Kripke structure:
 - sequential accessibility (fractal or recursive worlds; first we create a VM [(virtual machine)](https://en.wikipedia.org/wiki/Virtual_machine), and then we build a model in it)
 - global variables (interpenetrating worlds).
 
-These models suggest in work [3]. In this section consider a particular case of fractal worlds, it is a reflection.
+These models suggest in work [4]. In this section consider a particular case of fractal worlds, it is a reflection.
 
 ## Application domain. 
-In the book [4, p.248] considered a conceptual graphs for representation knowledge. 
+In the book [5, p.248] considered a conceptual graphs for representation knowledge. 
 There an example is given conceptual graph of the statement “Tom believes that Jane likes pizza”. 
 It is use of a propositional concept. 
 
@@ -49,7 +51,7 @@ Figure 3. 	The architectural diagram<br/>
 For description of accessibility we use «access» stereotype. The UML 2.4.1 spec says "A package import is shown 
 using a dashed arrow with an open arrowhead from the importing namespace to the imported package. 
 A keyword is shown near the dashed arrow to identify which kind of package import is intended. 
-The predefined keywords are «import» for a public package import, and «access» for a private package import."[5, page 112] 
+The predefined keywords are «import» for a public package import, and «access» for a private package import."[6, page 112] 
 I.e. Leaf class for Probe class is a private element (in Word1) but is a public element (in Word2) for Avm class. 
 A Probe class don't see Leaf class but has access to it across Avm class.
 
@@ -94,11 +96,11 @@ and \<<Accessibility Relation>> stereotypes.
 The considered theme (topic) is very an extensive and this section is limited introduction in the problem.
 
 ## References.
-
-1.	"A Completeness Theorem in Modal Logic", Journal of Symbolic Logic 24(1):1–14. 1959.
-2.	"Semantical Considerations on Modal Logic", Acta Philosophica Fennica 16:83–94,1963.
-3.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.  (In Russian),](http://simulation.su/static/en-books.html)
-4.	G. F. Luger, Artificial Intelligence: Structures and Strategies for Complex Problem Solving. 6th edition, 
+1. [Lefevre V.A. Conflicting structures. The second edition, revised and supplemented. - Moscow: Publishing house "Soviet radio", 1973 (In Russian).](http://314159.ru/lefebvre/lefebvre1.htm) 
+2.	S. Kripke. A Completeness Theorem in Modal Logic, Journal of Symbolic Logic 24(1):1–14. 1959.
+3.	S. Kripke. Semantical Considerations on Modal Logic, Acta Philosophica Fennica 16:83–94,1963.
+4.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.  (In Russian)](http://simulation.su/static/en-books.html)
+5.	G. F. Luger, Artificial Intelligence: Structures and Strategies for Complex Problem Solving. 6th edition, 
 Addison Wesley, 2008
-5.	[UML Superstructure Specification, v2.4.1](http://www.omg.org/spec/UML/2.4.1/Superstructure/PDF)
+6.	[UML Superstructure Specification, v2.4.1](http://www.omg.org/spec/UML/2.4.1/Superstructure/PDF)
 
