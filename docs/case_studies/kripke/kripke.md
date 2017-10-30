@@ -1,5 +1,5 @@
 # Reflexion
-A topic this section is reflection and self-reflexion. This problem studied in reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
+A topic this section is reflexion and self-reflexion. This problem studied in reflexive theory by [V. Lefebvre](https://en.wikipedia.org/wiki/Vladimir_Lefebvre) [1].
 
 ## Introduction
 Sometimes in simulation research need to consider several simulation models at the same time. For example, 
@@ -16,7 +16,7 @@ There are three different Kripke structure:
 - sequential accessibility (fractal or recursive worlds; first we create a VM [(virtual machine)](https://en.wikipedia.org/wiki/Virtual_machine), and then we build a model in it)
 - global variables (interpenetrating worlds).
 
-These models suggest in work [4]. In this section consider a particular case of fractal worlds, it is a reflection.
+These models suggest in work [4]. In this section consider a particular case of fractal worlds, it is a reflexion.
 
 ## Application domain
 In the book [5, p.248] considered a conceptual graphs for representation knowledge. 
