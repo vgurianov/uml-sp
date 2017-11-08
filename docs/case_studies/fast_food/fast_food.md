@@ -22,7 +22,7 @@ The object of TopNode class and the objects of TreeLeaf and BottomNode classes i
 ## Description of an application domain semantics
 An ontology accurately define the application domain for the fast food restaurant. 
 ### Service
-The “Component” frame defines Service concept (notion). Service is a server or a queuing system. It is a general notion for a queuing systems. The frame has “input” and “output” slots. Those attributes has type “QueueNode”. It is defined of “Request” concept. The “QueueNode” class is not a frame, it is a type (facet in [Protégé](http://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html)).
+The “Component” frame defines Service concept (notion). Service is a server or a queuing system. It is a general notion for a queuing systems. The frame has “input” and “output” slots. Those attributes has type “QueueNode”. It is defined of “Request” concept. The “QueueNode” class is not a frame, it is a type.
 The frame has “componentState” slot. It is state of a queuing entity.
 ### Server
 The “TreeLeaf” frame defines Server concept. The Run method is realization abstract operation Run. This operation defines a rule of change of slots value. There are three instance of server. It is the Order Taker, Kitchen and Order Pickup Window.
