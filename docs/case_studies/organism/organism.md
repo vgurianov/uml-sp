@@ -74,8 +74,10 @@ For example, we considered to next a simple grammar.
 Axiom: A
 Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
 Products: A => AA, B => BA (cell clones),
+```
 where “->” is denote of information phase, “=>”is denote of fission phase.
 For its grammar, development of organism has view:
+```
  A -> xAy -> A => AA -> xAx yAy => B D =      (growth stage)
  B -> xBy -> B => BA -> xBy yAy -> B D = B.   (adult organism)
  ```
