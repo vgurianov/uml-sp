@@ -1,5 +1,5 @@
 /******************************************************
- * File:         ClassesOfFractalProject.h
+ * File:         ClassesOfOrganismProject.h
  * Author:       Vasily I.Gurianov
  * Create date:  2017-11-11
  * Testing:      CodeGear C++Builder 2007
@@ -9,8 +9,8 @@
  * Axiom: A
  * Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
  * Products: A => AA, B => BA (cell clones),
- * A -> xAy -> A => AA -> xAx yAy => B D =      (growth phase)
- * B -> xBy -> B => BA -> xBy yAy -> B D = B.   (adult organism)
+ * A -> xAy -> A => AA -> xAx yAy => BD =      (growth stade)
+ * B -> xBy -> B => BA -> xBy yAy -> BD = B.   (adult organism)
  * Using:
  *     Root *pWorld = new Root;
  *
@@ -77,8 +77,8 @@ public:
 	 /*
 	 // Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
 	 // Products: A => AA, B => BA (cell clones),
-	 // A -> xAy -> A => AA -> xAx yAy => B D =
-	 // B -> xBy -> B => BA -> xBy yAy -> B D = B
+	 // A -> xAy -> A => AA -> xAx yAy => BD =
+	 // B -> xBy -> B => BA -> xBy yAy -> BD = B
 	 h1->leftKey = x; h1->keyOfState = A; h1->rightKey = y; h1->value = A;
 	 h2->leftKey = x; h2->keyOfState = A; h2->rightKey = x; h2->value = B;
 	 h3->leftKey = y; h3->keyOfState = A; h3->rightKey = y; h3->value = D;
@@ -87,7 +87,7 @@ public:
 	 h1->next = h2; h2->next = h3; h3->next = h4;
 	 head = h1;
 	}
-	StateOption get( Msgs lk, Msgs rk, StateOption so) {
+	StateOption get(Msgs lk, Msgs rk, StateOption so) {
 	StateOption state = so;
 	Chain *c = head;
 	while (c != NULL) {
@@ -205,6 +205,7 @@ public:
 			if (item->right != NULL) {item->right->left = item->left;
 			} else item->left->right = NULL;
 		//};
+		delete item;
 		};  //if (item->component->state == D)
 		
 		item = item->right;
@@ -229,7 +230,7 @@ public:
 
 };
 	/******************************************************
-	 * Class:   <<Ontology Context>> TreeRoot
+	 * Class:   <<Ontology Context>> Root
 	 *  The class is Concrete Class role in Composite pattern
 	 *  ***
 	 *  Concept = Umwelt
