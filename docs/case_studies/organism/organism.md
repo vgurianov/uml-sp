@@ -32,7 +32,7 @@ Other features of organism we shall do not discuss.
 ## Analysis model
 A conceptual model in UML2 SP is an analysis class diagram. 
 This diagram considered as ontology. Model the multicellular organism system is depicted in Fig.1.
-<p><img src="organismClassDiagram.png" alt="" /></p>
+<p><img src="OrganismClassDiagram.png" alt="" /></p>
 Figure 2. The class diagram<br/>
 
 ### Description of a computational semantics
@@ -63,7 +63,7 @@ The “Item” frame define "Biotop" concept. The biotope or habitat is a living
 
 #### Holobiont
 The “Composite” frame define "Holobiont" concept. Holobiont is assemblages of different bions that form living 
-units. Foundation of physical association between bions is a symbiosis. In Wikipedia give partly other a definition this term, see Wikipedia(https://en.wikipedia.org/wiki/Holobiont)." 
+units. Foundation of physical association between bions is a symbiosis. In Wikipedia give partly other a definition this term, see [Wikipedia](https://en.wikipedia.org/wiki/Holobiont)." 
 The “headOfList” slot define “Composition of holobiont” concept.
 
 #### Multicellular organism
@@ -93,7 +93,7 @@ Products: A => AA (cell clones),
 then we get chain of state: 
 A -> xAy -> A => AA -> xAx yAy => A D -> A.  
 The result of observation to simulation model is shown on Fig. 2.
-<p><img src="AvmClassDiagram.png" alt="" /></p>
+<p><img src="Screenshot.png" alt="" /></p>
 Figure 2. Results of observation to simulation model<br/>
 
 ## The simulation model in C++ code:  
