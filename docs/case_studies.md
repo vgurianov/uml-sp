@@ -8,7 +8,7 @@ Contents:<br/>
   <li><a href="case_studies/barber/barber">Paradox of barber</a></li>
   <li><a href="case_studies/kripke/kripke">Reflexion</a></li>
   <li>Mechanical movement</li>
-  <li>Koch's snowflake</li>
-  <li>Multicellular organism</li>
+  <li>Koch snowflake</li>
+  <li><a href="case_studies/organism/organism">Multicellular organism</a></li>
   <li><a href="case_studies/dialogs">Dialogs</a></li>
 </ul>
