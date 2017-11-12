@@ -10,12 +10,12 @@
  * Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
  * Products: A => AA, B => BA (cell clones),
  * A -> xAy -> A => AA -> xAx yAy => B D =      (growth phase)
- * B -> xBy -> B => BA -> xBy yAy -> B D = B.   (adult organism, it is limiting cycle)
+ * B -> xBy -> B => BA -> xBy yAy -> B D = B.   (adult organism)
  * Using:
- *     List *pWorld = new List;
+ *     Root *pWorld = new Root;
  *
  *     pWorld->Run();
- *     Label1->Caption = IntToStr(pWorld->face->value);
+ *     Memo1->Lines->Add(pWorld->probe.str);
  *
  * ***************************************************/
 
@@ -66,7 +66,7 @@ public:
 	Dictionary() {
 	Chain *h1, *h2, *h3, *h4;
 	 h1 = new Chain; h2 = new Chain; h3 = new Chain;h4 = new Chain;
-	 /*   // it is the verification test
+		// it is the verification test
 	 // Rules: xAy -> A, xAx -> A, yAy -> D,
 	 // Products: A => AA (cell clones),
 	 // A -> xAy -> A => AA -> xAx yAy => A D -> A.
@@ -74,7 +74,7 @@ public:
 	 h2->leftKey = x; h2->keyOfState = A; h2->rightKey = x; h2->value = A;
 	 h3->leftKey = y; h3->keyOfState = A; h3->rightKey = y; h3->value = D;
 	 h4->leftKey = x; h4->keyOfState = B; h4->rightKey = y; h4->value = D;
-	 */
+	 /*
 	 // Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
 	 // Products: A => AA, B => BA (cell clones),
 	 // A -> xAy -> A => AA -> xAx yAy => B D =
@@ -83,7 +83,7 @@ public:
 	 h2->leftKey = x; h2->keyOfState = A; h2->rightKey = x; h2->value = B;
 	 h3->leftKey = y; h3->keyOfState = A; h3->rightKey = y; h3->value = D;
 	 h4->leftKey = x; h4->keyOfState = B; h4->rightKey = y; h4->value = B;
-
+	 */
 	 h1->next = h2; h2->next = h3; h3->next = h4;
 	 head = h1;
 	}
