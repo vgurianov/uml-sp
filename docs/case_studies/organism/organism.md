@@ -55,7 +55,7 @@ A state change of cell determines genotype, which modeling as Dictionary class. 
 `StateOption get( Msgs lk, Msgs rk, StateOption so)`,<br/>
 where<br/>
 - lk, rk - left and right message from neighbors,
-- so - current state of cell.
+- so - current state of cell.<br/>
 Method returns a new state of cell.
 
 #### Biotop
