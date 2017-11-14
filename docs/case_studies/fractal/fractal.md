@@ -81,8 +81,8 @@ As we see, the measurement value of Hausdorff dimension converges to accurate va
 [ClassesOfFractalProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.cpp)
 
 ## Conclusion
-In this section considered object model of Koch snowflake. This model can use to construct other fractals such as Cantor ternary set and more complex.
-Also, other examples of simulation model of mathematical object see [3]. 
+In this section considered object model of Koch snowflake. This model can use to construct other fractals such as Cantor ternary set and more complex.<br/>
+Also, other examples of simulation model of mathematical objects see [3]. 
 
 ## References
 1.	Gurianov V.I. Object Modeling of Fractal Structures // Mathematical Models and Their Applications: 
