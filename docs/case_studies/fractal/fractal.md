@@ -1,5 +1,5 @@
 # Koch snowflake
-Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake).
+Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Fractal).
 ## Introduction
 Mathematical abstractions exist in conceptual reality. The abstractions also can be simulated. 
 Simulation model of mathematical abstraction build as simulation model of physical object.
@@ -11,7 +11,8 @@ decomposition principle which set quasifractal structure of models.
 We shall considered object model of Koch snowflake. The model proposed in work [1], also see [2].
 
 ## Application domain
-Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake)
+
+View on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake)
 
 ## Analysis model
 In UML2 SP, "space" notion is a container to components of system and denoted <<Space>> stereotype. 
@@ -86,9 +87,8 @@ Also, other examples of simulation model of mathematical object see [3].
 ## References
 1.	Gurianov V.I. Object Modeling of Fractal Structures // Mathematical Models and Their Applications: 
 Sat. sci. tr. Issue. 13. - Cheboksary: Publishing house Chuvash. University, 2011.- P. 148-159
-2.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.  
-(In Russian)](http://simulation.su/static/en-books.html)
-3.	]Shamin RV Modern numerical methods in object-oriented presentation in C #, - 2011. (In Russian)](http://www.intuit.ru/studies/courses/671/527/info)
+2.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.(In Russian)](http://simulation.su/static/en-books.html)
+3.	[Shamin RV Modern numerical methods in object-oriented presentation in C #, - 2011. (In Russian)](http://www.intuit.ru/studies/courses/671/527/info)
 
 
 
