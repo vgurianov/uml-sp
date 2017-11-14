@@ -33,7 +33,7 @@ Other features of organism we shall do not discuss.
 A conceptual model in UML2 SP is an analysis class diagram. 
 This diagram considered as ontology. Model the multicellular organism system is depicted in Fig.1.
 <p><img src="OrganismClassDiagram.png" alt="" /></p>
-Figure 2. The class diagram<br/>
+Figure 1. The class diagram<br/>
 
 ### Description of a computational semantics
 A one-dimensional structure of organism simulate as a linked list of instance of Leaf class. 
