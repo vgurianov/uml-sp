@@ -63,8 +63,24 @@ The Initiator is initial object. If initiator is line then shall constructe Koch
 The Koch snowflake can be constructed by starting with an equilateral triangle.
 
 ### Infinitesimal and ordinary elements
-If bottom tier consist instance of Lief class the object is quasifractal.
-If bottom tier consist instance of Node class the object is fractal. It is potencial infinity object.
+If bottom tier consist instance of `Lief` class the object is quasifractal.
+If bottom tier consist instance of `Node` class the object is fractal. It is potencial infinity object.
+Now we represent simple example of non-standard element. 
+Infinitely large linked list is a list such that has "rewrite" operation. Let `List` be class of linked list. 
+For `List`, defined next rewrite operation:
+```
+void leftRewrite() {
+Item *ni = new Item;
+ni->left = NULL;
+ni->reght = head;
+head = ni;
+} ,
+``` 
+where head is head of linked list.
+We can be define `insertItem()` or `deleteItem()` or other operation unless it do not conflict to `rewrite` operation. 
+In considered case, it's posible.
+Infinitely large linked list is an infinitely large element. Also, first item of list is an infinitely large element 
+but item of list tail isn't an infinitely large element.
 
 ## Verification
 First two a step can calculate to hand. In first step, e = 1/3 and n = 3*4 = 12, 
