@@ -85,10 +85,13 @@ Infinitely large linked list is a non-standard element. Also, first item of list
 but item of list tail isn't a non-standard element.
 
 ## Verification
-First two a step can calculate to hand. In first step, e = 1/3 and n = 3x4 = 12, 
-d =lnN(e)/ln(1/e) = 2,48490665/1,098612289 = 2,261859507.<br/> 
-In second step, e = (1/3)/3 = 1/9 and 4x4x3 = 48, d = 3,871201011/ 2,197224577= 1,761859507.<br/>  
-In general, ep = 1/3p and np = 2(2p)*3. In this way lim (ln(n(e))/ln(1/e)) = 2x(ln2/ln3) = 1, 262.<br/> 
+Let e be a length of covering, let n be an amount of elements of covering. 
+First two a step can calculate to hand. In the first step, e = 1/3 and n = 3x4 = 12, 
+d =lnN(e)/ln(1/e) = 2.48490665/1.098612289 = 2.261859507.<br/> 
+In the second step, e = (1/3)/3 = 1/9 and 4x4x3 = 48, d = 3.871201011/ 2.197224577= 1.761859507.<br/>  
+In general, 
+<p><img src="lim.png" alt="" /></p> 
+In this way, accurate value d is 1.262<br/> 
 The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value Hausdorff dimension.
 <p><img src="Screenshot.png" alt="" /></p>
 Figure 2. Results of measurement to simulation model<br/>
