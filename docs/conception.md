@@ -25,7 +25,8 @@ For example, the “author The Adventures of Tom Sawyer” situation  is modeled
 - UML-element "Class" for class:<br/>
 Tagged value *Concept* is notion, meaning of term.<br/> 
 Tagged value *ID* is designation of notion. Conveniently designation of notion denotes as name of class then this tagged value can hide on diagram.<br/>
-Attributes and operations also define concepts and as rule hidden on diagram, but those elements locate in model.
+
+Attributes and operations also define concepts and as rule hidden on diagram but those elements locate in model.
 <p><img src="define/MarkTwin1.png" alt="" /></p>
 <br/>
 
