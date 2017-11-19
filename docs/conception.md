@@ -1,7 +1,7 @@
 # UML2 SP conception
 The UML2 SP is result of development of conception represent in work (Richter et al. 2000) 
-but include a series of principal new ideas. 
-A foundation UML2 SP consist a three principles: communicative paradigm, double semantics, and semiotic approach.
+but include a series of significantly new ideas. This is a three principles: communicative paradigm, double semantics, 
+and semiotic approach.
 
 **Communicative paradigm.** 
 Any object of reality is a communicative process consist a communicative acts. It is an abstraction like a matematical abstration.
@@ -32,6 +32,6 @@ Attributes and operations also define concepts and as rule hidden on diagram, bu
 If object or class has SP-stereotype then it is considered as frame by [Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). It much similar to description of ontology in [Protégé](http://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html). Not all classes are frames; most classes are defining of types of slots. Slots define semantics of these classes. A type is a set of value and authorized operations.
 
 ## References
-Richter H. and Marz L. 2000 "Toward a standard process: The use of UML for designing simulation models." In *Proceedings of the 2000 Winter Simulation Conference*
+[Richter H. and Marz L. 2000 "Toward a standard process: The use of UML for designing simulation models." In *Proceedings of the 2000 Winter Simulation Conference*](http://informs-sim.org/wsc00papers/056.PDF)
  
 
