@@ -91,7 +91,7 @@ In the first step, *e* = 1/3 and *n* = 3x4 = 12,*d* =ln*N(e)*/ln(1/*e*) = 2.4849
 In the second step, *e* = (1/3)/3 = 1/9 and *n* = 4x4x3 = 48, *d* = 3.871201011/ 2.197224577= 1.761859507.<br/>In general, 
 <p><img src="lim.png" alt="" /></p> 
 In this way, accurate value *d* is 1.262<br/> 
-The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value Hausdorff dimension.
+The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value of Hausdorff dimension.
 <p><img src="Screenshot.png" alt="" /></p>
 Figure 2. Results of measurement to simulation model<br/>
 As we see, the measurement value of Hausdorff dimension converges to accurate value.
