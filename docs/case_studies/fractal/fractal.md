@@ -77,10 +77,10 @@ head = ni;
 } ,
 ``` 
 where head is head of linked list.
-We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to `rewrite` operation. 
+We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to "rewrite" operation. 
 In considered case, it's posible.<br/>
-Infinitely large linked list is an infinitely large element. Also, first item of list is an infinitely large element 
-but item of list tail isn't an infinitely large element.
+Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
+but item of list tail isn't a non-standard element.
 
 ## Verification
 First two a step can calculate to hand. In first step, e = 1/3 and n = 3x4 = 12, 
