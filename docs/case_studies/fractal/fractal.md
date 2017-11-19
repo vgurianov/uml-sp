@@ -76,7 +76,7 @@ ni->reght = head;
 head = ni;
 } ,
 ``` 
-where head is head of linked list.
+where *head* variable is head of linked list.
 We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to "rewrite" operation. 
 In considered case, it's posible.<br/>
 Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
