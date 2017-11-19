@@ -79,8 +79,8 @@ head = ni;
 ``` 
 where *head* variable is head of linked list.
 We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to rewrite operation. 
-The *leftRewrite()* operation extend *List* class of finite linked list, added non-standard element.
-In considered case, it's posible.<br/>
+The *leftRewrite()* operation extend *List* class of finite linked list(a program class is a set in mathematics), 
+added non-standard element. In considered case, it's posible.<br/>
 Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
 but item of list tail isn't a non-standard element.
 
