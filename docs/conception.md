@@ -9,10 +9,10 @@ We regard the history of object-oriented approach as a history of a discovery of
 
 **Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communicative process and a computinal simulation is communicative process. In simulation a communicative process is general abstration, it is an invariant.
 
-In application domain semantics Analysis Class Diagram is an ontology of application domain. In computinal semantics Analysis Class Diagram is model of program.
+In application domain semantics, Analysis Class Diagram is an ontology of application domain. In computinal semantics, Analysis Class Diagram is model of program.
 
 **Semiotic approach.** 
-The triangle of reference (a semantic triangle) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype *AbstractConceptualElement*. The “referent” is a stereotype, the “meaning” is a tagged value of *Concept*, and “symbol” is a tagged value of *ID*. All stereotypes of UML2 SP are children *AbstractConceptualElement* stereotype.
+The [triangle of reference (a semantic triangle)](https://en.wikipedia.org/wiki/Triangle_of_reference) is a triangle: Symbol—Meaning— Thing (a referent). The triangle we consider as a model of stereotype. It is abstract stereotype *AbstractConceptualElement*. The “referent” is a stereotype, the “meaning” is a tagged value of *Concept*, and “symbol” is a tagged value of *ID*. All stereotypes of UML2 SP are children *AbstractConceptualElement* stereotype.
 For example, the “author The Adventures of Tom Sawyer” situation  is modeled as
 <p><img src="define/MarkTwin.png" alt="" /></p>
 
