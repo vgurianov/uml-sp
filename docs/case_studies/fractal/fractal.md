@@ -67,7 +67,7 @@ If bottom tier consist instance of *Lief* class then object is a quasifractal.<b
 If bottom tier consist instance of *Node* class then object is a fractal. It is potencial infinity object.<br/>
 
 Now we represent simple example of non-standard element.<br/> 
-Infinitely large linked list is a list such that has rewrite operation. Let *List* be class of linked list. 
+Infinitely large linked list is a list such that has rewrite operation. Let *List* be class of linked list, let *Item* be class of list item. 
 For *List*, defined next rewrite operation:
 ```
 void leftRewrite() {
