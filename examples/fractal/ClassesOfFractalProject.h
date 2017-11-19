@@ -53,7 +53,6 @@ public:
 	 *  ***
 	 *  Concept =
 	 * ***************************************************/
-//enum MyColor {Blonde, Redhead, Brown};  // for Leaf
 class Leaf : public Component {
 public:
 //	MyColor peculiarity;
@@ -108,9 +107,9 @@ public:
 	a->tierNumber = tierNumber+1; b->tierNumber = tierNumber+1; c->tierNumber = tierNumber+1; d->tierNumber = tierNumber+1;
 	double lt = lenght/3;
 	a->lenght = lt; b->lenght = lt; c->lenght = lt; d->lenght = lt;
-	a->right = b; b->right = c; c->right = d; d->right = NULL; // ломанная
+	a->right = b; b->right = c; c->right = d; d->right = NULL; // broken line
 	d->left = c; c->left = b; b->left = a; a->left = NULL;
-	// восстанавливаем связанность с текущим ярусом:
+	// topological links
 	//a->left = left; d->right = right;
 	//left = a; right = d;
 	component = a;
