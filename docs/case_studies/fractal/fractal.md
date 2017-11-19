@@ -63,6 +63,9 @@ The Initiator is initial object. If initiator is line then shall constructe Koch
 The Koch snowflake can be constructed by starting with an equilateral triangle.
 
 ### Non-standard elements
+As mentioned above, for simulation of mathematical objects must use notions of non-standard analysis.
+Object is non-standard element whenever can be executed rewrite operation. 
+For action to non-standard element, must remember this.
 If bottom tier consist instance of *Lief* class then object is a quasifractal.<br/>
 If bottom tier consist instance of *Node* class then object is a fractal. It is potencial infinity object.<br/>
 
