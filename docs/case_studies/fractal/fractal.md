@@ -62,11 +62,12 @@ The "AbstractRoot" frame define "Initiator" concept.
 The Initiator is initial object. If initiator is line then shall constructe Koch curves.
 The Koch snowflake can be constructed by starting with an equilateral triangle.
 
-### Non-standard and standard elements
+### Non-standard elements
 If bottom tier consist instance of *Lief* class then object is a quasifractal.<br/>
 If bottom tier consist instance of *Node* class then object is a fractal. It is potencial infinity object.<br/>
+
 Now we represent simple example of non-standard element.<br/> 
-Infinitely large linked list is a list such that has "rewrite" operation. Let *List* be class of linked list. 
+Infinitely large linked list is a list such that has rewrite operation. Let *List* be class of linked list. 
 For *List*, defined next rewrite operation:
 ```
 void leftRewrite() {
@@ -77,7 +78,7 @@ head = ni;
 } ,
 ``` 
 where *head* variable is head of linked list.
-We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to "rewrite" operation. 
+We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to rewrite operation. 
 In considered case, it's posible.<br/>
 Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
 but item of list tail isn't a non-standard element.
