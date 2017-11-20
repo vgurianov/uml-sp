@@ -15,11 +15,12 @@ A procedure of construction of the Koch snowflake includes next steps:
 - choose initiator and generator (see Fig.1);
 - apply generator (see Fig.1);
 - change the scale of the generator to 1/3
+
 and replace previous two step n times.
 <p><img src="apply_generator.png" alt="" /></p>
 Figure 1. Apply generator<br/>
 
-More info view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake)
+More info view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake).
 
 ## Analysis model
 In UML2 SP, "space" notion is a container to components of system and denoted <<Space>> stereotype. 
