@@ -11,8 +11,15 @@ decomposition principle which set quasifractal structure of models.
 We shall considered object model of Koch snowflake. The model proposed in work [1], also see [2].
 
 ## Application domain
+A procedure of construction of the Koch snowflake includes next steps:
+- choose initiator and generator (see Fig.1);
+- apply generator (see Fig.1);
+- change the scale of the generator to 1/3
+and replace previous two step n times.
+<p><img src="apply_generator.png" alt="" /></p>
+Figure 1. Apply generator<br/>
 
-View on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake)
+More info view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake)
 
 ## Analysis model
 In UML2 SP, "space" notion is a container to components of system and denoted <<Space>> stereotype. 
@@ -20,10 +27,10 @@ But simulation model of mathematical object of "space" don't isn't <<Space>> cla
 Mathematical objects are objects of mental realty and simulate as objects of physical realty. 
 <<Exist>> stereotype mean an operation to mathematical object.
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
-Model the fractal is depicted in Fig.1.
+Model the fractal is depicted in Fig.2.
 
 <p><img src="FractalClassDiagram.png" alt="" /></p>
-Figure 1. The class diagram<br/>
+Figure 2. The class diagram<br/>
 
 ### Description of a computational semantics
 All objects of class have parallel threads.
@@ -85,18 +92,20 @@ We can be define *insertItem()* or *deleteItem()* or other operation unless it d
 The *leftRewrite()* operation extend *List* class of finite linked list(a program class is a set in mathematics), 
 added non-standard element. In considered case, it's posible.<br/>
 Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
-but item of list tail isn't a non-standard element.
+but item of list tail isn't a non-standard element.<br/>
+If List class has "divide" operation then Item class define infinitesimal elements. 
 
 ## Verification
 We denote the Hausdorff dimension by *d*. Let *e* be a length of covering, 
 let *n* be an amount of elements of covering. First two a step can calculate to hand.<br/> 
-In the first step, *e* = 1/3 and *n* = 3x4 = 12,*d* =ln*N(e)*/ln(1/*e*) = 2.48490665/1.098612289 = 2.261859507.<br/> 
-In the second step, *e* = (1/3)/3 = 1/9 and *n* = 4x4x3 = 48, *d* = 3.871201011/ 2.197224577= 1.761859507.<br/>In general, 
+In the first step, *p* = 1, *e* = 1/3, *n* = 3x4 = 12, *d* =ln*N(e)*/ln(1/*e*) = 2.48490665/1.098612289 = 2.261859507.<br/> 
+In the second step, *p* = 2, *e* = (1/3)/3 = 1/9, *n* = 4x4x3 = 48, *d* = 3.871201011/ 2.197224577= 1.761859507.<br/>
+In this way, 
 <p><img src="lim.png" alt="" /></p> 
-In this way, accurate value *d* is 1.262<br/> 
-The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value of Hausdorff dimension.
+i.e., accurate value *d* is 1.262<br/> 
+The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value of Hausdorff dimension, eps is *e*.
 <p><img src="Screenshot.png" alt="" /></p>
-Figure 2. Results of measurement to simulation model<br/>
+Figure 3. Results of measurement to simulation model<br/>
 As we see, the measurement value of Hausdorff dimension converges to accurate value.
 
 ## The simulation model in C++ code:  
