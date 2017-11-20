@@ -16,7 +16,7 @@ A procedure of construction of the Koch snowflake includes next steps:
 - apply generator (see Fig.1);
 - change the scale of the generator to 1/3
 
-and replace previous two step n times.
+and replace previous two steps *n* times.
 <p><img src="apply_generator.png" alt="" /></p>
 Figure 1. Apply generator<br/>
 
