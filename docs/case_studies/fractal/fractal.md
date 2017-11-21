@@ -16,7 +16,8 @@ A procedure of construction of the Koch snowflake includes next steps:
 - apply generator (see Fig.1);
 - change the scale of the generator to 1/3
 
-and replace previous two steps *n* times.
+and replace previous two steps *n* times. The polygon tends to Koch snowflake as n → ∞.<br/>
+It’s necessary define a value of Hausdorff dimension.
 <p><img src="apply_generator.png" alt="" /></p>
 Figure 1. Apply generator<br/>
 
@@ -61,6 +62,7 @@ Generator is object which realise next process:
 1. divide the line segment into three segments of equal length.
 2. draw an equilateral triangle that has the middle segment from step 1 as its base and points outward.
 3. remove the line segment that is the base of the triangle from step 2.
+
 Method run this process is "revrite()" .
 "isLeaf" slot define "Is leaf" concept. It have "true" value if object lie bottom tier.
 The generator construct the Koch curve.
