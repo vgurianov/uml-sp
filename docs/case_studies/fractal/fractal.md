@@ -7,19 +7,19 @@ Simulation of mathematical abstraction has many general with [constructive mathe
 Also, for simulation of mathematical objects are useful notions and ideas [non-standard analysis](https://en.wikipedia.org/wiki/Non-standard_analysis), 
 first of all notion of infinitesimal element.
 We shall discuss mathematical objects such as geometric fractals because main principle SSP methodology is 
-decomposition principle which set quasifractal structure of models. 
-We shall considered object model of Koch snowflake. The model proposed in work [1], also see [2].
+decomposition principle which set approximate fractal structure of models. 
+We shall considered object model of the Koch snowflake. The model proposed in work [1], also see [2].
 
 ## Application domain
-A procedure of construction of the Koch snowflake includes next steps:
+A procedure of construction of the the Koch snowflake includes next steps:
 - choose initiator and generator (see Fig.1);
 - apply generator (see Fig.1);
 - change the scale of the generator to 1/3
 
-and replace previous two steps *n* times. The polygon tends to Koch snowflake as n → ∞.<br/>
-It’s necessary define a value of Hausdorff dimension.
+and replace previous two steps *n* times. The polygon tends to the Koch snowflake as *n* → ∞.<br/>
+It’s necessary define a value of fractal dimension.
 <p><img src="apply_generator.png" alt="" /></p>
-Figure 1. Apply generator<br/>
+Figure 1. Applying generator<br/>
 
 More info view on [Wikipedia](https://en.wikipedia.org/wiki/Koch_snowflake).
 
@@ -76,7 +76,7 @@ The Koch snowflake can be constructed by starting with an equilateral triangle.
 As mentioned above, for simulation of mathematical objects must use notions of non-standard analysis.
 Object is non-standard element whenever can be executed rewrite operation. 
 For action to non-standard element, must remember this.<br/>
-If bottom tier consist instance of *Lief* class then object is a quasifractal.<br/>
+If bottom tier consist instance of *Lief* class then object is a approximate fractal.<br/>
 If bottom tier consist instance of *Node* class then object is a fractal. It is potencial infinity object.<br/>
 
 Now we represent simple example of non-standard element.<br/> 
@@ -96,20 +96,20 @@ The *leftRewrite()* operation extend *List* class of finite linked list(a progra
 added non-standard element. In considered case, it's posible.<br/>
 Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
 but item of list tail isn't a non-standard element.<br/>
-If List class has "divide" operation then Item class define infinitesimal elements. 
+If *List* class has "divide" operation then *Item* class define infinitesimal elements. 
 
 ## Verification
-We denote the Hausdorff dimension by *d*. Let *e* be a length of covering, 
+We denote the box-counting dimension by *d*. Let *e* be a length of covering, 
 let *n* be an amount of elements of covering. First two a step can calculate to hand.<br/> 
 In the first step, *p* = 1, *e* = 1/3, *n* = 3x4 = 12, *d* =ln*N(e)*/ln(1/*e*) = 2.48490665/1.098612289 = 2.261859507.<br/> 
 In the second step, *p* = 2, *e* = (1/3)/3 = 1/9, *n* = 4x4x3 = 48, *d* = 3.871201011/ 2.197224577= 1.761859507.<br/>
 In this way, 
 <p><img src="lim.png" alt="" /></p> 
 i.e., accurate value *d* is 1.262<br/> 
-The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value of Hausdorff dimension, eps is *e*.
+The result of measurement to simulation model is shown on Fig. 3, where Dt is accurate value of box-counting dimension, eps is *e*.
 <p><img src="Screenshot.png" alt="" /></p>
 Figure 3. Results of measurement to simulation model<br/>
-As we see, the measurement value of Hausdorff dimension converges to accurate value.
+As we see, the measurement value of box-counting dimension converges to accurate value.
 
 ## The simulation model in C++ code:  
 [ClassesOfFractalProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.h), 
