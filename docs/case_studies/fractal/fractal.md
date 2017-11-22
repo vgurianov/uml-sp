@@ -92,10 +92,8 @@ head = ni;
 ``` 
 where *head* variable is head of linked list.
 We can be define *insertItem()* or *deleteItem()* or other operation unless it do not conflict to rewrite operation. 
-The *leftRewrite()* operation extend *List* class of finite linked list(a program class is a set in mathematics), 
-added non-standard element. In considered case, it's posible.<br/>
-Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element 
-but item of list tail isn't a non-standard element.<br/>
+The *leftRewrite()* operation extend *List* class of finite linked list (a program class is a set in mathematics), 
+added non-standard element. In considered case, it's posible. Infinitely large linked list is a non-standard element. Also, first item of list is a non-standard element but item of list tail isn't a non-standard element.<br/>
 If *List* class has "divide" operation then *Item* class define infinitesimal elements. 
 
 ## Verification
@@ -116,7 +114,7 @@ As we see, the measurement value of box-counting dimension converges to accurate
 [ClassesOfFractalProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.cpp)
 
 ## Conclusion
-In this section considered object model of Koch snowflake. This model can use to construct other fractals such as Cantor ternary set and more complex.<br/>
+In this section considered object model of the Koch snowflake. This model can use to construct other fractals such as the Cantor ternary set and more complex.<br/>
 Also, other examples of simulation model of mathematical objects see [3]. 
 
 ## References
