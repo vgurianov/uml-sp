@@ -1,6 +1,6 @@
 # UML2 SP conception
 The UML2 SP is result of development of conception represent in work (Richter et al. 2000) 
-but include a series of significantly new ideas. This is the following three  provisions: communicative paradigm, 
+but include a series of significantly new ideas. This is the following three  propositions: communicative paradigm, 
 double semantics, and semiotic approach.
 
 **Communicative paradigm.** 
