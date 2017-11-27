@@ -17,7 +17,7 @@ A procedure of construction of the the Koch snowflake includes next steps:
 - change the scale of the generator to 1/3
 
 and replace previous two steps *n* times. The polygon tends to the Koch snowflake as *n* → ∞.<br/>
-It’s necessary define a value of fractal dimension.
+It’s necessary measure a value of fractal dimension.
 <p><img src="apply_generator.png" alt="" /></p>
 Figure 1. Applying generator<br/>
 
