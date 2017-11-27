@@ -1,15 +1,15 @@
 # Mechanical motion
-Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Fractal).
+Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Classical_mechanics).
 ## Introduction
- [Computational physics] (https://en.wikipedia.org/wiki/Computational_physics) large wide use to modern scientific research.  
- However, models of computational physics are not simulation models. The simulation model reproduces the message exchange protocol
- between the components of the system under study. Somewhat simplifying, we can say that the simulation model and 
- the object of study should have the same behavioral algorithm. The numerical model reproduces operations with numbers and, 
- in general, modeling mathematical object. For example, solving the equations of Newton's motion, 
- the numerical model reproduces not the motion of a point particle, but the process of solving a differential equation. 
- In this way, where is a problem of development of physical simulation models. 
- You can object, in physics have been created many qualitative mathematical models, modern numerical methods are effective, 
- and researcher no need to other approaches. With it we can argue - a new approach always eventually gives something new.
+ [Computational physics](https://en.wikipedia.org/wiki/Computational_physics) large wide use to modern scientific research.  
+ However, models of computational physics are not simulation models. The simulation model reproduces the message exchange protocol between the components of the system under study. Somewhat simplifying, we can say that the simulation model and 
+the object of study should have the same behavioral algorithm. The numerical model reproduces operations with numbers and, 
+in general, modeling mathematical object. For example, solving the equations of Newton's motion, 
+the numerical model reproduces not the motion of a point particle, but the process of solving a differential equation. 
+In this way, where is a problem of development of physical simulation models. 
+You can object, in physics have been created many qualitative mathematical models, modern numerical methods are effective, 
+and researcher no need to other approaches. With it we can argue - a new approach always eventually gives something new.
+
 In this section, we shall discuss simulation in physics.The simulation model of classical mechanical motion was propose 
 in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion in discrete space-time.
 ## Related Works
@@ -34,6 +34,17 @@ In UML2 SP, "space" notion is a container to components of system and denoted by
 All objects of class have parallel threads.
 
 #### Description of an application domain semantics
+
+- Matter
+The “Component” frame define “Matter” concept. In the classical physics, [matter](https://en.wikipedia.org/wiki/Matter) is any substance that has mass and takes up space by having volume. 
+The frame has headItemOfJump and currentItemOfJump slots. It is define “Resource of motion” concept.
+The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
+The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
+Newton's second law. In 1926, Levi proposed the following mechanism action of force [13, P.98]. 
+The force acts on the particle not constantly, but every  sec ( 10-23 sec). 
+On any other particle, whose mass is N times larger, the force acts every N sec.
+
+
 ### 2. Epistemology partition
 
 ## Verification
