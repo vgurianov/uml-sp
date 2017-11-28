@@ -51,6 +51,10 @@ Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 
 ### 2.3. Development of an Analysis classes
+In modern science, description of a model is mathematical description. The UML2 SP provide alternative posible of model description. It is very much useful of whenever a mathematical model do not be exist.<br/>
+For description of model use an ontology. An ontology is a rigorous language like matematics language. In UML2 SP, an ontology is depicted as a class diagram. Application domain semantics is appointed of  "Concept" tagget value. In matematical text, it is "where" word.<br/>
+We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function. We understend "similar" as "same role" to description of model.
+
 Go "SP Class diagram" tab.<br>
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
