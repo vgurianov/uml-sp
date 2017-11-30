@@ -11,7 +11,7 @@ decomposition principle which set approximate fractal structure of models.
 We shall considered object model of the Koch snowflake. The model proposed in work [1], also see [2].
 
 ## Application domain
-A procedure of construction of the the Koch snowflake includes next steps:
+A procedure of construction of the the Koch snowflake includes the following steps:
 - choose initiator and generator (see Fig.1);
 - apply generator (see Fig.1);
 - change the scale of the generator to 1/3
@@ -58,7 +58,7 @@ taken together, are called a metric on the set. "length" slot define "metric" co
 
 #### Generator
 The "AbstractNode" frame define "Generator" concept. 
-Generator is object which realise next process:
+Generator is object which realise the following process:
 1. divide the line segment into three segments of equal length.
 2. draw an equilateral triangle that has the middle segment from step 1 as its base and points outward.
 3. remove the line segment that is the base of the triangle from step 2.
