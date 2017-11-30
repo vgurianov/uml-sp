@@ -41,8 +41,10 @@ The frame has headItemOfJump and currentItemOfJump slots. It is define “Resour
 The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
 The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
 Newton's second law. In 1926, Levi proposed the following mechanism action of force [13, P.98]. 
-The force acts on the particle not constantly, but every  sec ( 10-23 sec).→ ∞ 
+The force acts on the particle not constantly, but every  sec ( 10-23 sec).→ ∞ א η→∂∞√≥◊א
 On any other particle, whose mass is N times larger, the force acts every N sec.
+
+
 
 
 ### 2. Epistemology partition
