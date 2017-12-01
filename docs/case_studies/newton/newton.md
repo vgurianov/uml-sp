@@ -45,7 +45,7 @@ All objects of class have parallel threads.
 #### Description of an application domain semantics
 We shall give definition of concepts to the ontology. The architecture of the model defines the pattern Composite [14], which defines the hierarchy of nested mechanical subsystems. Unlike the classic pattern [14], aggregation materializes through a linked list with ListItem elements.
 
-- Matter
+##### Matter
 The “Component” frame define “Matter” concept. In the classical physics, [matter](https://en.wikipedia.org/wiki/Matter) is any substance that has mass and takes up space by having volume. 
 The frame has headItemOfJump and currentItemOfJump slots. It is define “Resource of motion” concept.
 The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
@@ -59,7 +59,7 @@ The absorb() method change a state of object Carrier class. The getListOfSkip() 
 <p><img src="fig3.png" alt="" /></p>
 Figure 3. 	Algorithmic recording of Newton's second law
 
-Point particle
+##### Point particle
 The “TreeLeaf” frame define “Point particle” concept. A [point particle](https://en.wikipedia.org/wiki/Point_particle) is 
 an appropriate representation of any object whose size, shape, and structure is irrelevant in a given context.
 The TreeLeaf define both methods absorb() and getListOfSkip(). The absorb() method change direction of Carrier to the contrary. The getListOfSkip() method return a pointer headItemOfSkip.
@@ -79,13 +79,13 @@ The actuate() method make particle is the active
 	currentItemOfJump = headItemOfJump;
 	}
 ```
-- Agent of force
+##### Agent of force
 The “Carrier” frame define “Agent of force” concept. Agent of force is a carrier of interaction. The frame has «Direction» slot. In 1-dimension space, it is field can has two value are backward and forward.
 
-- Cell of space
+##### Cell of space
 The “Composite” frame define “Cell of space” concept. The frame has «left» and «right» slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
 
-- Physical space
+##### Physical space
 The base (the headOfList attribute) and the anchor points (tailOfList attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the ListItem class.
 The space assembly is
 ```
