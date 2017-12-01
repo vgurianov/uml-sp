@@ -33,12 +33,12 @@ In our model, we use a two-layer architecture (see Fig. 1), which allows us to s
 Figure 1. Architectural analysis of the class diagram<br/>
 Package Epistemology Entity. This package defines the procedure for measuring the main characteristics of the mechanical movement - time, position, speed and acceleration.
 Package Ontology Entity. This package has the marked meaning "Classical mechanics" in the sense that by theory we mean the classification of mechanical systems.
-<p><img src="fig2.png" alt="" /></p>
-Figure 2. The class diagram<br/>
 
 ### 1. Ontology partition
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
-Model a mechanical motion is depicted in Fig.1.  
+Model a mechanical motion is depicted in Fig.2.  
+<p><img src="fig2.png" alt="" /></p>
+Figure 2. The class diagram<br/>
 
 #### Description of a computational semantics
 All objects of class have parallel threads.
@@ -51,7 +51,7 @@ The “Component” frame define “Matter” concept. In the classical physics,
 The frame has headItemOfJump and currentItemOfJump slots. It is define “Resource of motion” concept.
 The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
 The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
-Newton's second law. In 1926, Levi proposed the following mechanism action of force [13, P.98]. 
+**Newton's second law.** In 1926, Levi proposed the following mechanism action of force [13, P.98]. 
 The force acts on the particle not constantly, but every τ sec (τ~E-23 sec).
 On any other particle, whose mass is N times larger, the force acts every Nτ sec.
 We use the Carrier class such that generates new instances of the headItemOfJump list. The Component class has both headItemOfSkip and currentItemOfSkip fields of type Skip. This list simulates the inertia of a particle when skips objects of Carrier. A quantity of skip is quantity elements in the headItemOfSkip list (see Fig.3). If ‘currentItemOfSkip’ list end then object of Carrier is processed. The changeMove() method change length of the list. 
