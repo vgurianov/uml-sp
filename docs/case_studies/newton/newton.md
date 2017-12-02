@@ -120,13 +120,13 @@ this->Stabilize();
 		delete this;
 		 };
 ```
-The interaction() method define particles interaction. It method is abstract method and must defined to concrete classes.  For this method defined constraint. 
+The interaction() method define particles interaction. It method is abstract method and must defined to concrete classes.  For this method defined constraint.<br/> 
 **Newton’s third law.** This law is specified as a constraint: the doImpact() method can only be used in pairs. For example, the following pair of interactions
 ```
 f = p-> doImpact (f); // p - the point particle 
 f = headOfList-> something-> doImpact(f); // massive body
 ```
-The move() method define a motion of particles.
+The move() method define a motion of particles.<br/>
 **Newton's first law.** To solve the isotachy problem, we used a somewhat modified theory of mechanical motion in discrete space-time, proposed by Beck in 1929 [13, P.28]. 
 The essence of this theory is as follows. A moving point particle has some stock of motion, which in our case is modeling by a linked list from Jump instances. The faster particles have a longer list. The move() method of the AbstractTreeNode class executes a single jump (replace (b, p) method), after which the list is reduced by one position (the "Exist" Run() method of the TreeLeaf class). If the list is exhausted, the particle is deactivating and will no longer move. The move() method is called many times, so that all the particles finish moving. The call() loop is organized as a linked list of the Temp class instances. In detail, this mechanism is discuses in [11]. 
 <p><img src="fig4.png" alt="" /></p>
@@ -158,18 +158,20 @@ Specific ConcreteSubject classes define reference frames (RF) of different kinds
 
 2.2. Natural and standard units of measurement. 
 Measurements in discrete models are much more convenient to carry out in natural units of measurement. Let us give the formulas for the conversion of natural units of measure to standard ones and back.
-The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = lꞌ / λ, m [g] = mꞌ / μ, t [s] = tꞌ / τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the resolution of the model.
-Consider the derived units. The speed is expressed in the number of v instances of the Jump class in the motion amount list; v [cm / s] = (τ/λ) v or v = (λ/τ)v. Acceleration is also expressed in the number of a instances of the Jump class, because this is the difference of the two lists of momentum; a [cm / s2] = a х t2/l,. Force is the quantity of F acts of interaction: [dyne, g • cm / s²] = ma = m/m * (t2/l) a = t2/(ml) F. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = t2/(ml) F * s/l = (t/l)2/m * A.
+The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = l'/λ, m [g] = m'/μ, t [s] = t'/τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the resolution of the model.
+Consider the derived units. The speed is expressed in the number of v' instances of the Jump class in the motion amount list; v [cm / s] = (τ/λ) v' or v' = (λ/τ)v. Acceleration is also expressed in the number of a instances of the Jump class, because this is the difference of the two lists of momentum; a [cm / s2] = a х t2/l,. Force is the quantity of F acts of interaction: [dyne, g • cm / s²] = ma = m'/m * (t2/l) a' = t2/(ml) F. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = t2/(ml) F * s/l = (t/l)2/m * A.
 
 ## Verification
 Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6).
 <p><img src="fig6.png" alt="" /></p>
 Figure 6. Concrete classes diagram<br/>
 
-The resolution of the model is λ= 10, μ = 1, τ = 10. Two particles with masses m1 = 2 g (1 Skip) and m2 = 1 g (no Skip - empty list) interact so that the repulsive force is independent of distance and is F = (μλ)/τ²  F = 102 / (1 * 10) = 10 dynes (2 acts of interaction, the minimum packet that does not violate the integrity of the quantum of existence of the system). These values are chosen because they define the minimal interaction model.
+We consider model of two particles.
+The resolution of the model is λ= 10, μ = 1, τ'τ = 10. Two particles with masses m1 = 2 g (1 Skip) and m2 = 1 g (no Skip - empty list) interact so that the repulsive force is independent of distance and is F = (μλ)/τ²  F = 102 / (1 * 10) = 10 dynes (2 acts of interaction, the minimum packet that does not violate the integrity of the quantum of existence of the system). These values are chosen because they define the minimal interaction model.
 
 <p><img src="fig7.png" alt="" /></p>
 Figure 7. The graph of the motion of a pair of particles and the change in the potential, kinetic, and total energy of the system<br/>
+
 In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 3 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).
 The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods. 
 
