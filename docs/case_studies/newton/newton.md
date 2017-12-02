@@ -153,6 +153,7 @@ The Subject class has an array of rf pointers of type Item.
 The model of the measuring device create based on the Observer pattern [14]. The Notify () method of the Subject class is called from the "Exist" Run () method of the AbstractTreeNode class after all mechanical processes are completed.
 <p><img src="fig5.png" alt="" /></p>
 Figure 5. Model of measuring system<br/>
+
 Specific ConcreteSubject classes define reference frames (RF) of different kinds, for example, inertial reference frames (IRF), non-inertial RF (NRF), frames with non-card coordinates, etc. Next, we will mainly use IRF.
 
 
@@ -160,8 +161,8 @@ Specific ConcreteSubject classes define reference frames (RF) of different kinds
 #### 2. Natural and standard units of measurement 
 
 Measurements in discrete models are much more convenient to carry out in natural units of measurement. Let us give the formulas for the conversion of natural units of measure to standard ones and back.
-The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = l'/λ, m [g] = m'/μ, t [s] = t'/τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the resolution of the model.
-Consider the derived units. The speed is expressed in the number of v' instances of the Jump class in the motion amount list; v [cm/s] = (τ/λ)v' or v' = (λ/τ)v. Acceleration is also expressed in the number of a' instances of the Jump class, because this is the difference of the two lists of momentum; a[cm/s2] = a' х τ²/λ,. Force is the quantity of F' acts of interaction: F[dyne, g • cm/s²] = ma = m'/μ х (τ²/λ)a' = τ²/(μλ) х F'. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = τ²/(μ λ)F' х s'/λ = (τ/λ)²/μ х A'.
+The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = l'/λ, m [g] = m'/μ, t [s] = t'/τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the *resolution of the model*.<br/>
+Consider the derived units. The speed is expressed in the number of v' instances of the Jump class in the motion amount list; v [cm/s] = (τ/λ)v' or v' = (λ/τ)v. Acceleration is also expressed in the number of a' instances of the Jump class, because this is the difference of the two lists of momentum; a[cm/s2] = a' х τ²/λ. Force is the quantity of F' acts of interaction: F[dyne, g • cm/s²] = ma = m'/μ х (τ²/λ)a' = τ²/(μλ) х F'. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = τ²/(μ λ)F' х s'/λ = (τ/λ)²/μ х A'.
 
 ## Verification
 Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6).
@@ -169,7 +170,7 @@ Verification of the model was carried out on typical problems of mechanics: the 
 Figure 6. Concrete classes diagram<br/>
 
 We consider model of two particles.
-The resolution of the model is λ= 10, μ = 1, τ = 10. Two particles with masses m1 = 2 g (1 Skip) and m2 = 1 g (no Skip - empty list) interact so that the repulsive force is independent of distance and is F = (μλ)/τ² × F = 102 / (1 × 10) = 10 dynes (2 acts of interaction, the minimum packet that does not violate the integrity of the quantum of existence of the system). These values are chosen because they define the minimal interaction model.
+The resolution of the model is λ= 10, μ = 1, τ = 10. Two particles with masses m1 = 2 g (1 Skip) and m2 = 1 g (no Skip - empty list) interact so that the repulsive force is independent of distance and is F = τ²/(μλ) × F' = 10²/(1×10) × 1 = 10 dynes (use packet include 2 acts of interaction, the minimum packet that does not violate the integrity of the quantum of existence of the system). These values are chosen because they define the minimal interaction model.
 
 <p><img src="fig7.png" alt="" /></p>
 Figure 7. The graph of the motion of a pair of particles and the change in the potential, kinetic, and total energy of the system<br/>
