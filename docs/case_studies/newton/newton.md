@@ -138,8 +138,8 @@ The doImpact() method simulate act of external force to mechanical system and ca
 ##### Newton's universe
 The “TreeRoot” frame define “Newton's universe” concept. The TreeRoot class specifies the initial and boundary conditions.
 
-The Newton three laws must supplement by yet two propositions.
-**Collision**. To resolve the collision situation, in the AbstractTreeNode class defined the bump() method. The method is virtual and can substitute in descendants of the AbstractTreeNode class. If a method of the AbstractTreeNode class is caused by then it is an absolutely elastic collision.
+The Newton three laws must supplement by yet two propositions.<br/> 
+**Collision**. To resolve the collision situation, in the AbstractTreeNode class defined the bump() method. The method is virtual and can substitute in descendants of the AbstractTreeNode class. If a method of the AbstractTreeNode class is caused by then it is an absolutely elastic collision.<br/> 
 **Disintegration**. The AbstractTreeNode class defines a private field hasStableState. If this field is false, the system self-destructs. This field can be changed by the procedure stabilize(), which can be substituted in descendants of the AbstractTreeNode classIf the AbstractTreeNode method is caused by then the field is set to true.
 
 
@@ -158,24 +158,20 @@ Specific ConcreteSubject classes define reference frames (RF) of different kinds
 
 2.2. Natural and standard units of measurement. 
 Measurements in discrete models are much more convenient to carry out in natural units of measurement. Let us give the formulas for the conversion of natural units of measure to standard ones and back.
-The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = lꞌ / λ, m [g] = mꞌ / μ, t [s] = tꞌ / τ
-
+The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = lꞌ / λ, m [g] = mꞌ / μ, t [s] = tꞌ / τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the resolution of the model.
+Consider the derived units. The speed is expressed in the number of v instances of the Jump class in the motion amount list; v [cm / s] = (τ/λ) v or v = (λ/τ)v. Acceleration is also expressed in the number of a instances of the Jump class, because this is the difference of the two lists of momentum; a [cm / s2] = a х t2/l,. Force is the quantity of F acts of interaction: [dyne, g • cm / s²] = ma = m/m * (t2/l) a = t2/(ml) F. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = t2/(ml) F * s/l = (t/l)2/m * A.
 
 ## Verification
-We denote the box-counting dimension by *d*. Let *e* be a length of covering, 
-### 1.Continuum
-We show than motion in discrete space passes to motion in continuum.
-We introduce numerical criteria for the closeness of the discrete model of motion toward motion in the continuum. From the requirement of the integrity of the quantum of existence and Newton's laws, the following criteria follow:
-(a) vt >> 1 or  vt >> 1/λ,<br/> 
-(b) F/ m >> 1 or F/m >> τ²/λ,<br/> 
-(c) For two particles m1 / m2  1. In the case of several particles, the worst result take from all pairs of interacting particles.<br/>
-A clear passage to the continuum can see in the following example.
-Let on the point particle, initially at rest, with a mass m = 50 g, a constant force F = 1000 dynes acts.
-On the point particle, initially at rest, with a mass m = 50 g, a constant force F = 1000 dynes acts.
-We first perform the calculation for the resolution λ = 1, μ = 10, τ = 1. Then m = 50 g (500 Skip), the force F = 1000 dyne (F × (μλ)/τ² = 1000 × 10 × 1/1² = 10,000 acts of measurement). The calculation was performed on an interval of 3 sec with a step of 1 s (ie, three cycles); The data of this experiment are shown in Fig. This experiment corresponds to the upper curve (circles), which is approximated by the equation x = 10t² + 10t. The points themselves lie outside the visible region. A continuous curve with the equation x = 10t² describes an analytical solution. For comparison, Euler's method is approximated by the equation x = 10t²-10t.
+Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6).
+<p><img src="fig6.png" alt="" /></p>
+Figure 6. Concrete classes diagram<br/>
+
+The resolution of the model is λ= 10, μ = 1, τ = 10. Two particles with masses m1 = 2 g (1 Skip) and m2 = 1 g (no Skip - empty list) interact so that the repulsive force is independent of distance and is F = (μλ)/τ²  F = 102 / (1 * 10) = 10 dynes (2 acts of interaction, the minimum packet that does not violate the integrity of the quantum of existence of the system). These values are chosen because they define the minimal interaction model.
+
 <p><img src="fig7.png" alt="" /></p>
-Figure 7. Effect of resolution on measurement results<br/>
-Then an experiment was performed with the resolution l = 1, m = 10 , t = 2.. Then m = 50 g (500 Skip), the force F = 1000 dynes (F × (μλ)/τ² = 1000 * 10 * 1/22 = 2500 acts of change). This is a new experiment, because the number of acts of interaction has changed. The calculation is performed for 7 cycles in steps of 0.5 s. On the graph, this data corresponds to the second from above curve (squares), which is approximated by the equation x = 10t² + 5t.
+Figure 7. The graph of the motion of a pair of particles and the change in the potential, kinetic, and total energy of the system<br/>
+In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 3 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).
+The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods. 
 
 ## The simulation model in C++ code:  
 [ClassesOfFractalProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.h), 
