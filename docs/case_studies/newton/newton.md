@@ -13,9 +13,9 @@ and researcher no need to other approaches. With it we can argue - a new approac
 In this section, we shall discuss simulation in physics.The simulation model of classical mechanical motion was propose 
 in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion in discrete space-time.
 ## Related Works
-There are works on simulation modeling in physics but they are few and most part are case studies (see, for example, [1], [2], [3]). These works cannot compete with works of performed in a traditional manner of research.
-There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*.
-This problem is closely related to the problems of digital physics [5](https://en.wikipedia.org/wiki/Digital_physics) and the methods of information physics [6]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
+There are works on simulation modeling in physics but they are few and most part are case studies. These works cannot compete with works of performed in a traditional manner of research.
+There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the book [[]](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics).
+This problem is closely related to the problems of digital physics [[5]](https://en.wikipedia.org/wiki/Digital_physics) and the methods of information physics [6]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
 
 ## Application Domain
 Newton's laws
@@ -31,9 +31,10 @@ More info view on [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_m
 ## Analysis model
 Fundamentals of mechanical motion in discrete space-time were developed in the period of the birth of quantum mechanics []. In our opinion, these views can become a theoretical basis for constructing imitation models. We will not discuss the question of the discreteness of physical space. Our task is to find ways to adequately describe the mechanical motion by means of simulation modeling.<br/>
 
-In our model, we use a two-layer architecture (see Fig. 1), which allows us to separate the components of the model into two levels of abstraction. The lower layer defines abstract model classes (see Figure 3), such as *Component*, *Composite*, and *ListItem*. The *ReusableClassesOfInterface* package contains abstract classes modeling the research installation and the user interface libraries (we use VCL). Top-layer packages define specific classes, such as *ConcreteTreeNode*, *TreeLeaf*, *TreeRoot*, and classes of a specific simulation model. In UML2 SP, an architectural diagram in terms of subject semantics is an interpreted as a conceptual graph
+In our model, we use a two-layer architecture (see Fig. 1), which allows us to separate the components of the model into two levels of abstraction. The lower layer defines abstract model classes (see Figure 3), such as *Component*, *Composite*, and *ListItem*. The *ReusableClassesOfInterface* package contains abstract classes modeling the research installation and the user interface libraries (we use VCL). Top-layer packages define specific classes, such as *ConcreteTreeNode*, *TreeLeaf*, *TreeRoot*, and classes of a specific simulation model. In UML2 SP, an architectural diagram in terms of subject semantics is an interpreted as a conceptual graph.
 <p><img src="fig1.png" alt="" /></p>
 Figure 1. Architectural analysis of the class diagram<br/>
+
 Package «Epistemology Entity». This package defines the procedure for measuring the main characteristics of the mechanical movement - time, position, speed and acceleration. Both packages «Epistemology Entity» and «Research Instruments» named *Epistemology partition*.<br/>
 Package «Ontology Entity». This package has the marked meaning "Classical mechanics" in the sense that by theory we mean the classification of mechanical systems. Both packages «Ontology Entity» and «World» named *Ontology partition*.
 
@@ -192,8 +193,9 @@ In this section considered object model of the Koch snowflake. This model can us
 1. Gurianov V.I. Models of constructive physics in the classical mechanics of a material point. // Mathematical models and their applications: Sat. sci. tr. Issue. 15. - Cheboksary: Publishing house Chuvash. Univ., 2013. - P. 148-159.
 2. Gurianov V.I. Dynamics, Levy’s theory and the inertial mass // Mathematical models and their applications: coll. sci. tr .: is dedicated to the 80th anniversary of the birth of AG Terentyev, Vyp. 18. - Cheboksary: Publishing house Chuvash. Univ., 2016. - P. 221-231.
 3. Gurianov V.I. Verification of discrete model of mechanical motion // Mathematical models and their applications: Sat. sci. tr. Issue. 19. - Cheboksary: Publishing house Chuvash. Univ., 2017. - P. 97-105.
-4. AN Vyaltsev, Discrete space-time. Ed. 3rd, stereotyped. - M .: KomKniga, 2007. - 400 p.
-5. Ozhigov Yu.I. Constructive physics. - SRC "Regular and chaotic dynamics", 2010. - 440 p.
+4. Ozhigov Yu.I. Constructive physics. - SRC "Regular and chaotic dynamics", 2010. - 440 p.
+5. [Structure and Interpretation of Classical Mechanics By Gerald Jay Sussman and Jack Wisdom](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics). Also, see [project on GitHub](https://github.com/hnarayanan/sicm)
 6. Website E. Fredkin on Digital Philosophy, URL: http://www.digitalphilosophy.org/ (Access Date June 15, 2017)
 7. Vstovsky G. V. Elements of Information Physics. Moscow: RIC MGIU, 2002. - 257 p.
+8. AN Vyaltsev, Discrete space-time. Ed. 3rd, stereotyped. - M .: KomKniga, 2007. - 400 p.
 
