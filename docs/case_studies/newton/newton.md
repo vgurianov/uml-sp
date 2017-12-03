@@ -184,11 +184,11 @@ The lower part of the figure shows the graphs of potential (circle), kinetic (sq
 
 ## The simulation model in C++ code: 
 [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.h), 
-[AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.cpp)
+[AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.cpp)<br/>
 [IntermediateLevel.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/IntermediateLevel.h), 
-[IntermediateLevel.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/IntermediateLevel.cpp)
+[IntermediateLevel.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/IntermediateLevel.cpp)<br/>
 [Models.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.h), 
-[Models.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.cpp)
+[Models.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.cpp)<br/>
 [TreeRoot.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.h), 
 [TreeRoot.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.cpp)
 
