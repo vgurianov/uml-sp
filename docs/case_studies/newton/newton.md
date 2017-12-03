@@ -182,9 +182,15 @@ Figure 7. The graph of the motion of a pair of particles and the change in the p
 In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 7 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).
 The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods. 
 
-## The simulation model in C++ code:  
-[ClassesOfFractalProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.h), 
-[ClassesOfFractalProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.cpp)
+## The simulation model in C++ code: 
+[AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.h), 
+[AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.cpp)
+[IntermediateLevel.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/IntermediateLevel.h), 
+[IntermediateLevel.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/IntermediateLevel.cpp)
+[Models.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.h), 
+[Models.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.cpp)
+[TreeRoot.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.h), 
+[TreeRoot.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.cpp)
 
 ## Conclusion
 In this section considered object model of classical mechanic motion in discrete space-time.Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the decay of a freely falling liquid stream, photonic nanostructures, and a number of problems in the theory of impact.
