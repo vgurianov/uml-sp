@@ -15,7 +15,7 @@ in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion i
 ## Related Works
 There are works on simulation modeling in physics but they are few and most part are case studies. These works cannot compete with works of performed in a traditional manner of research.
 There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the [book [5]](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics).
-This problem is closely related to the problems of [digital physics [6]](https://en.wikipedia.org/wiki/Digital_physics) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
+This problem is closely related to the problems of [digital physics [6]](https://en.wikipedia.org/wiki/Digital_physics)(see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
 
 ## Application Domain
 Newton's laws
