@@ -91,7 +91,7 @@ The “Carrier” frame define “Agent of force” concept. Agent of force is a
 The “Composite” frame define “Cell of space” concept. The frame has «left» and «right» slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
 
 ##### Physical space
-The base (the headOfList attribute) and the anchor points (tailOfList attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the ListItem class.
+The base (the headOfList attribute) and the anchor points (tailOfList attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
 The space assembly is
 ```
 for (int i = 0; i < 1000; i++) m[i] = NULL;
@@ -110,7 +110,7 @@ for (int i = 0; i < 1000; i++) m[i] = NULL;
 Further, we confine ourselves to a one-dimensional space. The listShift() and listInversion() method are operations above space.
 
 ##### Mechanical system
-The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation Run(). The <<Exist>>Run() method is
+The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation Run(). The *<<Exist>>Run()* method is
 ```
 	void Run() { //  ** quantum of existence of the system
 
@@ -125,7 +125,7 @@ this->Stabilize();
 		 };
 ```
 The interaction() method define particles interaction. It method is abstract method and must defined to concrete classes.  For this method defined constraint.<br/> 
-**Newton’s third law.** This law is specified as a constraint: the doImpact() method can only be used in pairs. For example, the following pair of interactions
+**Newton’s third law.** This law is specified as a constraint: the *doImpact()* method can only be used in pairs. For example, the following pair of interactions
 ```
 f = p-> doImpact (f); // p - the point particle 
 f = headOfList-> something-> doImpact(f); // massive body
@@ -143,8 +143,8 @@ The *doImpact()* method simulate act of external force to mechanical system and 
 The “TreeRoot” frame define “Newton's universe” concept. The TreeRoot class specifies the initial and boundary conditions.
 
 The Newton three laws must supplement by yet two propositions.<br/> 
-**Collision**. To resolve the collision situation, in the AbstractTreeNode class defined the bump() method. The method is virtual and can substitute in descendants of the AbstractTreeNode class. If a method of the AbstractTreeNode class is caused by then it is an absolutely elastic collision.<br/> 
-**Disintegration**. The AbstractTreeNode class defines a private field hasStableState. If this field is false, the system self-destructs. This field can be changed by the procedure stabilize(), which can be substituted in descendants of the AbstractTreeNode classIf the AbstractTreeNode method is caused by then the field is set to true.
+**Collision**. To resolve the collision situation, in the *AbstractTreeNode* class defined the *bump()* method. The method is virtual and can substitute in descendants of the *AbstractTreeNode* class. If a method of the *AbstractTreeNode* class is caused by then it is an absolutely elastic collision.<br/> 
+**Disintegration**. The AbstractTreeNode class defines a private field hasStableState. If this field is false, the system self-destructs. This field can be changed by the procedure *stabilize()*, which can be substituted in descendants of the *AbstractTreeNode* class. If the *AbstractTreeNode* method is caused by then the field is set to true.
 
 
 ### 2. Epistemology partition
@@ -187,7 +187,9 @@ The lower part of the figure shows the graphs of potential (circle), kinetic (sq
 [ClassesOfFractalProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/fractal/ClassesOfFractalProject.cpp)
 
 ## Conclusion
-In this section considered object model of the Koch snowflake. This model can use to construct other fractals such as the Cantor 
+In this section considered object model of classical mechanic motion in discrete space-time.Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the decay of a freely falling liquid stream, photonic nanostructures, and a number of problems in the theory of impact.
+A comparative analysis of the object model with numerical methods such as the particle method in Harlow cells, the large particle method (the Davydov-Belotserkovsky method), and the molecular dynamics method is performed.<br/>
+In our opinion, the above results allow us to state that the proposed model of mechanical motion adequately describes mechanical processes.
 
 ## References
 1. Gurianov V.I. Models of constructive physics in the classical mechanics of a material point. // Mathematical models and their applications: Sat. sci. tr. Issue. 15. - Cheboksary: Publishing house Chuvash. Univ., 2013. - P. 148-159.
