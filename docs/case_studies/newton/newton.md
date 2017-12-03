@@ -13,7 +13,9 @@ and researcher no need to other approaches. With it we can argue - a new approac
 In this section, we shall discuss simulation in physics.The simulation model of classical mechanical motion was propose 
 in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion in discrete space-time.
 ## Related Works
-
+There are works on simulation modeling in physics but they are few and most part are case studies (see, for example, [1], [2], [3]). These works cannot compete with works of performed in a traditional manner of research.
+There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called algorithmic or *constructive physics*.
+This problem is closely related to the problems of digital physics [5](https://en.wikipedia.org/wiki/Digital_physics) and the methods of information physics [6]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
 
 ## Application Domain
 Newton's laws
@@ -28,11 +30,12 @@ More info view on [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_m
 
 ## Analysis model
 Fundamentals of mechanical motion in discrete space-time were developed in the period of the birth of quantum mechanics []. In our opinion, these views can become a theoretical basis for constructing imitation models. We will not discuss the question of the discreteness of physical space. Our task is to find ways to adequately describe the mechanical motion by means of simulation modeling.<br/>
+
 In our model, we use a two-layer architecture (see Fig. 1), which allows us to separate the components of the model into two levels of abstraction. The lower layer defines abstract model classes (see Figure 3), such as Component, Composite, and ListItem. The ReusableClassesOfInterface package contains abstract classes modeling the research installation and the user interface libraries (we use VCL). Top-layer packages define specific classes, such as ConcreteTreeNode, TreeLeaf, TreeRoot, and classes of a specific simulation model. In UML2 SP, an architectural diagram in terms of subject semantics is an interpreted as a conceptual graph
 <p><img src="fig1.png" alt="" /></p>
 Figure 1. Architectural analysis of the class diagram<br/>
-Package Epistemology Entity. This package defines the procedure for measuring the main characteristics of the mechanical movement - time, position, speed and acceleration.
-Package Ontology Entity. This package has the marked meaning "Classical mechanics" in the sense that by theory we mean the classification of mechanical systems.
+Package «Epistemology Entity». This package defines the procedure for measuring the main characteristics of the mechanical movement - time, position, speed and acceleration. Both packages «Epistemology Entity» and «Research Instruments» named *Epistemology partition*<br/>
+Package «Ontology Entity». This package has the marked meaning "Classical mechanics" in the sense that by theory we mean the classification of mechanical systems. Both packages «Ontology Entity» and «World» named *Ontology partition*.
 
 ### 1. Ontology partition
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
@@ -53,9 +56,9 @@ The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The in
 The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
 **Newton's second law.** In 1926, Levi proposed the following mechanism action of force [13, P.98]. 
 The force acts on the particle not constantly, but every τ sec (τ~E-23 sec).
-On any other particle, whose mass is N times larger, the force acts every Nτ sec.
-We use the Carrier class such that generates new instances of the headItemOfJump list. The Component class has both headItemOfSkip and currentItemOfSkip fields of type Skip. This list simulates the inertia of a particle when skips objects of Carrier. A quantity of skip is quantity elements in the headItemOfSkip list (see Fig.3). If ‘currentItemOfSkip’ list end then object of Carrier is processed. The changeMove() method change length of the list. 
-The absorb() method change a state of object Carrier class. The getListOfSkip() method return a pointer headItemOfSkip. Both methods absorb() and getListOfSkip() are abstract methods and shall be must define in a concrete class. A detailed of algorithmic record of Newton's 2nd law is discussed in [12].
+On any other particle, whose mass is N times larger, the force acts every Nτ sec.<br/>
+We use the *Carrier* class such that generates new instances of the *headItemOfJump* list. The *Component* class has both *headItemOfSkip* and *currentItemOfSkip* fields of type *Skip*. This list simulates the inertia of a particle when skips objects of Carrier. A quantity of skip is quantity elements in the headItemOfSkip list (see Fig.3). If ‘currentItemOfSkip’ list end then object of *Carrier* is processed. The *changeMove()* method change length of the list. 
+The *absorb()* method change a state of object *Carrier* class. The *getListOfSkip()* method return a pointer *headItemOfSkip*. Both methods *absorb()* and *getListOfSkip()* are abstract methods and shall be must define in a concrete class. A detailed of algorithmic record of Newton's 2nd law is discussed in [12].
 
 <p><img src="fig3.png" alt="" /></p>
 Figure 3. Algorithmic recording of Newton's second law<br/>
@@ -63,8 +66,8 @@ Figure 3. Algorithmic recording of Newton's second law<br/>
 ##### Point particle
 The “TreeLeaf” frame define “Point particle” concept. A [point particle](https://en.wikipedia.org/wiki/Point_particle) is 
 an appropriate representation of any object whose size, shape, and structure is irrelevant in a given context.
-The TreeLeaf define both methods absorb() and getListOfSkip(). The absorb() method change direction of Carrier to the contrary. The getListOfSkip() method return a pointer headItemOfSkip.
-The <<Exist>>Run() method define rule of change of isActive value.
+The *TreeLeaf* define both methods *absorb()* and *getListOfSkip()*. The *absorb()* method change direction of *Carrier* to the contrary. The *getListOfSkip()* method return a pointer *headItemOfSkip*.
+The *«Exist»Run()* method define rule of change of *isActive* value.
 ```
 void Run(){
 		if (currentItemOfJump->next != NULL) {
