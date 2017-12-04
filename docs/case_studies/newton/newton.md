@@ -172,7 +172,7 @@ Consider the derived units. The speed is expressed in the number of v' instances
 
 In UML2 SP, Design Model is a formalized description of the modeling object for the purpose of subsequent encoding in one of the programming languages. The simulation model is separated from its the computer implementation. Development of the Design Model is the most time-consuming part of developing a simulation model. As a rule, two problems must be solved.
 
-The first problem is the concurrency problem of Analysis Model. All (material) objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a quasi-parallel algorithms. If selecting concurrent or distributed computing then algorithms are a concurrency algorithms.<br/>
+The first problem is the concurrency problem of Analysis Model. All (material) objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a [parallel algorithms](https://en.wikipedia.org/wiki/Concurrent_computing). If selecting concurrent or distributed computing then algorithms are a concurrency algorithms. And both case, it is necessary prove equivalent these processes.<br/>
 The second problem is the problem of the effectiveness of algorithms.
 To obtain sufficient accuracy, it is necessary to choose a sufficiently high resolution of the model, and the choice of the triple of numbers (λ, μ, τ) must satisfy certain criteria. Criteria of continuum are as follows:
 ```
