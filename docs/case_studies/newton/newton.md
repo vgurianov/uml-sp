@@ -193,7 +193,7 @@ The lower part of the figure shows the graphs of potential (circle), kinetic (sq
 [TreeRoot.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.cpp) (it is run)
 
 ## Conclusion
-In this section considered object model of classical mechanic motion in discrete space-time.Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the destruction of a freely falling liquid stream, photonic nanostructures, and a number of problems in the theory of impact.
+In this section considered object model of classical mechanic motion in discrete space-time.Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the destruction of a freely falling liquid stream, photonic nanojets, and a number of problems in the theory of impact.
 The simulation model was compared with a numerical methods such as the particle-in-cell (PIC, Harlow) method and the molecular dynamics method. A comparative analysis showed similarity and difference into approaches. The simulation model require more detail model of object under study but allow use constructions of molecular dynamics method as simplifications, for example,  Lennard–Jones potential.<br/>
 In our opinion, the above results allow us to state that the proposed model of mechanical motion adequately describes mechanical processes.
 
