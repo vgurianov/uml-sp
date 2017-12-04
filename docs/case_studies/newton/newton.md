@@ -191,7 +191,8 @@ To obtain sufficient accuracy, it is necessary to choose a sufficiently high res
 ```
 (a) v't' >> 1 or  vt >> 1/λ, 
 (b) F'/m' >> 1 or F/m >> τ²/λ, 
-(c) For two particles m'1 / m'2 ~ 1. In the case of several particles, the worst result take from all pairs of interacting particles.
+(c) For two particles m'1 / m'2 ~ 1. In the case of several particles, 
+the worst result take from all pairs of interacting particles.
 ```
 Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations. Thus, the question of creating applicative analogs of numerical methods is completely correct. The development of applicative analogs of numerical methods is the task of the near future.
 
