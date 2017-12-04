@@ -188,11 +188,12 @@ In UML2 SP, Design Model, there is a formalized description of the modeling obje
 The first problem is the parallelism problem Analysis Model. All objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a quasi-parallel algorithms. If selecting concurrent or distributed computing then algorithms are a concurrency algorithms.<br/>
 The second problem is the problem of the effectiveness of algorithms.
 To obtain sufficient accuracy, it is necessary to choose a sufficiently high resolution of the model, and the choice of the triple of numbers (λ, μ, τ) must satisfy certain criteria. Continuum criteria are as follows:
+```
 (a) v't' >> 1 or  vt >> 1/λ, 
 (b) F'/m' >> 1 or F/m >> τ²/λ, 
 (c) For two particles m'1 / m'2 ~ 1. In the case of several particles, the worst result take from all pairs of interacting particles.
-<br/>
-Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations [22]. Thus, the question of creating applicative analogs of numerical methods is completely correct. The development of applicative analogs of numerical methods is the task of the near future.
+```
+Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations. Thus, the question of creating applicative analogs of numerical methods is completely correct. The development of applicative analogs of numerical methods is the task of the near future.
 
 ## The simulation model in C++ code: 
 [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.h), 
@@ -206,8 +207,7 @@ Accuracy can be improved by using some analogues of the Runga-Kutta method. Obje
 
 ## Conclusion
 In this section considered object model of classical mechanic motion in discrete space-time. Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the destruction of a freely falling liquid stream, photonic nanojets, and a number of problems in the theory of impact.
-The simulation model was compared with a numerical methods such as the particle-in-cell (PIC, Harlow) method and the molecular dynamics method. A comparative analysis showed similarity and difference into approaches. The simulation model require more detail model of object under study but allow use constructions of molecular dynamics method as simplifications, for example,  Lennard–Jones potential.The simulation model is more relevant model but require larger calculation resource. It must use if needful understand detail 
-of physical process.<br/>
+The simulation model was compared with a numerical methods such as the particle-in-cell (PIC, Harlow) method and the molecular dynamics method. A comparative analysis showed similarity and difference into approaches. The simulation model require more detail model of object under study but allow use constructions of molecular dynamics method as simplifications, for example,  Lennard–Jones potential.The simulation model is more relevant model but require larger calculation resource. It must use if needful understand detail of physical process.<br/>
 In our opinion, the above results allow us to state that the proposed model of mechanical motion adequately describes mechanical processes.
 
 ## References
