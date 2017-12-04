@@ -48,12 +48,12 @@ Figure 2. The class diagram<br/>
 All objects of class have parallel threads.
 
 #### Description of an application domain semantics
-We shall give definition of concepts to the ontology. The architecture of the model defines the pattern Composite [14], which defines the hierarchy of nested mechanical subsystems. Unlike the classic pattern [14], aggregation materializes through a linked list with ListItem elements.
+We shall give definition of concepts to the ontology. The architecture of the model defines the *pattern Composite*, which defines the hierarchy of nested mechanical subsystems. Unlike the classic pattern, aggregation materializes through a linked list with ListItem elements.
 
 ##### Matter
 The “Component” frame define “Matter” concept. In the classical physics, [matter](https://en.wikipedia.org/wiki/Matter) is any substance that has mass and takes up space by having volume. 
-The frame has headItemOfJump and currentItemOfJump slots. It is define “Resource of motion” concept.
-The frame has headItemOfSkip and currentItemOfSkip slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
+The frame has "headItemOfJump" and "currentItemOfJump" slots. It is define “Resource of motion” concept.
+The frame has "headItemOfSkip" and "currentItemOfSkip" slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
 The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
 **Newton's second law.** In 1926, Levi proposed the following mechanism action of force [8, P.98]. 
 The force acts on the particle not constantly, but every τ sec (τ~E-23 sec).
@@ -91,7 +91,7 @@ The “Carrier” frame define “Agent of force” concept. Agent of force is a
 The “Composite” frame define “Cell of space” concept. The frame has «left» and «right» slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
 
 ##### Physical space
-The base (the headOfList attribute) and the anchor points (tailOfList attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
+The base (the *headOfList* attribute) and the anchor points (*tailOfList* attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
 The space assembly is
 ```
 for (int i = 0; i < 1000; i++) m[i] = NULL;
@@ -107,10 +107,10 @@ for (int i = 0; i < 1000; i++) m[i] = NULL;
 	headOfList = m[1];    // base of space
 	tailOfList = m[N-1];  // anchor point 
 ```
-Further, we confine ourselves to a one-dimensional space. The listShift() and listInversion() method are operations above space.
+Further, we confine ourselves to a one-dimensional space. The *listShift()* and *listInversion()* method are operations above space.
 
 ##### Mechanical system
-The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation Run(). The *<<Exist>>Run()* method is
+The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation Run(). The *«Exist»Run()* method is
 ```
 	void Run() { //  ** quantum of existence of the system
 
@@ -124,7 +124,7 @@ this->Stabilize();
 		delete this;
 		 };
 ```
-The interaction() method define particles interaction. It method is abstract method and must defined to concrete classes.  For this method defined constraint.<br/> 
+The *interaction()* method define particles interaction. It method is abstract method and must defined to concrete classes.  For this method defined constraint.<br/> 
 **Newton’s third law.** This law is specified as a constraint: the *doImpact()* method can only be used in pairs. For example, the following pair of interactions
 ```
 f = p-> doImpact (f); // p - the point particle 
@@ -152,9 +152,9 @@ The Newton three laws must supplement by yet two propositions.<br/>
 
 The measurement procedure include a controlled violation of class encapsulation. The model of the measuring system is a depicted in Fig.5.
 
-One of the most effective methods of studying space is the lattice method, which is an analog of cartesian coordinates method. The essence of the method is to map the space to an array of the appropriate dimension, and to make measurements using an array. The mapping must updated at each step of the time In Fig.5, the Subject class simulate a reference frame.
-The Subject class has an array of rf pointers of type Item.
-The model of the measuring device create based on the Observer pattern [14]. The Notify () method of the Subject class is called from the "Exist" Run () method of the AbstractTreeNode class after all mechanical processes are completed.
+One of the most effective methods of studying space is the lattice method, which is an analog of Cartesian coordinates method. The essence of the method is to map the space to an array of the appropriate dimension, and to make measurements using an array. The mapping must updated at each step of the time In Fig.5, the *Subject* class simulate a reference frame.
+The *Subject* class has an array of rf pointers of type *Item*.
+The model of the measuring device create based on the *Observer pattern*. The *Notify()* method of the *Subject* class is called from the *«Exist»Run()* method of the *AbstractTreeNode* class after all mechanical processes are completed.
 <p><img src="fig5.png" alt="" /></p>
 Figure 5. Model of measuring system<br/>
 
