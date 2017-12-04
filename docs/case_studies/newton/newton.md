@@ -168,6 +168,21 @@ Measurements in discrete models are much more convenient to carry out in natural
 The basic units of measurement in the CGS are centimeter, gram, and second. Let l [cm] = l'/λ, m [g] = m'/μ, t [s] = t'/τ, where the natural units of measurement (dashed) are measured in the number of instances of the Item, Skip and number of cycles Exist. The case of a unit mass corresponds to a situation where the list of instances of Skip is empty (that is, particles with 0 mass do not exist). The triple of numbers (λ, μ, τ)  will called the *resolution of the model*.<br/>
 Consider the derived units. The speed is expressed in the number of v' instances of the Jump class in the motion amount list; v [cm/s] = (τ/λ)v' or v' = (λ/τ)v. Acceleration is also expressed in the number of a' instances of the Jump class, because this is the difference of the two lists of momentum; a[cm/s2] = a' х τ²/λ. Force is the quantity of F' acts of interaction: F[dyne, g • cm/s²] = ma = m'/μ х (τ²/λ)a' = τ²/(μλ) х F'. The conversion factor can be fractional; to give a physical meaning to such coefficients, the ratio must multiplied by a certain power of 10. Energy and work in natural units are measured in the number of acts of work. The act of work is a single movement of a particle from one cell to another with a single act of interaction. The work A [erg] = Fs = τ²/(μ λ)F' х s'/λ = (τ/λ)²/μ х A'.
 
+## Design model
+
+In UML2 SP, Design Model is a formalized description of the modeling object for the purpose of subsequent encoding in one of the programming languages. The simulation model is separated from its the computer implementation. Development of the Design Model is the most time-consuming part of developing a simulation model. As a rule, two problems must be solved.
+
+The first problem is the concurrency problem of Analysis Model. All (material) objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a quasi-parallel algorithms. If selecting concurrent or distributed computing then algorithms are a concurrency algorithms.<br/>
+The second problem is the problem of the effectiveness of algorithms.
+To obtain sufficient accuracy, it is necessary to choose a sufficiently high resolution of the model, and the choice of the triple of numbers (λ, μ, τ) must satisfy certain criteria. Criteria of continuum are as follows:
+```
+(a) v't' >> 1 or  vt >> 1/λ, 
+(b) F'/m' >> 1 or F/m >> τ²/λ, 
+(c) For two particles m'1 / m'2 ~ 1. In the case of several particles, 
+the worst result take from all pairs of interacting particles.
+```
+Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations. Thus, for accuracy improved it is necessary create an applicative analogs of numerical methods. The development of applicative analogs of numerical methods is the task of the near future.
+
 ## Verification
 Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6).
 <p><img src="fig6.png" alt="" /></p>
@@ -181,20 +196,6 @@ Figure 7. The graph of the motion of a pair of particles and the change in the p
 
 In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 7 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).<br/>
 The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods.
-
-## Design model
-
-In UML2 SP, Design Model, there is a formalized description of the modeling object for the purpose of subsequent encoding in one of the programming languages. The simulation model of Analysis Model is separated from the computer model implementation. Development of the Design Model is the most time-consuming part of developing a simulation model. As a rule, two problems must be solved.<br/>
-The first problem is the parallelism problem Analysis Model. All objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a quasi-parallel algorithms. If selecting concurrent or distributed computing then algorithms are a concurrency algorithms.<br/>
-The second problem is the problem of the effectiveness of algorithms.
-To obtain sufficient accuracy, it is necessary to choose a sufficiently high resolution of the model, and the choice of the triple of numbers (λ, μ, τ) must satisfy certain criteria. Continuum criteria are as follows:
-```
-(a) v't' >> 1 or  vt >> 1/λ, 
-(b) F'/m' >> 1 or F/m >> τ²/λ, 
-(c) For two particles m'1 / m'2 ~ 1. In the case of several particles, 
-the worst result take from all pairs of interacting particles.
-```
-Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations. Thus, the question of creating applicative analogs of numerical methods is completely correct. The development of applicative analogs of numerical methods is the task of the near future.
 
 ## The simulation model in C++ code: 
 [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.h), 
