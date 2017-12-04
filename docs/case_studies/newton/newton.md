@@ -152,7 +152,7 @@ The Newton three laws must supplement by yet two propositions.<br/>
 
 The measurement procedure include a controlled violation of class encapsulation. The model of the measuring system is a depicted in Fig.5.
 
-One of the most effective methods of studying space is the lattice method, which is an analog of Descartes' coordinate method. The essence of the method is to map the space to an array of the appropriate dimension, and to make measurements using an array. The mapping must updated at each step of the time In Fig.5, the Subject class simulate a reference frame.
+One of the most effective methods of studying space is the lattice method, which is an analog of cartesian coordinates method. The essence of the method is to map the space to an array of the appropriate dimension, and to make measurements using an array. The mapping must updated at each step of the time In Fig.5, the Subject class simulate a reference frame.
 The Subject class has an array of rf pointers of type Item.
 The model of the measuring device create based on the Observer pattern [14]. The Notify () method of the Subject class is called from the "Exist" Run () method of the AbstractTreeNode class after all mechanical processes are completed.
 <p><img src="fig5.png" alt="" /></p>
@@ -190,7 +190,7 @@ The lower part of the figure shows the graphs of potential (circle), kinetic (sq
 [Models.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.h), 
 [Models.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/Models.cpp)<br/>
 [TreeRoot.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.h), 
-[TreeRoot.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.cpp) (it is run)
+[TreeRoot.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/TreeRoot.cpp) (see Using)
 
 ## Conclusion
 In this section considered object model of classical mechanic motion in discrete space-time. Along with the models considered above, other models were also studied. We mention the most interesting of them: a plane shock wave in a solid, the motion of a metal chain, the destruction of a freely falling liquid stream, photonic nanojets, and a number of problems in the theory of impact.
