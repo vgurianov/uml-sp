@@ -179,8 +179,20 @@ The resolution of the model is λ= 10, μ = 1, τ = 10. Two particles with masse
 <p><img src="fig7.png" alt="" /></p>
 Figure 7. The graph of the motion of a pair of particles and the change in the potential, kinetic, and total energy of the system<br/>
 
-In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 7 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).
-The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods. 
+In this experiment, the laws of conservation of momentum and energy for a closed system were verified. At the initial instant, the particles are at rest. The center of mass is at the origin of the coordinate system, the particle m1 at the point x1 = -0.1, the particle m2 at the point x2 = 0.2. Figure 7 shows the graphs of the motion of both particles and the center of inertia r = (m1x1 + m2x2) / (m1 + m2) (marked with crosses).<br/>
+The lower part of the figure shows the graphs of potential (circle), kinetic (square) and total (cross) energy. The zero of the potential energy is chosen at infinity (13.6 cm at t = 0.9 sec). Potential and kinetic energy was measured by a direct method; for this, the simulation method was used. It should pay attention to reducing the total energy of the system. This is an analog of computational (countable) viscosity in numerical methods.
+
+## Design model
+
+In UML2 SP, Design Model, there is a formalized description of the modeling object for the purpose of subsequent encoding in one of the programming languages. The simulation model of Analysis Model is separated from the computer model implementation. Development of the Design Model is the most time-consuming part of developing a simulation model. As a rule, two problems must be solved.<br/>
+The first problem is the parallelism problem Analysis Model. All objects of Analysis Model have concurrent threads. If in Design Model selecting a sequential computing then algorithms are a quasi-parallel algorithms. If selecting concurrent or distributed computing then algorithms are a concurrency algorithms.<br/>
+The second problem is the problem of the effectiveness of algorithms.
+To obtain sufficient accuracy, it is necessary to choose a sufficiently high resolution of the model, and the choice of the triple of numbers (λ, μ, τ) must satisfy certain criteria. Continuum criteria are as follows:
+(a) v't' >> 1 or  vt >> 1/λ, 
+(b) F'/m' >> 1 or F/m >> τ²/λ, 
+(c) For two particles m'1 / m'2 ~ 1. In the case of several particles, the worst result take from all pairs of interacting particles.
+<br/>
+Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations [22]. Thus, the question of creating applicative analogs of numerical methods is completely correct. The development of applicative analogs of numerical methods is the task of the near future.
 
 ## The simulation model in C++ code: 
 [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/newton/AppBaseClasses.h), 
