@@ -67,7 +67,7 @@ Figure 3. Algorithmic recording of Newton's second law<br/>
 ##### Point particle
 The “TreeLeaf” frame define “Point particle” concept. A [point particle](https://en.wikipedia.org/wiki/Point_particle) is 
 an appropriate representation of any object whose size, shape, and structure is irrelevant in a given context.
-The *TreeLeaf* define both methods *absorb()* and *getListOfSkip()*. The *absorb()* method change direction of *Carrier* to the contrary. The *getListOfSkip()* method return a pointer *headItemOfSkip*.
+The *TreeLeaf* class define both methods *absorb()* and *getListOfSkip()*. The *absorb()* method change direction of *Carrier* to the contrary. It is action of particle to the carrier of force. The *getListOfSkip()* method return a pointer *headItemOfSkip*.
 The *«Exist»Run()* method define rule of change of *isActive* value.
 ```
 void Run(){
@@ -77,7 +77,7 @@ void Run(){
 		} else {isActive = false;};
 	}
 ``` 
-The actuate() method make particle is the active
+If *isActive* is *false* then particle do not can motion (see below Newton's first law). The actuate() method make particle is the active
 ```
 	void actuate() {
 	if (headItemOfJump != NULL) {isActive = true; };
