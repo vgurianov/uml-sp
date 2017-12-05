@@ -45,7 +45,7 @@ Model a mechanical motion is depicted in Fig.2.
 Figure 2. The class diagram<br/>
 
 #### Description of a computational semantics
-All objects of class have parallel threads.
+All objects of *Component* class have concurrent threads.
 
 #### Description of an application domain semantics
 We shall give definition of concepts to the ontology. The architecture of the model defines the *pattern Composite*, which defines the hierarchy of nested mechanical subsystems. Unlike the classic pattern, aggregation materializes through a linked list with ListItem elements.
