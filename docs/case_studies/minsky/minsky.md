@@ -3,11 +3,13 @@ In work "A Framework for Representing Knowledge" by Marvin Minsky considered a s
 (for example view on [http://web.media.mit.edu](http://web.media.mit.edu/~minsky/papers/Frames/frames.html)).
 This is frame of cube; see section "1.4 Tracking the image of a cube". We shall consider this model in UML2 SP notation.
 ## Example by M.Minsky
-The "A" and "B" symbols represent decorations on two facets of the cube. 
+The A, B, C, and D symbols represent decorations on four facets of the cube. 
 Can be moved view point into right or revolve of cube into left.
 <p><img src="Image4.gif" alt="" /></p>
 Figure 1. The perspective appearances of a cube (picture from [the site](http://web.media.mit.edu/~minsky/papers/Frames/frames.html))<br/><br/>
 If make excursion around the cube then the "A" facet is disappears and "C" facet is appears.
+A knowledge about cube is frames and a transition betwin frames, i.e. frame-system to represent of knowledge.
+
 ## Formal description of 'Cube' notion
 In UML2 SP a definition diagram is intended to accurate define of concepts. 
 A definition diagram is a three-layer diagram and include M0 (objects layer), M1 (classes layer), and M2 (metamodel layer). 
