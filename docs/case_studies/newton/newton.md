@@ -56,10 +56,10 @@ The frame has "headItemOfJump" and "currentItemOfJump" slots. It is define “Re
 The frame has "headItemOfSkip" and "currentItemOfSkip" slots. It is define “The inertial mass” concept. The property of body is called inertia. A quantitative measure of inertia is [mass](https://en.wikipedia.org/wiki/Mass).<br/>
 The *doImpact()* method define “Influence” concept. The concept describes to act of force to body and change value headItemOfJump slot.<br/> 
 **Newton's second law.** In 1926, Levi proposed the following mechanism action of force [8, P.98]. 
-The force acts on the particle not constantly, but every τ sec (τ~E-23 sec).
+The force acts on the particle not constantly, but every τ sec (τ ~ E-23 sec).
 On any other particle, whose mass is N times larger, the force acts every Nτ sec.<br/>
 We use the *Carrier* class such that generates new instances of the *headItemOfJump* list. The *Component* class has both *headItemOfSkip* and *currentItemOfSkip* fields of type *Skip*. This list simulates the inertia of a particle when skips objects of Carrier. A quantity of skip is quantity elements in the headItemOfSkip list (see Fig.3). If ‘currentItemOfSkip’ list end then object of *Carrier* is processed. The *changeMove()* method change length of the list. 
-The *absorb()* method change a state of object *Carrier* class. The *getListOfSkip()* method return a pointer *headItemOfSkip*. Both methods *absorb()* and *getListOfSkip()* are abstract methods and shall be must define in a concrete class. A detailed of algorithmic record of Newton's 2nd law is discussed in [12].
+The *absorb()* method change a state of object *Carrier* class. The *getListOfSkip()* method return a pointer *headItemOfSkip*. Both methods *absorb()* and *getListOfSkip()* are abstract methods and shall be must define in a concrete class. A detailed of algorithmic record of Newton's 2nd law is discussed in [2].
 
 <p><img src="fig3.png" alt="" /></p>
 Figure 3. Algorithmic recording of Newton's second law<br/>
@@ -132,7 +132,7 @@ f = headOfList-> something-> doImpact(f); // massive body
 ```
 The move() method define a motion of particles.<br/>
 **Newton's first law.** To solve the isotachy problem, we used a somewhat modified theory of mechanical motion in discrete space-time, proposed by Beck in 1929 [8, P.28]. 
-The essence of this theory is as follows. A moving point particle has some stock of motion, which in our case is modeling by a linked list from Jump instances. The faster particles have a longer list. The move() method of the AbstractTreeNode class executes a single jump (*replace (b, p)* method), after which the list is reduced by one position (the "Exist" Run() method of the TreeLeaf class). If the list is exhausted, the particle is deactivating and will no longer move. The move() method is called many times, so that all the particles finish moving. The call() loop is organized as a linked list of the Temp class instances. In detail, this mechanism is discuses in [2]. 
+The essence of this theory is as follows. A moving point particle has some stock of motion, which in our case is modeling by a linked list from Jump instances. The faster particles have a longer list. The move() method of the AbstractTreeNode class executes a single jump (*replace (b, p)* method), after which the list is reduced by one position (the "Exist" Run() method of the TreeLeaf class). If the list is exhausted, the particle is deactivating and will no longer move. The move() method is called many times, so that all the particles finish moving. The call() loop is organized as a linked list of the Temp class instances. In detail, this mechanism is discuses in [1]. 
 <p><img src="fig4.png" alt="" /></p>
 Figure 4. Activity move()<br/> 
 
