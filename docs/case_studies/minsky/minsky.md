@@ -7,8 +7,8 @@ The A, B, C, and D symbols represent decorations on four facets of the cube.
 Can be moved view point into right or revolve of cube into left.
 <p><img src="Image4.gif" alt="" /></p>
 Figure 1. The perspective appearances of a cube (picture from [the site](http://web.media.mit.edu/~minsky/papers/Frames/frames.html))<br/><br/>
-If make excursion around the cube then the "A" facet is disappears and "C" facet is appears.
-A knowledge about cube is frames and a transition betwin frames, i.e. frame-system to represent of knowledge.
+If make excursion around the cube then the "A" facet is disappears and "C" facet is appears. A human remember the “A” facet. This sequence of elements of memory is a image of cube. A knowledge about cube is frames and a transition betwin frames, i.e. frame-system to represent of knowledge.<br/>
+We will few change situation. Let observer fix one visible facet of cube but not two facets. Let's call this facet as the face of the cube.
 
 ## Formal description of 'Cube' notion
 In UML2 SP a definition diagram is intended to accurate define of concepts. 
