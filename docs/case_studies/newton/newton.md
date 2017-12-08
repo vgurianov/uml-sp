@@ -88,7 +88,7 @@ If *isActive* is *false* then particle do not can motion (see below Newton's fir
 The “Carrier” frame define “Agent of force” concept. Agent of force is a carrier of interaction. The frame has «Direction» slot. In 1-dimension space, it is field can has two value are backward and forward.
 
 ##### Cell of space
-The “Composite” frame define “Cell of space” concept. The frame has «left» and «right» slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
+The "Composite" frame define "Cell of space" concept. The frame has "left" and "right" slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
 
 ##### Physical space
 The base (the *headOfList* attribute) and the anchor points (*tailOfList* attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
@@ -110,7 +110,7 @@ for (int i = 0; i < 1000; i++) m[i] = NULL;
 Further, we confine ourselves to a one-dimensional space. The *listShift()* and *listInversion()* method are operations above space.
 
 ##### Mechanical system
-The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation Run(). The *«Exist»Run()* method is
+The “AbstractTreeNode” frame define “Mechanical system” concept. This class defines abstract operation *Run()*. The *«Exist»Run()* method is
 ```
 	void Run() { //  ** quantum of existence of the system
 
@@ -130,21 +130,21 @@ The *interaction()* method define particles interaction. It method is abstract m
 f = p-> doImpact (f); // p - the point particle 
 f = headOfList-> something-> doImpact(f); // massive body
 ```
-The move() method define a motion of particles.<br/>
+The *move()* method define a motion of particles.<br/>
 **Newton's first law.** To solve the isotachy problem, we used a somewhat modified theory of mechanical motion in discrete space-time, proposed by Beck in 1929 [8, P.28]. 
-The essence of this theory is as follows. A moving point particle has some stock of motion, which in our case is modeling by a linked list from Jump instances. The faster particles have a longer list. The move() method of the AbstractTreeNode class executes a single jump (*replace (b, p)* method), after which the list is reduced by one position (the "Exist" Run() method of the TreeLeaf class). If the list is exhausted, the particle is deactivating and will no longer move. The move() method is called many times, so that all the particles finish moving. The call() loop is organized as a linked list of the Temp class instances. In detail, this mechanism is discuses in [1]. 
+The essence of this theory is as follows. A moving point particle has some stock of motion, which in our case is modeling by a linked list from *Jump* instances. The faster particles have a longer list. The *move()* method of the *AbstractTreeNode* class executes a single jump (*replace (b, p)* method), after which the list is reduced by one position (the *«Exist»Run()* method of the *TreeLeaf* class). If the list is exhausted, the particle is deactivating and will no longer move. The *move()* method is called many times, so that all the particles finish moving. The call loop is organized as a linked list of the *Temp* class instances. In detail, this mechanism is discuses in [1]. 
 <p><img src="fig4.png" alt="" /></p>
-Figure 4. Activity move()<br/> 
+Figure 4. Activity *move()*<br/> 
 
 The *doImpact()* method.<br/>
 The *doImpact()* method simulate act of external force to mechanical system and call *absorb()* and *getListOfSkip()* methods. Both methods are abstract methods. The *absorb()* method simulate deformation of system and defined to concrete classes. The *AbstractTreeNode* partly define *doImpact()* method. It is *getListOfSkip()* method. The *getListOfSkip()* method return mass of mechanical system and expresses property of additivity of mass.
 
 The Newton three laws must supplement by yet two propositions.<br/> 
 **Collision**. To resolve the collision situation, in the *AbstractTreeNode* class (in *replace (b, p)* method) defined the *bump()* method . The method is virtual and can substitute in descendants of the *AbstractTreeNode* class. If a method of the *AbstractTreeNode* class is caused by then it is an absolutely elastic collision.<br/> 
-**Disintegration**. The AbstractTreeNode class defines a private field hasStableState. If this field is false, the system self-destructs. This field can be changed by the procedure *stabilize()*, which can be substituted in descendants of the *AbstractTreeNode* class. If the *AbstractTreeNode* method is caused by then the field is set to true.
+**Disintegration**. The *AbstractTreeNode* class defines a private field *hasStableState*. If this field is false, the system self-destructs. This field can be changed by the procedure *stabilize()*, which can be substituted in descendants of the *AbstractTreeNode* class. If the *AbstractTreeNode* method is caused by then the field is set to true.
 
 ##### Newton's universe
-The “TreeRoot” frame define “Newton's universe” concept. The TreeRoot class specifies the initial and boundary conditions.
+The “TreeRoot” frame define “Newton's universe” concept. The *TreeRoot* class specifies the initial and boundary conditions.
 
 
 ### 2. Epistemology partition
