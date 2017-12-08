@@ -184,7 +184,7 @@ the worst result take from all pairs of interacting particles.
 Accuracy can be improved by using some analogues of the Runga-Kutta method. Object simulation models (as well as agent models) can be considered as applicative computing systems that produce applicative computations. Thus, for accuracy improved it is necessary create an applicative analogs of numerical methods. The development of applicative analogs of numerical methods is the task of the near future.
 
 ## Verification
-Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6).
+Verification of the model was carried out on typical problems of mechanics: the motion of a material point under the action of a constant force, under the influence of a spring, and in the interaction of two material points (see Fig 6) [3].
 <p><img src="fig6.png" alt="" /></p>
 Figure 6. Concrete classes diagram<br/>
 
