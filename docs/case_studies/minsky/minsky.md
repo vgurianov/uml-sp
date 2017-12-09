@@ -17,7 +17,7 @@ This diagram is depicted in Fig.2.
 <p><img src="cube.png" alt="" /></p>
 Figure 2. Formal describtion of the cube<br/>
 
-In definition of a concept used (a) relations between concepts and (b) slots.<br/>
+For definition of a concept used (a) relations between concepts and (b) slots.<br/>
 Relations are "is a" (instance), "has" (composition) and inheritance. All other relations are "dependencies". The same element can be both instance and class. The "list" object is instance of "List" class and the "List" class is instance of “Ontology System” UML-element.<br/>
 A slot is determine whenever definition its a type (also named facet). A type is a set of values for the slot. A type definition is an enumeration, a class (as mathematical set) or constraint. A class of type also can be a frame to other notion.
 
@@ -30,6 +30,7 @@ change rule of the slot value. The operations call from "Run" operation.<br/>
 - A type is a set of values and authorized operations. The "ItemOfList" class is a set of objects. 
 These objects depicted in Fig.2 in M0 layer. The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.2 in M2 layer. 
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts. The "value", "left", and "right" slots define these concepts.
+
 ## The simulation model in C++ code:  
 [ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.h), 
 [ClassesOfMinskyProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.cpp)
