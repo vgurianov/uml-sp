@@ -16,6 +16,10 @@ A definition diagram is a three-layer diagram and include M0 (objects layer), M1
 This diagram is depicted in Fig.2.
 <p><img src="cube.png" alt="" /></p>
 Figure 2. Formal describtion of the cube<br/>
+In definition of a concept used (a) relations between concepts and (b) slots.<br/>
+Relations are "is a" (instance), "has" (composition) and inheritance. All other relations are "dependencies". The same element can be both instance and class. The "list" object is instance of "List" class and the "List" class is instance of “Ontology System” UML-element.<br/>
+A slot is determine whenever definition its a type (or facet). A type is a set of values for the slot. A type definition is an enumeration, a class (as mathematical set) or constraint. A class of type also can be a frame to other notion.
+
 - The “List” frame define “Minsky’s cube” concept. The frame is instance "Ontology System" UML-element 
 (daughter "SPFrame" element, i.e. frame). The frame has example. It is "list" object or the cube in Fig.1
 Three state (currentItem=item1,item2,item3) of object are three structure to bottom in Fig.1.<br/> 
