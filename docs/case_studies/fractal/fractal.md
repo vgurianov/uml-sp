@@ -1,7 +1,7 @@
 # Koch snowflake
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Fractal).
 ## Introduction
-Mathematical abstractions exist in conceptual reality. The abstractions also can be simulated. 
+Mathematical abstractions exist in conceptual reality (K.Popper, [three worlds](https://en.wikipedia.org/wiki/Popper%27s_three_worlds)). The abstractions also can be simulated. 
 Simulation model of mathematical abstraction build as simulation model of physical object.
 Simulation of mathematical abstraction has many general with [constructive mathematics](https://en.wikipedia.org/wiki/Constructivism_(mathematics)) and used similar notions.
 Also, for simulation of mathematical objects are useful notions and ideas [non-standard analysis](https://en.wikipedia.org/wiki/Non-standard_analysis), 
