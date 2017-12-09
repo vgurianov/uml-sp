@@ -23,7 +23,7 @@ The frame has “currentItem” slot. It is slot define “face” concept. Face
 The slot has a type and the “ItemOfList” class defines its the type; «next» and «previous» operations define 
 change rule of the slot value. The operations call from "Run" operation.<br/>
 - A type is a set of values and authorized operations. The "ItemOfList" class is a set of objects. 
-This objects depicted in Fig.2 in M0 layer. The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.2 in M2 layer. 
+These objects depicted in Fig.2 in M0 layer. The "ItemOfList" class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.2 in M2 layer. 
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts. The "value", "left", and "right" slots define these concepts.
 ## The simulation model in C++ code:  
 [ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.h), 
