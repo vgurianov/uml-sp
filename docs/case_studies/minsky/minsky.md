@@ -32,7 +32,7 @@ change rule of the slot value. The operations call from *Run* operation.<br/>
 These objects depicted in Fig.2 in M0 layer. The *ItemOfList* class is a frame, it is instance "Ontology Atom" UML-element as depicted in Fig.2 in M2 layer. 
 The frame define "Facet" concept. The "Facet" notion includes "Decoration" and "Binding" concepts. The "value", "left", and "right" slots define these concepts. The *ItemOfList* class has double definition both slot and frame and this definitions do not contradict each other.
 
-A definition diagram use when concept best defined through relation of concepts.
+A definition diagram use when concept best defined through relation of concepts. Ordinarily, if need to display an instances of class.
 
 ## The simulation model in C++ code:  
 [ClassesOfMinskyProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/minsky/ClassesOfMinskyProject.h), 
