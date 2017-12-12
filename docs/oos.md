@@ -12,17 +12,17 @@ Pegden [2] allocated three distinct world views in simulation: event, process, a
 3. Object modeling. An object-oriented model is a set of interact objects. Object-oriented simulation can realization both event modeling and process modeling (and as system dynamic). For instance, event orientations approach for object-oriented simulation conside in paper [3].
 For examples are AnyLogic, FlexSim, and Simio.
 
-In our view those world views differ describe of time.
+In our view, those world views differ describe of time.
 
 ## Time in UML2 SP
 In works of simulation differentiate three kinds a time. It is a physical time, system time, and wallclock time. 
 The physical time is a time of investigated system. The simulation time is an image of time in model. 
 The wallclock time is a time of compute experiment on computer. In UML2 SP the time defines in models.
-The *Analysis Model* defines a physical time. All objects have concurrent threads. 
-These threads interact according to the rules like in nature. Simple example are *Single Threaded Execution* and *Producer-Consumer* patterns. The *Design Model* defines a system time. If selecting a sequential computing then system time is parallel processes time. 
+The *Analysis Model* defines a physical time. All objects have [concurrent](https://en.wikipedia.org/wiki/Concurrent_computing) threads. 
+These threads interact according to the rules like in nature. Simple example are *Single Threaded Execution* and *Producer-Consumer* patterns. The *Design Model* defines a system time. If selecting a sequential computing then system time is [parallel](https://en.wikipedia.org/wiki/Concurrent_computing) processes time. 
 If selecting concurrent or distributed computing then system time is time of concurrency processes.
 
-We often use quasi-parallel model of time in Analysis Model for simplicity if it possible.
+We often use parallel model of time in Analysis Model for simplicity if it possible.
 
 ## UML2 SP and ABS
 The basic concept of agent based modeling (ABS) is an agents and their interaction. Pegden opinion “it is not a new discrete event world view”; it is variant object-oriented approach. We opinion a base idea of ABS is [net-centric](https://en.wikipedia.org/wiki/Net-centric) conception.
