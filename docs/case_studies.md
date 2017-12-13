@@ -10,5 +10,5 @@ Contents:<br/>
   <li><a href="case_studies/newton/newton">Mechanical motion</a></li>
   <li><a href="case_studies/fractal/fractal">Koch snowflake</a></li>
   <li><a href="case_studies/organism/organism">Multicellular organism</a></li>
-  <li><a href="case_studies/dialogs">Dialogs</a></li>
+  <li><a href="case_studies/dialogs/dialogs">Dialogs</a></li>
 </ul>
