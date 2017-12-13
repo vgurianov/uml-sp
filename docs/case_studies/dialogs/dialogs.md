@@ -1,6 +1,7 @@
 <h1 id="dialogs">Dialogs</h1>  
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Dialogue).
 ## Introduction
+[The base element of UML2 SP model is a communicative act](https://en.wikipedia.org/wiki/Models_of_communication).
 In this example we shall simulated dialogs between humans.<br/>
 
 ## Application domain
