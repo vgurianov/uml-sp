@@ -1,9 +1,9 @@
 <h1 id="dialogs">Dialogs</h1>  
-Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Fractal).
+Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Dialogue).
 ## Introduction
+In this example we shall simulated dialogs between humans.<br/>
 
 ## Application domain
-In this example we shall simulated dialogs between humans.<br/>
 <strong>Application domain:</strong> Greeting <br/>  
 – Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 – How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
@@ -12,6 +12,8 @@ In this example we shall simulated dialogs between humans.<br/>
 ## Analysis model
 <p>Ontology depicted in picture:</p><br>
 <p><img src="dialogs.png" alt="" /></p><br>
+Figure 1. The class diagram for the dialog model<br>
+
 <p>Formal describe this definition is a ontology depicted in class diagram.<br /></p>
 
 ### Description of a computational semantics
