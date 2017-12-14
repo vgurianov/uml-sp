@@ -4,10 +4,9 @@ but include a series of significantly new ideas. This is the following three  pr
 double semantics, and semiotic approach.
 
 **Communicative paradigm.** 
-Any object of reality is a communicative process consist a communicative acts. It is an abstraction like a matematical abstration.
-We regard the history of object-oriented approach as a history of a discovery of discrete world.
+Any object of reality is a communication process consist a elementary acts of communication. It is an abstraction like a matematical abstration. We regard the history of object-oriented approach as a history of a discovery of discrete world.
 
-**Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communicative process and a computinal simulation is communicative process. In simulation, a communicative process is general abstration, it is an invariant.
+**Double semantics.** Any element of UML2 SP has a dauble semantics: application domain semantics and computinal semantics. An object  is a communication process and a computinal simulation is communication process. In simulation, a communicative process is general abstration, it is an invariant.
 
 In application domain semantics, Analysis Class Diagram is an ontology of application domain. In computinal semantics, Analysis Class Diagram is model of program.
 
