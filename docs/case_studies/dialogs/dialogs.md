@@ -1,7 +1,7 @@
 <h1 id="dialogs">Dialogs</h1>  
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Dialogue).
 ## Introduction
-[The base element of UML2 SP model is elementary act of communication](https://en.wikipedia.org/wiki/Models_of_communication).
+The base element of UML2 SP model is elementary act of [communication](https://en.wikipedia.org/wiki/Models_of_communication).
 The communication process consist a set of elementary acts of communication that linked between them. The simlest communication process is a dialog. Dialog is like atom of hydrogen in phisical theory.<br/>
 In this example we shall simulated dialogs between humans.<br/>
 
