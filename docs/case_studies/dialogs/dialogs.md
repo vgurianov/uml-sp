@@ -5,7 +5,7 @@ The base element of UML2 SP model is elementary act of communication.A model of 
 In this example we shall simulated dialogs between humans.<br/>
 
 ## Application domain
-Dialogue (https://en.wikipedia.org/wiki/Dialogue) is a written or spoken conversational exchange between two or more people. Dialogue is a process of mutual communication. There is a constant change in the roles of "listening-speaking".
+[Dialogue](https://en.wikipedia.org/wiki/Dialogue) is a written or spoken conversational exchange between two or more people. Dialogue is a process of mutual communication. There is a constant change in the roles of "listening-speaking".
 Replicas of dialogue are speech acts.<br/>
 A typical set of parts of a conversation is given below.
 
@@ -74,7 +74,7 @@ Figure 3. Results of observation to simulation model<br>
 
 
 ## The simulation model in C++ code:  
-[ClassesOfDialogProject.h]( uml-sp/examples/dialogs/ClassesOfDialogProject.h ), 
+[ClassesOfDialogProject.h](uml-sp/examples/dialogs/ClassesOfDialogProject.h ), 
 [ClassesOfDialogProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)
 
 ## Conclusion
