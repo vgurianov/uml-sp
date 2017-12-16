@@ -41,7 +41,7 @@ We shall give definition of concepts to the ontology.
 
 #### Subject
 The “Component” frame define “Subject” concept. A subject is an entity that has a relationship with another entity. The subject can be is a human or a group of human. The frame has “next” slots. The slot define “receiver” concept. The receiver is a "listening" subject. 
-The frame has getMessage() and putMessage() operation. It operations define "Send message" and "Receive message" concepts.
+The frame has *getMessage()* and *putMessage()* operation. It operations define "Send message" and "Receive message" concepts.
 
 
 #### Human
@@ -52,6 +52,7 @@ The “Composite” frame define “Dialog space” concept and has “pl” slo
 
 #### Greeting dialogue
 The “Node” frame define “Greeting dialogue” concept and has “msg” slot. It is the system under study.<br>
+The *Run()* operation organize  exchange of replicas. The algorithm of *Run()* operation is depicte in Fig.3.<br>
 <p><img src="fig2.png" alt="" /></p><br>
 Figure 2. The algorithm of Run() operation<br>
 
@@ -74,8 +75,8 @@ Figure 3. Results of observation to simulation model<br>
 
 
 ## The simulation model in C++ code:  
-[ClassesOfDialogProject.h](uml-sp/examples/dialogs/ClassesOfDialogProject.h ), 
-[ClassesOfDialogProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)
+[ClassesOfDialogProject.h](https://github.com/vgurianov/uml-sp/examples/dialogs/ClassesOfDialogProject.h), 
+[ClassesOfDialogProject.cpp](https://github.com/vgurianov/uml-sp/examples/dialogs/ClassesOfDialogProject.cpp)
 
 ## Conclusion
 In this section considered object model of the dialogues. 
