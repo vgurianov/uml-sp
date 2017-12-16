@@ -74,8 +74,8 @@ Figure 3. Results of observation to simulation model<br>
 
 
 ## The simulation model in C++ code:  
-[AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), 
-[AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)
+[ClassesOfDialogProject.h]( uml-sp/examples/dialogs/ClassesOfDialogProject.h ), 
+[ClassesOfDialogProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)
 
 ## Conclusion
 In this section considered object model of the dialogues. 
