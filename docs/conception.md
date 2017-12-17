@@ -15,11 +15,11 @@ In application domain semantics, Analysis Class Diagram is an ontology of applic
 For example, the “author The Adventures of Tom Sawyer” situation  is modeled as
 <p><img src="define/MarkTwin.png" alt="" /></p>
 
-(but if *Concept = Human* for *Leaf* then *Concept = A man is human* and *ID = Samuel Clemens*  for *leaf* object; Mark Twain is the pseudonym Samuel Clemens).
+(but if *Concept = Human* for *Leaf* then *Concept = The man is a human* and *ID = Samuel Clemens*  for *leaf* object; Mark Twain is the pseudonym Samuel Clemens).
 
 Сlarify this picture:
 - UML-element "Class" for object:<br/>
-*Concept = A man is writer*, i.e. object is an instance of class. Usually this tagged value hidden on diagram.<br/>
+*Concept = The man is a writer*, i.e. object is an instance of class. Usually this tagged value hidden on diagram.<br/>
 *ID = Mark Twain*, i.e. individual name of object.
 - UML-element "Class" for class:<br/>
 Tagged value *Concept* is notion, meaning of term.<br/> 
