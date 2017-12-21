@@ -1,7 +1,7 @@
 This folder contents UML2 SP implementation for [StarUML ver. 5.0 (for Windows)](http://staruml.sourceforge.net/v1/about.php).<br> 
 StarUML - The Open Source UML/MDA Platform. StarUML is an open source project to develop fast, flexible, extensible, featureful, and freely-available. UML/MDA platform running on Win32 platform. The StarUML is free UML editor.
 
-# UML2 SP install
+# UML2 SP installation
 
 1. Install [StarUML ver. 5.0](https://sourceforge.net/projects/staruml/files/staruml/5.0/). See [StarUML 5.0 Documentations](http://staruml.sourceforge.net/v1/documentations.php) or find on GitHub.<br>
 2. Download a copy of the `staruml-sp.zip` in, unzip and place it in the following folder:<br/>
