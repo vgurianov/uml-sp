@@ -1,5 +1,5 @@
-# uml-sp
-Object-oriented simulation language UML2 SP. The UML-profile intend for the development of simulation models.
+# UML2 SP: Object-oriented simulation language
+The UML-profile intend for the development of simulation models.
 
 We opinion, the language useful to scientific simulation. The UML2 SP describe object of study as an ontology. This useful if the mathematical model of object is not known. The ontology can be investigate simulation method.
 Also, the language can be used to technical simulation, however, this is more expensive than the GPSS or AnyLogic but it is justified if the high quality of the model is necessary.
