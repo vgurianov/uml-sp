@@ -1,5 +1,5 @@
 # UML2 SP: Object-oriented simulation language
-The UML-profile intend for the development of simulation models. To the development use a modified Unified Process.
+The UML-profile intend for the development of simulation models. The development use a modified Unified Process.
 
 We opinion, the language useful to scientific simulation. The UML2 SP describe object of study as an ontology, i.e. as non-numeric model. This valuable if the mathematical model of object is not known. The ontology can be investigate simulation method.
 Also, the language can be used to technical simulation, however, this is more expensive than the GPSS or AnyLogic simulation but it is justified if the high quality of the model is necessary.<br/>
@@ -12,7 +12,7 @@ A site of the UML2 SP is https://vgurianov.github.io/uml-sp/<br/><br/>
 Folders:
 
 - **UML2 SP metamodel**   -- Metamodel of the language
-- **UML2 SP**             -- An implementation of the language for StarUML editor (UML2 SP installation)
+- **UML2 SP**             -- An implementation of the language for StarUML editor (it is UML2 SP installation)
 - **examples**            -- The examles of simulation models on UML2 SP and C++
 
 ### License
