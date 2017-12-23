@@ -7,7 +7,7 @@ We believe, the UML2 SP helpful into area of higher education to study of simula
 
 This project is a research project by V. Gurianov. You can test effectivity of the language at your problem. Publications of topic see a bibliography section.
 
-More information see  https://vgurianov.github.io/uml-sp/<br/><br/>
+A site of the UML2 SP is https://vgurianov.github.io/uml-sp/<br/><br/>
 
 Folders:
 
