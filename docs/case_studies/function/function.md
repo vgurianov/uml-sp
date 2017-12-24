@@ -52,6 +52,7 @@ We consider following algorithm
             }
             else probe = "The end";
         },
+```
 where ix is counter of months, iy is counter of mature pairs, yy is counter of any pairs. 
 The "probe" variable is an input data. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.2
