@@ -75,7 +75,7 @@ As we see, measurements of simulation give the Fibonacci sequence.<br/>
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
 
 ## Conclusion
-In this section we discussed numerical and object models. 
+In this section we discussed numerical and object models. In object models, numerical data is result of measurements  on object structures. In object models, numerical calculations should be avoided because this violates the integrity of the ontology. However, for real models often have to use numerical calculations to reduce the complexity of the model. 
 
 ## References
 1.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.(In Russian)](http://simulation.su/static/en-books.html)
