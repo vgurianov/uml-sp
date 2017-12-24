@@ -4,7 +4,7 @@
 
 ## Fibonacci sequence
 The Fibonacci sequence is a sequence of number when Fn = Fn-1 + Fn-2 with seed values F0 = F1 = 1, 
-i.e. any number is sum two previous numbers. 
+i.e. any number is sum two previous numbers.<br/> 
 A numerical model in C# is
 ```
 public void fbSequenceNumericalModel()
@@ -18,6 +18,7 @@ public void fbSequenceNumericalModel()
     fb0 = fb1; fb1 = fb;
   }
 }
+```
 An object model is following. In the Fibonacci book, this sequence is result of growth of a rabbit population.<br/> 
 Let exist one pair of rabbits in start. Mating pair always produces one new pair at one month.<br/> 
 New pair grow one month and do not produces new pair. How many pairs will there be in one year?<br/>
