@@ -14,4 +14,4 @@ Contents:<br/>
 </ul>
 
 
-<a href="case_studies/function/dialogs">function</a>
+<a href="case_studies/function/function">Numerical and object models</a>
