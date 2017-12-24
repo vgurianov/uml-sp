@@ -12,3 +12,6 @@ Contents:<br/>
   <li><a href="case_studies/organism/organism">Multicellular organism</a></li>
   <li><a href="case_studies/dialogs/dialogs">Dialogs</a></li>
 </ul>
+
+
+<a href="case_studies/function/dialogs">function</a>
