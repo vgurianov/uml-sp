@@ -26,9 +26,10 @@ public void fbSequenceNumericalModel()
 [In the Fibonacci book](https://en.wikipedia.org/wiki/Fibonacci_number), this sequence is result of growth of a rabbit population.
 Let exist one pair of rabbits in start. Mating pair always produces one new pair at one month.
 New pair grow one month and do not produces new pair. How many pairs will there be in one year?<br/>
-Let *Node* class be model of pair of rabbits. A State attribute is a state of the pair and has two values: mature state or childish state.<br/> 
-The pairs put to cages and the cages build in row. The "previous" and "next" attributes define place of cage to the row.<br/> 
-Let x and y be head of linked lists and
+Let *Node* class be model of pair of rabbits. A *State* attribute of *Node* is a state of the pair and has two values: mature state or childish state.<br/> 
+The pairs put to cages and the cages build in row. The *previous* and *next* attributes define place of cage to the row.<br/> 
+Let *x* and *y* be head of linked lists. The *x* attribute simulate sequence of months of year, the *y* simulate row of cages.
+In constructor of Node defined initial data
 ```
             y = new Node(); y.state = false;
             y.next = new Node(); y.next.state = true;
@@ -59,9 +60,9 @@ We consider following algorithm
             else probe = "The end";
         },
 ```
-where ix is counter of months, iy is counter of mature pairs, yy is counter of any pair, t ist is current node 
-of x linked list. 
-The "probe" variable is an input data. New node insert to head of linked list.
+where *ix* is counter of months, *iy* is counter of mature pairs, *yy* is counter of any pair, *t* is current node 
+of *x* linked list. 
+The *probe* variable is an input data. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.2
 <p><img src="Fibonacci.png" alt="" /></p>
 Figure 2. The Fibonacci sequence simulation<br>
