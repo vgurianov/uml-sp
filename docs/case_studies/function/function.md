@@ -1,6 +1,7 @@
 # Numerical and object models
 
 ## Introduction
+At now wide use numerical methods. In UML2 SP models, numerical calculation nearly use not. It is an important quality of our approach. In this section we shall discuss it topic. 
 
 ## Fibonacci sequence
 The Fibonacci sequence is a sequence of number when Fn = Fn-1 + Fn-2 with seed values F0 = F1 = 1, 
@@ -62,7 +63,7 @@ Figure 2. The Fibonacci sequence simulation<br>
 As we see, measurements of simulation give the Fibonacci sequence.
 
 ### The simulation model in C# code:  
-[Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs), 
+[Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
 
 ## Conclusion
 In this section we discussed numerical and object models. 
