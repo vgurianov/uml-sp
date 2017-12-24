@@ -13,7 +13,7 @@ public void fbSequenceNumericalModel()
 {
   int fb0, fb1, fb;
   fb0 = 1; fb1 = 1;
-  for (int i = 3; i<12; i++) 
+  for (int i = 2; i<12; i++) 
   {
     fb = fb0 + fb1;
     probe = i.ToString() + ", " + fb.ToString()
@@ -23,10 +23,10 @@ public void fbSequenceNumericalModel()
 ```
 
 **An object model** is following.<br/>
-In the Fibonacci book, this sequence is result of growth of a rabbit population.<br/> 
-Let exist one pair of rabbits in start. Mating pair always produces one new pair at one month.<br/> 
+[In the Fibonacci book](https://en.wikipedia.org/wiki/Fibonacci_number), this sequence is result of growth of a rabbit population.
+Let exist one pair of rabbits in start. Mating pair always produces one new pair at one month.
 New pair grow one month and do not produces new pair. How many pairs will there be in one year?<br/>
-Let Node be model of pair of rabbits. A State attribute is a state of the pair and has two values: mature or childish state.<br/> 
+Let *Node* class be model of pair of rabbits. A State attribute is a state of the pair and has two values: mature state or childish state.<br/> 
 The pairs put to cages and the cages build in row. The "previous" and "next" attributes define place of cage to the row.<br/> 
 Let x and y be head of linked lists and
 ```
@@ -40,17 +40,17 @@ We consider following algorithm
             if (t != null)
             {
                 ix++;
-                Node tt = y; int iy = 0; int yy = 0; Node yt;
+                Node tmp = y; int iy = 0; int yy = 0; Node yt;
                 do
                 {
-                    if (tt.state)
+                    if (tmp.state)
                     {
                         iy++;
                         yt = new Node(); yt.next = y; y = yt; }
-                    else { tt.state = true; };
+                    else { tmp.state = true; };
 
-                tt = tt.next; yy++;
-                } while (tt != null);
+                tmp = tmp.next; yy++;
+                } while (tmp != null);
 
                 t = t.next; 
                 probe = ix.ToString() + ", " + iy.ToString()+ 
@@ -59,10 +59,11 @@ We consider following algorithm
             else probe = "The end";
         },
 ```
-where ix is counter of months, iy is counter of mature pairs, yy is counter of any pairs. 
+where ix is counter of months, iy is counter of mature pairs, yy is counter of any pair, t ist is current node 
+of x linked list. 
 The "probe" variable is an input data. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.2
-<p><img src="Fibonacci.png" alt="" /></p><br>
+<p><img src="Fibonacci.png" alt="" /></p>
 Figure 2. The Fibonacci sequence simulation<br>
 As we see, measurements of simulation give the Fibonacci sequence.
 
