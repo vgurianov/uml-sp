@@ -4,6 +4,7 @@
 At now wide use numerical methods. In UML2 SP models, numerical calculation nearly use not. It is an important quality of our approach. In this section we shall discuss it topic. 
 
 ## Fibonacci sequence
+Let us explain where the numerical values in object models come from. Consider the following example.<br/>
 The Fibonacci sequence is a sequence of number when Fn = Fn-1 + Fn-2 with seed values F0 = F1 = 1, 
 i.e. any number is sum two previous numbers.<br/>
 
@@ -29,7 +30,7 @@ New pair grow one month and do not produces new pair. How many pairs will there 
 Let *Node* class be model of pair of rabbits. A *State* attribute of *Node* is a state of the pair and has two values: mature state or childish state.<br/> 
 The pairs put to cages and the cages build in row. The *previous* and *next* attributes define place of cage to the row.<br/> 
 Let *x* and *y* be head of linked lists. The *x* attribute simulate sequence of months of year, the *y* simulate row of cages.
-In constructor of Node defined initial data
+In constructor of *Node* defined initial data
 ```
             y = new Node(); y.state = false;
             y.next = new Node(); y.next.state = true;
@@ -66,7 +67,8 @@ The *probe* variable is an input data. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.2
 <p><img src="Fibonacci.png" alt="" /></p>
 Figure 2. The Fibonacci sequence simulation<br>
-As we see, measurements of simulation give the Fibonacci sequence.
+As we see, measurements of simulation give the Fibonacci sequence.<br/>
+**Resume:**In object models, numerical data is measurements result on object structures.
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
