@@ -67,8 +67,9 @@ The *probe* variable is an input data. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.2
 <p><img src="Fibonacci.png" alt="" /></p>
 Figure 2. The Fibonacci sequence simulation<br>
+
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
-**Resume:**In object models, numerical data is measurements result on object structures.
+**Resume:** In object models, numerical data is result of measurements on object structures.
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
