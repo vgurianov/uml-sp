@@ -1,1 +1,0 @@
-The Fibonacci sequence simulation
