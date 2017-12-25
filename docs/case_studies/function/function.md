@@ -69,7 +69,7 @@ The run result of the simulation is depicted in Fig.1
 Figure 1. The Fibonacci sequence simulation<br>
 
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
-**Resume:** In object models, numerical data is result of measurements on object structures.
+**Summary:** In object models, numerical data is result of measurements on object structures.
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
