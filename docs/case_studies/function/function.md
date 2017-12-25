@@ -3,7 +3,7 @@
 ## Introduction
 At now wide use numerical methods. In UML2 SP models, numerical calculation nearly use not. It is an important quality of our approach. In this section we shall discuss it topic. 
 
-## Fibonacci sequence
+## Measurements
 Let us explain where the numerical values in object models come from. Consider the following example.<br/>
 The Fibonacci sequence is a sequence of number when Fn = Fn-1 + Fn-2 with seed values F0 = F1 = 1, 
 i.e. any number is sum two previous numbers.<br/>
