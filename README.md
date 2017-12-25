@@ -12,7 +12,7 @@ A website of the UML2 SP is https://vgurianov.github.io/uml-sp/<br/><br/>
 Folders:
 
 - **UML2 SP metamodel**   -- Metamodel of the language
-- **UML2 SP**             -- An implementation of the language for StarUML editor (it is UML2 SP installation)
+- **UML2 SP**             -- UML2 SP installation (it is an implementation of the language for StarUML editor)
 - **examples**            -- The examles of simulation models on UML2 SP and C++
 
 ### License
