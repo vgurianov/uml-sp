@@ -64,9 +64,9 @@ We consider following algorithm
 where *ix* is counter of months, *iy* is counter of mature pairs, *yy* is counter of any pair, *t* is current node 
 of *x* linked list. 
 The *probe* variable is an input data. New node insert to head of linked list.
-The run result of the simulation is depicted in Fig.2
+The run result of the simulation is depicted in Fig.1
 <p><img src="Fibonacci.png" alt="" /></p>
-Figure 2. The Fibonacci sequence simulation<br>
+Figure 1. The Fibonacci sequence simulation<br>
 
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
 **Resume:** In object models, numerical data is result of measurements on object structures.
