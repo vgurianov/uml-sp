@@ -22,7 +22,7 @@ public void fbSequenceNumericalModel()
   }
 },
 ```
-where the *probe* variable is an input data.
+where the *probe* variable is an output data.
 
 **An object model** is following.<br/>
 [In the Fibonacci book](https://en.wikipedia.org/wiki/Fibonacci_number), this sequence is result of growth of a rabbit population.
