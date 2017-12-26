@@ -3,4 +3,12 @@
 - **SimpleExample** - [Case study](https://vgurianov.github.io/uml-sp/annotations)
 
 # 2. Scientific models
-TODO: to be added later 
+- Queuing simulation
+- Fast Food Restaurant
+- Minsky's cube
+- Paradox of barber
+- Reflexion
+- Mechanical motion
+- Koch snowflake
+- Multicellular organism
+- Dialogs 
