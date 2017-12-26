@@ -20,8 +20,9 @@ public void fbSequenceNumericalModel()
     probe = i.ToString() + ", " + fb.ToString()
     fb0 = fb1; fb1 = fb;
   }
-}
+},
 ```
+where the *probe* variable is an input data.
 
 **An object model** is following.<br/>
 [In the Fibonacci book](https://en.wikipedia.org/wiki/Fibonacci_number), this sequence is result of growth of a rabbit population.
@@ -62,8 +63,7 @@ We consider following algorithm
         },
 ```
 where *ix* is counter of months, *iy* is counter of mature pairs, *yy* is counter of any pair, *t* is current node 
-of *x* linked list. 
-The *probe* variable is an input data. New node insert to head of linked list.
+of *x* linked list. New node insert to head of linked list.
 The run result of the simulation is depicted in Fig.1
 <p><img src="Fibonacci.png" alt="" /></p>
 Figure 1. The Fibonacci sequence simulation<br>
