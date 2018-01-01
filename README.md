@@ -3,9 +3,9 @@ The UML-profile intend for the development of simulation models. The development
 
 We opinion, the language useful to scientific simulation. The UML2 SP describe object of study as an ontology, i.e. as non-numeric model. This valuable if the mathematical model of object is not known. The ontology can be investigate simulation method.
 Also, the language can be used to technical simulation, however, this is more expensive than the GPSS or AnyLogic simulation but it is justified if the high quality of the model is necessary.<br/>
-We believe, the UML2 SP helpful into area of higher education to study of simulation and preparation of dissertations.
+We believe, the UML2 SP helpful into area of higher education to study of simulation and preparation of thesis.
 
-This project is a postdoctoral research work on simulations by V. Gurianov. Publications of the language see a bibliography section.
+This project is my a postdoctoral research work on simulations. Publications of the language see a bibliography section.
 
 A website of the UML2 SP is https://vgurianov.github.io/uml-sp/<br/><br/>
 
