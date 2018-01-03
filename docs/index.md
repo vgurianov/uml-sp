@@ -1,6 +1,5 @@
 <h1 id="header-1"><a href="#header-1"></a>UML2 SP. What Is It?</h1>
-The UML2 SP (UML Scientific Profile) is UML-profile for development of a simulation models. 
-UML2 SP is like a lite version of standard profile for Unified Process and support Use-Case Model, Analysis Model, and Design Model. A model is described as an ontology. The language best fit to simulation in science.
+UML2 SP is an object-oriented simulation language. The UML2 SP (UML Scientific Profile) is UML-profile for development of a simulation models. UML2 SP is like a lite version of standard profile for Unified Process and support Use-Case Model, Analysis Model, and Design Model. A model is described as an ontology. The language best fit to simulation in science.
 <br/><a href="annotations">Preview</a>
 <br/><a href="oos">About an object-oriented simulation (OOS)</a>
 
@@ -14,7 +13,7 @@ UML2 SP is like a lite version of standard profile for Unified Process and suppo
 
 - <a href="conception">UML2 SP conception</a>
 - <a href="metamodel">Metamodel and definition of stereotypes</a>
-- [UML2 SP User’s Guide](https://github.com/vgurianov/uml-sp/wiki) (TODO: This will be written on the GitBook)
+- [UML2 SP Application Guide](https://github.com/vgurianov/uml-sp/wiki) (TODO: This will be written on the GitBook)
 - <a href="bibliography">Bibliography</a>
 
 
