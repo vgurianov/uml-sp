@@ -13,7 +13,7 @@ UML2 SP is an object-oriented simulation language. The UML2 SP (UML Scientific P
 
 - <a href="conception">UML2 SP conception</a>
 - <a href="metamodel">Metamodel and definition of stereotypes</a>
-- [UML2 SP Application Guide](https://github.com/vgurianov/uml-sp/wiki) (TODO: This will be written on the GitBook)
+- [UML2 SP Application Guide](https://www.gitbook.com/book/vgurianov/simulation-with-uml2-scientific-profile) (TODO: This will be written on the GitBook)
 - <a href="bibliography">Bibliography</a>
 
 
@@ -23,5 +23,5 @@ UML2 SP implementation on StarUML ver. 5.0 editor for Windows.<br/>
 <a href="https://github.com/vgurianov/uml-sp/blob/master/UML2%20SP/readme.md">Install</a><br/>
 
 <h1 id="header-6"><a href="#header-5"></a>License</h1>
-This project is licensed under the terms of the [BSD 2-Clause license](https://github.com/vgurianov/uml-sp/blob/master/LICENSE)<br/>
+This project is licensed under the terms of the [BSD 2-Clause license](LICENSE)<br/>
 
