@@ -5,7 +5,7 @@ We opinion, the language useful to scientific simulation. The UML2 SP describe o
 Also, the language can be used to technical simulation, however, this is more expensive than the GPSS or AnyLogic simulation but it is justified if the high quality of the model is necessary.<br/>
 We believe, the UML2 SP helpful into area of higher education to study of simulation and preparation of thesis.
 
-This project is my a postdoctoral research work on simulations. Publications of the language see a bibliography section.
+This project is my a postdoctoral research work on simulations. More details can be found on [wiki](https://github.com/vgurianov/uml-sp/wiki). Publications of the language see a bibliography section.
 
 A website of the UML2 SP is https://vgurianov.github.io/uml-sp/<br/><br/>
 
