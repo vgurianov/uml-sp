@@ -26,26 +26,29 @@ It's necessary create a simulation model of dialog.
 Run StarUML editor. Apply UML2 SP approach (Fig.1):
 <p><img src="images/Start_1.png" alt="" /></p>
 Figure 1. A selection of approach<br/>
+
 or created new project. Main work areas see Fig.2.
 <p><img src="images/Start_2.png" alt="" /></p>
 Figure 2. Main window StarUML for UML2 SP approach
 
 Save your project.
-## 1. Define goals of modeling and requirements to simulator
+## 1. Determination of modeling objectives and requirements to software of simulation
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
 
-**Goal:** What will Mr. Brown answer?<br/>
+**Objective:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
-Go "SP UseCase" tab and draw Use Case diagram .<br>
+Go "UseCase" tab and draw Use Case diagram .<br>
 <p><img src="UseCase.png" alt="" /></p>
-A *Use-Case model* define the functional requirements of the simulator: system must do "Prepare","Step" and "Visualize".
+A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".</p>
+Use-case must be accurately describe. A main use-case is "Step" use-case. 
+**Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.</p>
+We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
 ## 2. Conceptual modeling
-Analysis model is main part of a simulation model.<br/>
 In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
 
-### 2.1. Apply "Simulation" pattern
-Select "SP Class diagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
+### 2.1. Apply "Simulator" pattern
+Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
 <p><img src="images/SimulatorPattern_1.png" alt="" /></p><br/>
 Apply pattern:
 <p><img src="images/SimulatorPattern_2.png" alt="" /></p>
