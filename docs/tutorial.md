@@ -23,11 +23,13 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
-Run StarUML editor. Apply UML2 SP approach:
+Run StarUML editor. Apply UML2 SP approach (Fig.1):
 <p><img src="images/Start_1.png" alt="" /></p>
 Figure 1. A selection of approach<br/>
-or created new project:
-<p><img src="images/Start_2.png" alt="" /></p><br/>
+or created new project. Main work areas see Fig.2.
+<p><img src="images/Start_2.png" alt="" /></p>
+Figure 2. Main window StarUML for UML2 SP approach
+
 Save your project.
 ## 1. Define goals of modeling and requirements to simulator
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
