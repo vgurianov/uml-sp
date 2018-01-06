@@ -1,5 +1,5 @@
 # Introduction
-A simulation is a reproduction of behavior a study object, i.e. algorithm unless is simplistically. 
+A simulation is a reproduction of behavior a study object, i.e. reproduction of algorithm unless is simplistically say. 
 Usually, for simulation use a computer programs.  
 The research include followes steps:
 1. define aims of modeling and requirements to software of simulation;
@@ -23,9 +23,10 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
-Run StarUml editor. Apply UML2 SP approach:
+Run StarUML editor. Apply UML2 SP approach:
 <p><img src="images/Start_1.png" alt="" /></p>
-and created new project:
+Figure 1. A selection of approach<br/>
+or created new project:
 <p><img src="images/Start_2.png" alt="" /></p><br/>
 Save your project.
 ## 1. Define goals of modeling and requirements to simulator
