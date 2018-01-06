@@ -37,13 +37,16 @@ In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefac
 
 **Objective:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
-Go "UseCase" tab and draw Use Case diagram .<br>
+Go "UseCase" tab and draw Use Case diagram (Fig.3).<br>
 <p><img src="UseCase.png" alt="" /></p>
 Figure 3. Use-Case Diagram<br/>
 
 A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".<br/>
 Use-case must be accurately describe. A main use-case is "Step" use-case.<br/> 
 **Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.<br/>
+The description should be placed in the model, see Fig.4.
+<p><img src="UseCase1.png" alt="" /></p>
+Figure 4. Description into Use-Case Model<br/>
 We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
 ## 2. Conceptual modeling
@@ -51,10 +54,11 @@ In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefa
 
 ### 2.1. Apply "Simulator" pattern
 Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
-<p><img src="images/SimulatorPattern_1.png" alt="" /></p><br/>
+<p><img src="images/SimulatorPattern_1.png" alt="" /></p>
+Figure 5. "Apply Patterns" window<br/>
 Apply pattern:
 <p><img src="images/SimulatorPattern_2.png" alt="" /></p>
-
+Figure 6. Applying "Simulator" pattern
 ### 2.2. Development realisation of use cases 
 Go "UseCaseRealization" tab.<br>
 Realization "Step" use case :
