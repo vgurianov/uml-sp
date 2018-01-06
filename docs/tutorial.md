@@ -1,15 +1,17 @@
 # Introduction
-A simulation include next steps:
-1. define goals of modeling and requirements to simulator
-2. conceptual modeling
-3. formal describe
-4. programming
-5. verification and validation
-6. make general plan of experiments
-7. make up tactical plan and execute experiment
-8. analyze results of experiments
+A simulation is a reproduction of behavior a study object, i.e. algorithm unless is simplistically. 
+Usually, for simulation use a computer programs.  
+The research include followes steps:
+1. define aims of modeling and requirements to software of simulation;
+2. conceptual modeling;
+3. formal describe of software;
+4. programming;
+5. verification and validation of the simulation model (and program);
+6. draw up a general plan of experiments;
+7. draw up a tactical plan and execute experiment;
+8. analyze results of experiments.
 
-UML2 SP support three first step.
+The Unified Process (UP) is a software engineering process (SEP), and it has five workflow are requirements, analysis, design, implementation, and test. The UML2 SP allow to use UP for a development of simulation models. The  requirements, analysis, and design of UP support three first step of a simulation.
 
 # Simple example
 In this example we shall simulated dialogs between humans.<br/>
