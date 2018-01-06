@@ -39,9 +39,11 @@ In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefac
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
 Go "UseCase" tab and draw Use Case diagram .<br>
 <p><img src="UseCase.png" alt="" /></p>
-A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".</p>
-Use-case must be accurately describe. A main use-case is "Step" use-case. 
-**Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.</p>
+Figure 3. Use-Case Diagram<br/>
+
+A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".<br/>
+Use-case must be accurately describe. A main use-case is "Step" use-case.<br/> 
+**Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.<br/>
 We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
 ## 2. Conceptual modeling
