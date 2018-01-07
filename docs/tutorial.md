@@ -95,8 +95,9 @@ Go "SP Class diagram" tab. Class diagram:
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br/>
 Figure 8. An Analysis Class Diagram for the simulation
 
+For the class diagram must assign computational semantics and application domain semantics.
 ### 2.4. Description of a computational semantics<br> 
-The class diagram is variant of a *Composite* pattern .<br/>
+The class diagram is variant of a *Composite* pattern . Threads interact according to the rules like in nature. In this case is *Single Threaded Execution* pattern<br/>
 
 ### 2.5. Description of an application domain semantics
 
