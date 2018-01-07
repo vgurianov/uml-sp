@@ -52,7 +52,10 @@ We recommend use a semi-formal description, i.e. specification of use-case (see 
 
 ## 2. Conceptual modeling
 In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/>
-Our end aim is to create Analysis Class Diagram.<br/>
+In modern science, description of a model is mathematical description. The UML2 SP provide alternative posible of model description. It is very much useful of whenever a mathematical model do not be exist.<br/>
+For description of model use an ontology. An ontology is a rigorous language like matematics language. In UML2 SP, an ontology is depicted as a class diagram. Application domain semantics is appointed of  "Concept" tagget value. In matematical text, it is "where" word.<br/>
+We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function. We understend "similar" as "same role" to description of model.<br/>
+So, our end aim is to create Analysis Class Diagram.<br/>
 
 ### 2.1. Apply "Simulator" pattern
 Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
@@ -64,32 +67,29 @@ Figure 6. Applying "Simulator" pattern
 ### 2.2. Development realisation of use cases
 In first step, we write use-case realization on a pseudo-code:
 ```
-	Node() {
+Node() {
 	pl = new Leaf("Goldsmith");
 	pl->next = new Leaf("Brown");
 	msg="";
-	}
+}
 
 void Run() { // <<Exist>>
-	if (pl != NULL) {
+if (pl != NULL) {
 	pl->putMessage(msg);            // Interlocutor listen to the speaker.
-  pl->Run();                      // Interlocutor ponder a message
-  msg = pl->getMessage();         // Interlocutor give answer
+	pl->Run();                      // Interlocutor ponder a message
+	msg = pl->getMessage();         // Interlocutor give answer
 	this->nextItem();
 	probe = msg; // measurement
-	} else probe = "<close dialog>";
+} else probe = "<close dialog>";
 }
 ```
 In second step, we draw Communication (or Sequence) Diagram (see Fig.7).<br/>
-Go "UseCaseRealization" tab.<br>
-Realization "Step" use case :
+Go "UseCaseRealization" tab. Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
 Figure 7. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
-In modern science, description of a model is mathematical description. The UML2 SP provide alternative posible of model description. It is very much useful of whenever a mathematical model do not be exist.<br/>
-For description of model use an ontology. An ontology is a rigorous language like matematics language. In UML2 SP, an ontology is depicted as a class diagram. Application domain semantics is appointed of  "Concept" tagget value. In matematical text, it is "where" word.<br/>
-We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function. We understend "similar" as "same role" to description of model.
+
 
 Go "SP Class diagram" tab.<br>
 Class diagram (build from realization):
