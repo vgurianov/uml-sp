@@ -113,14 +113,15 @@ Formal describe this definition is a ontology depicted in class diagram.<br>
 - The "Composite" frame define "Dialog space" concept and has "pl" slot.<br>
 - The "Root" frame define "Environment" concept . It is initial and boundary conditions.<br>
 - The "Node" frame define "Greeting" concept and has "msg" slot. It is the system under study.<br>
-Class operations define a rule of change of slot.<br><br>
+Class operations define a rule of change of slot.<br>
+
 An ontology is main artefact in the UML2 SP.
 
 
 ## 3. Formal describe of software
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
 
-On this workflow select a platform and design an algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language.<br/>
+In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language.<br/>
 This workflow requires a lot of time.
 
 In our case, we select C++ and parallel programming (but not concurrent programming). An algorithm for the Run operation of the Node class:<br>
