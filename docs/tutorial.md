@@ -29,11 +29,11 @@ Figure 1. A selection of approach<br/>
 
 or created new project. Main work areas see Fig.2.
 <p><img src="images/Start_2.png" alt="" /></p>
-Figure 2. Main window StarUML for UML2 SP approach
+Figure 2. StarUML main window for UML2 SP approach
 
 Save your project.
 ## 1. Determination of modeling objectives and requirements to software of simulation
-In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
+In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.<br/>
 
 **Objective:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
@@ -42,6 +42,7 @@ Go "UseCase" tab and draw Use Case diagram (Fig.3).<br>
 Figure 3. Use-Case Diagram<br/>
 
 A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".<br/>
+
 Use-case must be accurately describe. A main use-case is "Step" use-case.<br/> 
 **Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.<br/>
 The description should be placed in the model, see Fig.4.
@@ -50,7 +51,8 @@ Figure 4. Description into Use-Case Model<br/>
 We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
 ## 2. Conceptual modeling
-In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/><br/>
+In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/>
+Our end aim is to create Analysis Class Diagram.<br/>
 
 ### 2.1. Apply "Simulator" pattern
 Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
@@ -59,10 +61,30 @@ Figure 5. "Apply Patterns" window<br/>
 Apply pattern:
 <p><img src="images/SimulatorPattern_2.png" alt="" /></p>
 Figure 6. Applying "Simulator" pattern
-### 2.2. Development realisation of use cases 
+### 2.2. Development realisation of use cases
+In first step, we write use-case realization on a pseudo-code:
+```
+	Node() {
+	pl = new Leaf("Goldsmith");
+	pl->next = new Leaf("Brown");
+	msg="";
+	}
+
+void Run() { // <<Exist>>
+	if (pl != NULL) {
+	pl->putMessage(msg);            // Interlocutor listen to the speaker.
+  pl->Run();                      // Interlocutor ponder a message
+  msg = pl->getMessage();         // Interlocutor give answer
+	this->nextItem();
+	probe = msg; // measurement
+	} else probe = "<close dialog>";
+}
+```
+In second step, we draw Communication (or Sequence) Diagram (see Fig.7).<br/>
 Go "UseCaseRealization" tab.<br>
 Realization "Step" use case :
 <p><img src="UseCaseRealization.png" alt="" /></p> <br>
+Figure 7. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
 In modern science, description of a model is mathematical description. The UML2 SP provide alternative posible of model description. It is very much useful of whenever a mathematical model do not be exist.<br/>
