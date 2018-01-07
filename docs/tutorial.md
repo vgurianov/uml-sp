@@ -75,28 +75,28 @@ Node() {
 
 void Run() { // <<Exist>>
 if (pl != NULL) {
-	pl->putMessage(msg);            // Interlocutor listen to the speaker.
-	pl->Run();                      // Interlocutor ponder a message
-	msg = pl->getMessage();         // Interlocutor give answer
-	this->nextItem();
+	pl->putMessage(msg);      // Interlocutor listen to the speaker
+	pl->Run();                // Interlocutor ponder a message
+	msg = pl->getMessage();   // Interlocutor give answer
 	probe = msg; // measurement
+this->nextItem();
 } else probe = "<close dialog>";
 }
 ```
 In second step, we draw Communication (or Sequence) Diagram (see Fig.7).<br/>
 Go "UseCaseRealization" tab. Realization "Step" use case :
-<p><img src="UseCaseRealization.png" alt="" /></p> <br>
+<p><img src="UseCaseRealization.png" alt="" /></p> <br/>
 Figure 7. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
+A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just (Fig.8).<br/>
 
-
-Go "SP Class diagram" tab.<br>
-Class diagram (build from realization):
-<p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
+Go "SP Class diagram" tab. Class diagram:
+<p><img src="SP%20ClassDiagram.png" alt="" /></p> <br/>
+Figure 8. An Analysis Class Diagram for the simulation
 
 ### 2.4. Description of a computational semantics<br> 
-The class diagram is variant of a *Composite* pattern .<br>
+The class diagram is variant of a *Composite* pattern .<br/>
 
 ### 2.5. Description of an application domain semantics
 
