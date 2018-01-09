@@ -1,5 +1,5 @@
 # About UML2 SP
-A simulation include next steps:
+A simulation include follow steps:
 1. define goals of modeling and requirements to simulator
 2. conceptual modeling
 3. formal describe
