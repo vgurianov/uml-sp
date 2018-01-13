@@ -1,7 +1,7 @@
 # Numerical and object models
 
 ## Introduction
-At now wide use numerical methods. In UML2 SP models, numerical calculation nearly use not. Model describe as an ontology but do not as differential equation. It is a distinctive quality of our approach. An ontology is alternative way of modeling. In this section we shall discuss it topic. 
+At now wide use numerical methods. In UML2 SP models, numerical calculation nearly use not. Model describe as an ontology but do not as differential equation. This is a distinctive feature of our approach. An ontology is alternative way of modeling. In this section we shall discuss it topic. 
 
 ## Measurements
 Let us explain where the numerical values in object models come from. Consider the following example.<br/>
