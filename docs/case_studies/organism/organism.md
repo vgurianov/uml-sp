@@ -21,7 +21,7 @@ Both approach can united to a one model. Now is a lot of a works to morphogenesi
 We shall consider object model of multicellular organism has been proposed in work [1]. In this section we shall discuss it. 
 
 ## Application domain
-As example of multicellular organism, consider one-dimensional organism, like is the [Trichoplax](https://en.wikipedia.org/wiki/Trichoplax). We define next set of feature:
+As example of multicellular organism, consider one-dimensional organism, like is the [Trichoplax](https://en.wikipedia.org/wiki/Trichoplax). We define following set of feature:
 - a cell can be to several states;
 - cells interact across [cell junctions](https://en.wikipedia.org/wiki/Cell_junction);
 - a state change of cell genotype and interaction of cells;
@@ -37,7 +37,7 @@ Figure 1. The class diagram<br/>
 
 ### Description of a computational semantics
 A one-dimensional structure of organism simulate as a linked list of instance of Leaf class. 
-All objects of Leaf class have parallel threads.
+All objects of Leaf class have concurrent threads.
 
 ### Description of an application domain semantics
 We shall give definition of concepts to the ontology.
@@ -69,7 +69,7 @@ The “headOfList” slot define “Composition of holobiont” concept.
 #### Multicellular organism
 The “Node” frame define “Multicellular organism” concept. A “iTime” slot define “Biological time” concept. 
 The organism can be in two phases, information and fission phases, a change these phases are biological time of organism.
-For example, we considered to next a simple grammar.
+For example, we considered to following a simple grammar.
 ```
 Axiom: A
 Rules: xAy -> A, xAx -> B, yAy -> D, xBy -> B
