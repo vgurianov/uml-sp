@@ -1,10 +1,10 @@
-# Koch snowflake
-Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Fractal).
+# Decomposition of clock
+Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 ## Introduction
 
 ## Application domain
-<p><img src="FractalClassDiagram.png" alt="" /></p>
-Figure 1. The class diagram<br/>
+<p><img src="clock.png" alt="" /></p>
+Figure 1. Pendulum clock (picture from [http://fizportal.ru/](http://fizportal.ru/physics-book-67-3))<br/>
 
 ## Analysis model
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
@@ -18,7 +18,7 @@ We shall give definition of concepts to the ontology.
 The “Component” frame define “Topological Space
 ” concept. The frame has «left and right» slots. It is defined "coupling" notion.
 ### Verification
-<p><img src="Screenshot.png" alt="" /></p>
+<p><img src="main_form.png" alt="" /></p>
 Figure 3. Results of measurement to simulation model<br/>
 
 ### The simulation model in C# code:  
@@ -36,7 +36,7 @@ We shall give definition of concepts to the ontology.
 The “Component” frame define “Topological Space
 ” concept. The frame has «left and right» slots. It is defined "coupling" notion.
 ### Verification
-<p><img src="Screenshot.png" alt="" /></p>
+<p><img src="main_form2.png" alt="" /></p>
 Figure 3. Results of measurement to simulation model<br/>
 
 ### The simulation model in C# code:  
