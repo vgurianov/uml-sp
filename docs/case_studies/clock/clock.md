@@ -52,7 +52,7 @@ Figure 3. Results of observe the simulation model<br/>
 Let the Researcher be located in an atomic object. In this case, the model is changes. 
 Model the сдщсл is depicted in Fig.4.
 
-<p><img src="ClockClassDiagram2.png" alt="" /></p>
+<p><img src="clockClassDiagram2.png" alt="" /></p>
 Figure 4. The class diagram<br/>
 
 The atomic object becomes a context object, and the context object becomes an atomic object. Now the *Researcher* can observe all the processes, but both *TopNode* and *Leaf* processes will go very slowly.
