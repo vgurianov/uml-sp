@@ -49,16 +49,17 @@ Figure 3. Results of observe the simulation model<br/>
 [ClockClass.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClass.cs) 
 
 ## Alternative model of analysis 
-A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
-Model the fractal is depicted in Fig.3.
+Let the Researcher be located in an atomic object. In this case, the model is changes. 
+Model the сдщсл is depicted in Fig.4.
 
-<p><img src="AltClockClassDiagram.png" alt="" /></p>
-Figure 3. The class diagram<br/>
-We shall give definition of concepts to the ontology.
+<p><img src="ClockClassDiagram2.png" alt="" /></p>
+Figure 4. The class diagram<br/>
+
+The atomic object becomes a context object, and the context object becomes an atomic object. Now the *Researcher* can observe all the processes, but both *TopNode* and *Leaf* processes will go very slowly.
 
 ### Verification
 <p><img src="main_form2.png" alt="" /></p>
-Figure 4. Results of measurement to simulation model<br/>
+Figure 5. Results of observe the simulation model<br/>
 
 ### The simulation model in C# code:  
 [ClockClassAlt.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClassAlt.cs)
