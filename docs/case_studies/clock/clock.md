@@ -17,7 +17,7 @@ Where are two objects such that their time is sinhronize. First object is the ho
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
 Model the clock is depicted in Fig.2.
 
-<p><img src="ClassDiagram.png" alt="" /></p>
+<p><img src="clockClassDiagram.png" alt="" /></p>
 Figure 2. The class diagram<br/>
 The ontology consist as frames and links between them. Frames define concepts. 
 
@@ -37,7 +37,7 @@ Figure 3. Results of observe the simulation model<br/>
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
 Model the fractal is depicted in Fig.3.
 
-<p><img src="AltClassDiagram.png" alt="" /></p>
+<p><img src="AltClockClassDiagram.png" alt="" /></p>
 Figure 3. The class diagram<br/>
 We shall give definition of concepts to the ontology.
 
