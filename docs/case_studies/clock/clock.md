@@ -11,7 +11,7 @@ In the pendulum clock, the work of a constant external force (gravity acting on 
 Figure 1. Pendulum clock (picture from [http://fizportal.ru/](http://fizportal.ru/physics-book-67-3))<br/>
 First of all, we are interested in a gear train.
 The gear ratios of the gear train divide the rotation rate down to give wheels that rotate once every hour and once every 12 hours, to turn the hands of the clock.<br/> 
-Where are two objects such that their time is sinhronize. First object is the hour hand (and dial), second object is the minute hand (and dial).
+Where are two objects such that their time is sinhronize. First object is the hour hand (and dial), second object is the minute hand (and dial). Let the second hand by directly connected with the pendulum.
 
 ## Analysis model
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
