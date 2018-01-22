@@ -39,7 +39,7 @@ public override void Run()
 ```
 where *component* variable is TopNode type.<br/>
 The *«Exist»Run()* operation of *TopNode* class  is a similar code, where *component* variable is *Leaf* type.<br/>
-For observer of *BottomNode*, process *«Exist»Run()* of *TopNode* is an event and this.component.probe variable will show 0 minutes because 60-minute cycle is the end.
+For observer of *BottomNode*, process *«Exist»Run()* of *TopNode* is an event and *this.component.probe* variable will show 0 minutes because 60-minute cycle is the end.
 
 ### Verification
 <p><img src="main_form.png" alt="" /></p>
@@ -50,7 +50,7 @@ Figure 3. Results of observe the simulation model<br/>
 
 ## Alternative model of analysis 
 Let the Researcher be located in an atomic object. In this case, the model is changes. 
-Model the сдщсл is depicted in Fig.4.
+Model the clockk is depicted in Fig.4.
 
 <p><img src="clockClassDiagram2.png" alt="" /></p>
 Figure 4. The class diagram<br/>
