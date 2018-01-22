@@ -11,19 +11,31 @@ In the pendulum clock, the work of a constant external force (gravity acting on 
 Figure 1. Pendulum clock (picture from [http://fizportal.ru/](http://fizportal.ru/physics-book-67-3))<br/>
 First of all, we are interested in a gear train.
 The gear ratios of the gear train divide the rotation rate down to give wheels that rotate once every hour and once every 12 hours, to turn the hands of the clock.<br/> 
-Where are two objects such that their time is sinhronize. First object is the hour hand (and dial), second object is the minute hand (and dial). Let the second hand by directly connected with the pendulum.
+Where are two objects such that their time is sinhronize. First object is the hour hand (and dial), second object is the minute hand (and dial). 
 
 ## Analysis model
+Also consider seconds hand. Let the seconds hand by directly connected with the pendulum.
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
 Model the clock is depicted in Fig.2.
 
 <p><img src="clockClassDiagram.png" alt="" /></p>
 Figure 2. The class diagram<br/>
-The ontology consist as frames and links between them. Frames define concepts. 
 
-#### Topological Space
-The “Component” frame define “Topological Space
-” concept. The frame has «left and right» slots. It is defined "coupling" notion.
+The ontology consist as frames and links between them. Frames define concepts: Timepiece, Time-measure device, Second hand, Minute hand, Hour hand, and Clock. The "Item" class do not a frame, it is definition of type for attributes of "Component" class.<br/>
+The Root, BottomNode, TopNode, Leaf instances are nested inside each other (see aggregate association). Time of these objects also  nested inside each other. Decomposition of time is the following.
+The «Exist»Run() operation of BottomNode class (in C#) is 
+```
+public override void Run()
+{
+   this.component.Run();
+   if (cur == null) { cur = list; counter = 0; };
+   probe = "Haur:"+counter.ToString() + this.component.probe;
+   cur = cur.next; counter++;
+} ,
+```
+where *component* variable is TopNode type.<br/>
+The «Exist»Run() operation of TopNode class  is a similar code, where *component* variable is Leaf type.<br/>
+For observer of BottomNode, process "Exist" Run () of TopNode is an event and this.component.probe variable will show 0 minutes because 60-minute cycle is end.
 
 
 ### Verification
