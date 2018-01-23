@@ -1,8 +1,8 @@
 # Decomposition of clock
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 ## Introduction
-The SSP (Simulation with Scientific Profile) is analog of Unified Process to development a simulation models. The main principle of SSP is a decomposition principle [1]. First of all, we define context and system. Farther, we make decomposition of system to subsystems. In the end, we have atomic objects. The atomic object is an anolog of ABS-agent. For decomposition, we use *Composite* pattern.<br/>
-In SSP, the particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem (quantum of exist, can say ). In UML2 SP, it is a operation with "Exist" stereotype. In this section we will discurse it topic.
+The SSP (Simulation with Scientific Profile) is analog of Unified Process to development a simulation models. The main principle of the SSP is a decomposition principle [1]. First of all, we define context and system. Farther, we make decomposition of system to subsystems. In the end, we have atomic objects. The atomic object is an anolog of ABS-agent. For decomposition, we use *Composite* pattern.<br/>
+In the SSP, the particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem (quantum of exist, can say ). In the UML2 SP, it is a operation with "Exist" stereotype. In this section we will discurse it topic.
 
 ## Encapsulate of time
 In nature, often different processes have different scale of time. For instance, the time of the turn of the Earth around the axis is small in comparison with the time of turn of the Earth around of the Sun. You can approximately take a day as event, ie for a point. This is very similar to the definition of a point particle. This is simulated in that one procedure is called from another procedure. From the point of view of the first procedure, the process of the second procedure will be an event. We can say that the second procedure encapsulates the time of the second process.<br/>
@@ -10,9 +10,10 @@ Encapsulate of time is called Tempo-world. [Sergei P. Kurdyumov](https://en.wiki
 We will view example of a time decomposition.
 
 ## Application domain
-In the pendulum clock, the work of a constant external force (gravity acting on the weight) periodically compensates for the loss of mechanical energy of the pendulum. For details, see [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock)
+In the pendulum clock, the work of a constant external force (gravity acting on the weight) periodically compensates for the loss of mechanical energy of the pendulum. For details, see [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 <p><img src="clock.png" alt="" /></p>
 Figure 1. Pendulum clock (picture from [http://fizportal.ru/](http://fizportal.ru/physics-book-67-3))<br/>
+
 First of all, we are interested in a gear train.
 The gear ratios of the gear train divide the rotation rate down to give wheels that rotate once every hour and once every 12 hours, to turn the hands of the clock.<br/> 
 Where are two objects such that their time is sinhronize. First object is the hour hand (and dial), second object is the minute hand (and dial). 
@@ -37,9 +38,23 @@ public override void Run()
    cur = cur.next; counter++;
 } ,
 ```
-where *component* variable is TopNode type.<br/>
-The *«Exist»Run()* operation of *TopNode* class  is a similar code, where *component* variable is *Leaf* type.<br/>
-For observer of *BottomNode*, process *«Exist»Run()* of *TopNode* is an event and *this.component.probe* variable will show 0 minutes because 60-minute cycle is the end.
+where *component* variable is *TopNode* type.<br/>
+The *«Exist»Run()* operation of *TopNode* class is
+```
+public override void Run()
+        {
+            while (cur != null)
+            {
+                cur = cur.next; counter++;
+                this.component.Run();
+            }
+            cur = list; counter = 0;
+            probe = ".minute: " + counter.ToString() + this.component.probe;
+        }
+```
+where *component* variable is *Leaf* type.<br/>
+The *«Exist»Run()* operation of *Leaf* class  is a similar code.<br/>
+For observer of *BottomNode*, process *«Exist»Run()* of *TopNode* is an event and *this.component.probe* variable will show 0 minutes because 60-minutes cycle is the end. For observer of *TopNode*, process *«Exist»Run()* of *Leaf* is an event and *this.component.probe* variable will show 0 seconds because 60-seconds cycle is the end.
 
 ### Verification
 <p><img src="main_form.png" alt="" /></p>
