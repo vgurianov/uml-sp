@@ -1,7 +1,7 @@
-# Clock decomposition
+# Decomposition of clock
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 ## Introduction
-The SSP (Simulation with Scientific Profile) is analog of Unified Process to development a simulation models. The main principle of SSP is a decomposition principle [1]. First of all, we define context and system. Farther, we make decomposition of system to subsystems. In end, we have atomic objects. The atomic object is an anolog of ABS-agent. For decomposition, we use Composite pattern.<br/>
+The SSP (Simulation with Scientific Profile) is analog of Unified Process to development a simulation models. The main principle of SSP is a decomposition principle [1]. First of all, we define context and system. Farther, we make decomposition of system to subsystems. In the end, we have atomic objects. The atomic object is an anolog of ABS-agent. For decomposition, we use *Composite* pattern.<br/>
 In SSP, the particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem (quantum of exist, can say ). In UML2 SP, it is a operation with "Exist" stereotype. In this section we will discurse it topic.
 
 ## Encapsulate of time
@@ -25,9 +25,9 @@ Model the clock is depicted in Fig.2.
 <p><img src="clockClassDiagram.png" alt="" /></p>
 Figure 2. The class diagram<br/>
 
-The ontology consist as frames and links between them. Frames define concepts: Timepiece, Time-measure device, Second hand, Minute hand, Hour hand, and Clock. The "Item" class do not a frame, it is definition of type for attributes of "Component" class.<br/>
-The Root, BottomNode, TopNode, Leaf instances are nested inside each other (see aggregate association). Time of these objects also  nested inside each other. Decomposition of time is the following.<br/>
-The «Exist»Run() operation of BottomNode class (in C#) is 
+The ontology consist as frames and links between them. Frames define concepts: Timepiece, Time-measure device, Second hand, Minute hand, Hour hand, and Clock. The *Item* class do not a frame, it is definition of type for attributes of *Component* class.<br/>
+The *Root, BottomNode, TopNode, Leaf* instances are nested inside each other (see aggregate association). Time of these objects also  nested inside each other. Decomposition of time is the following.<br/>
+The *«Exist»Run()* operation of *BottomNode* class (in C#) is 
 ```
 public override void Run()
 {
@@ -49,11 +49,11 @@ Figure 3. Results of observe the simulation model<br/>
 [ClockClass.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClass.cs) 
 
 ## Alternative model of analysis 
-Let the Researcher be located in an atomic object. In this case, the model is changes. 
+Let the *Researcher* be located in an atomic object. In this case, the model is changes. 
 Model the clockk is depicted in Fig.4.
 
 <p><img src="clockClassDiagram2.png" alt="" /></p>
-Figure 4. The class diagram<br/>
+Figure 4. The alternative class diagram<br/>
 
 The atomic object becomes a context object, and the context object becomes an atomic object. Now the *Researcher* can observe all the processes, but both *TopNode* and *Leaf* processes will go very slowly.
 
