@@ -4,7 +4,7 @@ Contents:<br/>
 <ul>
   <li><a href="case_studies/queue/queuing_theory">Queuing simulation</a></li>
   <li><a href="case_studies/fast_food/fast_food">Fast Food Restaurant</a></li>
-  <li><a href="case_studies/clock/clock">Clock decomposition</a></li>
+  <li><a href="case_studies/clock/clock">Decomposition of clock</a></li>
   <li><a href="case_studies/minsky/minsky">Minsky's cube</a></li>
   <li><a href="case_studies/barber/barber">Paradox of barber</a></li>
   <li><a href="case_studies/kripke/kripke">Reflexion</a></li>
