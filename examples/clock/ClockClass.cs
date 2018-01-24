@@ -43,6 +43,7 @@ namespace ClockClasses
         }
         public override void Run()
         {
+            cur = list;
             while (cur != null)
             {
                 cur = cur.next; counter++;
@@ -77,6 +78,7 @@ namespace ClockClasses
 
         public override void Run()
         {
+            cur = list;
             while (cur != null)
             {
                 cur = cur.next; counter++;
