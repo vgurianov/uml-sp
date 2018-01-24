@@ -43,7 +43,6 @@ The *«Exist»Run()* operation of *TopNode* class is
 ```
 public override void Run()
         {
-            cur = list;
             while (cur != null)
             {
                 cur = cur.next; counter++;
