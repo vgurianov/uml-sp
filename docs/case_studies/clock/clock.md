@@ -43,6 +43,7 @@ The *«Exist»Run()* operation of *TopNode* class is
 ```
 public override void Run()
         {
+            cur = list;
             while (cur != null)
             {
                 cur = cur.next; counter++;
@@ -80,7 +81,7 @@ Figure 5. Results of observe the simulation model<br/>
 [ClockClassAlt.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClassAlt.cs)
 
 ## Conclusion
-The main principle of SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with "Exist" stereotype.<br/>
+The main principle of the SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with "Exist" stereotype.<br/>
 
 ## References
 1.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.(In Russian)](http://simulation.su/static/en-books.html)
