@@ -4,6 +4,15 @@ using System.Text;
 
 namespace ClockClasses
 {
+    /* Simulation of gear train in clock (observer of hour hand)
+     * 
+     * Using:
+     *   pWorld = new Root();
+     * 
+     *   pWorld.Run();
+     *   label1.Text = pWorld.probe;
+     */
+
     public class Item
     {
         public Item next;
