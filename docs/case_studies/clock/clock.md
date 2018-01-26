@@ -21,7 +21,7 @@ Where are two objects such that their time is sinhronize. First object is the ho
 ## Analysis model
 Also consider seconds hand. Let the seconds hand by directly connected with the pendulum.
 A conceptual model in UML2 SP is an analysis class diagram. This diagram considered as ontology. 
-Model the clock is depicted in Fig.2.
+Model the gear train is depicted in Fig.2.
 
 <p><img src="clockClassDiagram.png" alt="" /></p>
 Figure 2. The class diagram<br/>
@@ -38,7 +38,7 @@ public override void Run()
    cur = cur.next; counter++;
 } ,
 ```
-where *component* variable is *TopNode* type.<br/>
+where *component* variable is object of *TopNode* class and *cur = list* in begin.<br/>
 The *«Exist»Run()* operation of *TopNode* class is
 ```
 public override void Run()
@@ -52,7 +52,7 @@ public override void Run()
             probe = ".minute: " + counter.ToString() + this.component.probe;
         }
 ```
-where *component* variable is *Leaf* type.<br/>
+where *component* variable is object of *Leaf* class and *cur = list* in begin.<br/>
 The *«Exist»Run()* operation of *Leaf* class  is a similar code.<br/>
 For observer of *BottomNode*, process *«Exist»Run()* of *TopNode* is an event and *this.component.probe* variable will show 0 minutes because 60-minutes cycle is the end. For observer of *TopNode*, process *«Exist»Run()* of *Leaf* is an event and *this.component.probe* variable will show 0 seconds because 60-seconds cycle is the end.
 
@@ -65,7 +65,7 @@ Figure 3. Results of observe the simulation model<br/>
 
 ## Alternative model of analysis 
 Let the *Researcher* be located in an atomic object. In this case, the model is changes. 
-Model the clockk is depicted in Fig.4.
+Model the gear train is depicted in Fig.4.
 
 <p><img src="clockClassDiagram2.png" alt="" /></p>
 Figure 4. The alternative class diagram<br/>
@@ -78,6 +78,9 @@ Figure 5. Results of observe the simulation model<br/>
 
 ### The simulation model in C# code:  
 [ClockClassAlt.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClassAlt.cs)
+
+## Note
+The objects of *Leaf, Root, TopNode, BottomNode* classes have concurrent threads. The threads interact according *Single Threaded Execution* pattern.
 
 ## Conclusion
 The main principle of the SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with "Exist" stereotype.<br/>
