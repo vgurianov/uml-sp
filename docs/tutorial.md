@@ -123,12 +123,19 @@ In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *
 
 In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language.<br/>
 This workflow requires a lot of time.
+It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. For Analysis model can be created several Design models for different programming language.<br>
 
-In our case, we select C++ and parallel programming (but not concurrent programming). An algorithm for the Run operation of the Node class:<br>
-<p><img src="ActivityDiagram1.png" alt="" /></p> <br>
-Figure 9.Algorithm Run() operation <br/>
+In our case, we select C++ and parallel programming (but not concurrent programming). Let the code be prepared.<br>
+(a) Connect with the C ++ profile
+<p><img src="Design1.png" alt="" /></p> <br>
+Figure 9.The C++ profile <br/>
+(b) Execute reverse engineering
+<p><img src="Design2.png" alt="" /></p> <br>
+Figure 10.Run reverse engineering <br/>
+(c) Compare class diagrams
+<p><img src="Design4.png" alt="" /></p> <br>
+Figure 11.Class diagram of Design Model <br/>
 
-For Analysis model can be created several Design models.<br>
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
 
