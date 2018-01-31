@@ -118,7 +118,7 @@ Class operations define a rule of change of slot.<br>
 An ontology is main artefact in the UML2 SP.
 
 
-## 3. Formal describe of software
+## 3. Formal description of software
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
 
 In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
