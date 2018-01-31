@@ -122,10 +122,11 @@ An ontology is main artefact in the UML2 SP.
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
 
 In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language.<br/>
-This workflow requires a lot of time.
+This workflow requires a lot of time.<br/>
 It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. For Analysis model can be created several Design models for different programming language.<br>
 
-In our case, we select C++ and parallel programming (but not concurrent programming). Let the code be prepared.<br>
+In our case, we select C++ and parallel programming (but not concurrent programming).<br> 
+StarUML v.5.0 do not support [MDA(Model-driven architecture)](https://en.wikipedia.org/wiki/Model-driven_architecture) in full. So, end step execute in hand mode. Let the code be prepared.<br>
 (a) Connect with the C ++ profile
 <p><img src="Design1.png" alt="" /></p> <br>
 Figure 9.The C++ profile <br/>
@@ -135,6 +136,8 @@ Figure 10.Run reverse engineering <br/>
 (c) Compare class diagrams
 <p><img src="Design4.png" alt="" /></p> <br>
 Figure 11.Class diagram of Design Model <br/>
+
+It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code. 
 
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
