@@ -128,15 +128,15 @@ It can be said that the Design Model should provide synchronization between the 
 In our case, we select C++ and parallel programming (but not concurrent programming).<br> 
 The StarUML v.5.0 do not support [MDA(Model-driven architecture)](https://en.wikipedia.org/wiki/Model-driven_architecture) in full. So, end step execute in hand mode. Let the code be prepared.<br>
 (a) Connect with the C ++ profile
-<p><img src="Design1.png" alt="" /></p> <br>
+<p><img src="Design1.png" alt="" /></p>
 Figure 9. The C++ profile <br/>
 
 (b) Execute reverse engineering
-<p><img src="Design2.png" alt="" /></p> <br>
+<p><img src="Design2.png" alt="" /></p>
 Figure 10. Run reverse engineering <br/>
 
 (c) Compare class diagrams
-<p><img src="Design4.png" alt="" /></p> <br>
+<p><img src="Design4.png" alt="" /></p>
 Figure 11. Class diagram of Design Model <br/>
 
 It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code. 
