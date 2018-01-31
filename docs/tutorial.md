@@ -121,9 +121,9 @@ An ontology is main artefact in the UML2 SP.
 ## 3. Formal describe of software
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
 
-In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language.<br/>
+In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
 This workflow requires a lot of time.<br/>
-It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. For Analysis model can be created several Design models for different programming language.<br>
+It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. <br>
 
 In our case, we select C++ and parallel programming (but not concurrent programming).<br> 
 The StarUML v.5.0 do not support [MDA(Model-driven architecture)](https://en.wikipedia.org/wiki/Model-driven_architecture) in full. So, end step execute in hand mode. Let the code be prepared.<br>
