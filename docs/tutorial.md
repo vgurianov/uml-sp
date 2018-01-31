@@ -139,7 +139,8 @@ Figure 10. Run reverse engineering <br/>
 <p><img src="Design4.png" alt="" /></p>
 Figure 11. Class diagram of Design Model <br/>
 
-It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code. 
+It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code.<br/>
+Model drive a development of software.
 
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
