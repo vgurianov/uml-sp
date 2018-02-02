@@ -14,7 +14,7 @@ In this section, we shall discuss simulation in physics.The simulation model of 
 in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion in discrete space-time.
 ## Related Works
 There are works on simulation modeling in physics but they are few and most part are case studies. These works cannot compete with works of performed in a traditional manner of research.
-There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the [book [5]](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics).
+There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the book [5].
 This problem is closely related to the problems of [digital physics [6]](https://en.wikipedia.org/wiki/Digital_physics) (see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
 
 ## Application Domain
@@ -88,10 +88,11 @@ If *isActive* is *false* then particle do not can motion (see below Newton's fir
 The “Carrier” frame define “Agent of force” concept. Agent of force is a carrier of interaction. The frame has «Direction» slot. In 1-dimension space, it is field can has two value are backward and forward.
 
 ##### Cell of space
-The "Composite" frame define "Cell of space" concept. The frame has "left" and "right" slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
+The "ListItem" frame define "Cell of space" concept. The frame has "left" and "right" slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
 
 ##### Physical space
-The base (the *headOfList* attribute) and the anchor points (*tailOfList* attribute) that specify the direction in space model the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
+The "Composite" frame define "Physical space" concept. Physical space has the base point and the anchor points.
+The base (the *headOfList* attribute) and the anchor points (*tailOfList* attribute) specify the direction in the physical space. From the point of view of computational semantics, space is an N-dimensional linked list of instances of the *ListItem* class.
 The space assembly is
 ```
 for (int i = 0; i < 1000; i++) m[i] = NULL;
@@ -214,7 +215,7 @@ In our opinion, the above results allow us to state that the proposed model of m
 
 ## References
 1. Gurianov V.I. Models of constructive physics in the classical mechanics of a material point. // Mathematical models and their applications: Sat. sci. tr. Issue. 15. - Cheboksary: Publishing house Chuvash. Univ., 2013. - P. 148-159.
-2. Gurianov V.I. Dynamics, Levy’s theory and the inertial mass // Mathematical models and their applications: coll. sci. tr .: is dedicated to the 80th anniversary of the birth of AG Terentyev, Vyp. 18. - Cheboksary: Publishing house Chuvash. Univ., 2016. - P. 221-231.
+2. Gurianov V.I. Dynamics, Levy’s theory and the inertial mass // Mathematical models and their applications: Sat. sci. tr. Issue. 18. - Cheboksary: Publishing house Chuvash. Univ., 2016. - P. 221-231.
 3. Gurianov V.I. Verification of discrete model of mechanical motion // Mathematical models and their applications: Sat. sci. tr. Issue. 19. - Cheboksary: Publishing house Chuvash. Univ., 2017. - P. 97-105.
 4. Ozhigov Yu.I. Constructive physics. - SRC "Regular and chaotic dynamics", 2010. - 440 p.
 5. [Structure and Interpretation of Classical Mechanics By Gerald Jay Sussman and Jack Wisdom](https://mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics). Also, see [project on GitHub](https://github.com/hnarayanan/sicm).
