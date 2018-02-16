@@ -24,7 +24,7 @@ A conceptual model in UML2 SP is an analysis class diagram. This diagram conside
 Model the gear train is depicted in Fig.2.
 
 <p><img src="clockClassDiagram.png" alt="" /></p>
-Figure 2. The class diagram<br/>
+Figure 2. The model of gear train<br/>
 
 The ontology consist as frames and links between them. Frames define concepts: Timepiece, Time-measure device, Second hand, Minute hand, Hour hand, and Clock. The *Item* class do not a frame, it is definition of type for attributes of *Component* class.<br/>
 The *Root, BottomNode, TopNode, Leaf* instances are nested inside each other (see aggregate association). Time of these objects also  nested inside each other. Decomposition of time is the following.<br/>
@@ -80,11 +80,12 @@ Figure 5. Results of observe the simulation model<br/>
 [ClockClassAlt.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClassAlt.cs)
 
 ## Note
-The objects of *Leaf, Root, TopNode, BottomNode* classes have concurrent threads. The threads interact according *Single Threaded Execution* pattern.
+The objects of *Leaf, Root, TopNode, BottomNode* classes have concurrent threads. The threads interact as *busy waiting* [3, P.94], i.e. process repeatedly checks a condition until it becomes true.
 
 ## Conclusion
 The main principle of the SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with "Exist" stereotype.<br/>
 
 ## References
 1.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.(In Russian)](http://simulation.su/static/en-books.html)
-2. S.P. Kurdyumov, H.N. Knyazeva, Foundations of Synergetics: Blow-up Regimes, Self-organization, Tempo-worlds, Saint-Petersburg: Aletheia, 2002 
+2. S.P. Kurdyumov, H.N. Knyazeva, Foundations of Synergetics: Blow-up Regimes, Self-organization, Tempo-worlds, Saint-Petersburg: Aletheia, 2002
+3. Gregory R. Andrews, Foundations of Multithreaded, Parallel, and Distributed Programming, 1st Edition, 472 pages, ISBN: 0201357526,9780201357523 
