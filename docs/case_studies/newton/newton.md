@@ -15,7 +15,7 @@ in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion i
 ## Related Works
 There are works on simulation modeling in physics but they are few and most part are case studies. These works cannot compete with works of performed in a traditional manner of research.
 There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the book [5].
-This problem is closely related to the problems of [digital physics [6]](https://en.wikipedia.org/wiki/Digital_physics) (see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
+This problem is closely related to the problems of digital physics [6](see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
 
 ## Application Domain
 Newton's laws
@@ -33,7 +33,7 @@ Fundamentals of mechanical motion in discrete space-time were developed in the p
 
 In our model, we use a two-layer architecture (see Fig. 1), which allows us to separate the components of the model into two levels of abstraction. The lower layer defines abstract model classes (see Figure 3), such as *Component*, *Composite*, and *ListItem*. The *ReusableClassesOfInterface* package contains abstract classes modeling the research installation and the user interface libraries (we use VCL). Top-layer packages define specific classes, such as *ConcreteTreeNode*, *TreeLeaf*, *TreeRoot*, and classes of a specific simulation model. In UML2 SP, an architectural diagram in terms of subject semantics is an interpreted as a conceptual graph.
 <p><img src="fig1.png" alt="" /></p>
-Figure 1. Architectural analysis of the class diagram<br/>
+Figure 1. Architecture of the simulation model<br/>
 
 Package «Epistemology Entity». This package defines the procedure for measuring the main characteristics of the mechanical movement - time, position, speed and acceleration. Both packages «Epistemology Entity» and «Research Instruments» named *Epistemology partition*.<br/>
 Package «Ontology Entity». This package has the marked meaning "Classical mechanics" in the sense that by theory we mean the classification of mechanical systems. Both packages «Ontology Entity» and «World» named *Ontology partition*.
@@ -214,7 +214,7 @@ The simulation model was compared with a numerical methods such as the particle-
 In our opinion, the above results allow us to state that the proposed model of mechanical motion adequately describes mechanical processes.
 
 ## References
-1. Gurianov V.I. Models of constructive physics in the classical mechanics of a material point. // Mathematical models and their applications: Sat. sci. tr. Issue. 15. - Cheboksary: Publishing house Chuvash. Univ., 2013. - P. 148-159.
+1. Gurianov V.I. Models of constructive physics in the classical mechanics of a point particle. // Mathematical models and their applications: Sat. sci. tr. Issue. 15. - Cheboksary: Publishing house Chuvash. Univ., 2013. - P. 148-159.
 2. Gurianov V.I. Dynamics, Levy’s theory and the inertial mass // Mathematical models and their applications: Sat. sci. tr. Issue. 18. - Cheboksary: Publishing house Chuvash. Univ., 2016. - P. 221-231.
 3. Gurianov V.I. Verification of discrete model of mechanical motion // Mathematical models and their applications: Sat. sci. tr. Issue. 19. - Cheboksary: Publishing house Chuvash. Univ., 2017. - P. 97-105.
 4. Ozhigov Yu.I. Constructive physics. - SRC "Regular and chaotic dynamics", 2010. - 440 p.
