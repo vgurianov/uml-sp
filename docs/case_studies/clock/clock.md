@@ -2,7 +2,7 @@
 Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 ## Introduction
 The SSP (Simulation with Scientific Profile) is analog of Unified Process to development a simulation models. The main principle of the SSP is a decomposition principle [1]. First of all, we define context and system. Farther, we make decomposition of system to subsystems. In the end, we have atomic objects. The atomic object is an anolog of ABS-agent. For decomposition, we use *Composite* pattern.<br/>
-In the SSP, the particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem (quantum of exist, can say ). In the UML2 SP, it is a operation with "Exist" stereotype. In this section we will discurse it topic.
+In the SSP, the particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem (quantum of exist, can say ). In the UML2 SP, it is a operation with *«Exist»* stereotype. In this section we will discurse it topic.
 
 ## Encapsulate of time
 In nature, often different processes have different scale of time. For instance, the time of the turn of the Earth around the axis is small in comparison with the time of turn of the Earth around of the Sun. You can approximately take a day as event, ie for a point. This is very similar to the definition of a point particle. This is simulated in that one procedure is called from another procedure. From the point of view of the first procedure, the process of the second procedure will be an event. We can say that the second procedure encapsulates the time of the second process.<br/>
@@ -80,10 +80,10 @@ Figure 5. Results of observe the simulation model<br/>
 [ClockClassAlt.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/clock/ClockClassAlt.cs)
 
 ## Note
-The objects of *Leaf, Root, TopNode, BottomNode* classes have concurrent threads. The threads interact as *busy waiting* [3, P.94], i.e. process repeatedly checks a condition until it becomes true.
+The *«Exist»* stereotype mark a operation of thread execution, of example *Run()* in Java and C#. The objects of *Leaf, Root, TopNode, BottomNode* classes have concurrent threads. The threads interact as *busy waiting* [3, P.94], i.e. process repeatedly checks a condition until it becomes true.
 
 ## Conclusion
-The main principle of the SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with "Exist" stereotype.<br/>
+The main principle of the SSP is a decomposition principle. The particularity feature of decomposition is a decomposition of time. For any subsystem need to define a minimal change of subsystem. It is a operation with *«Exist»* stereotype.<br/>
 
 ## References
 1.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.(In Russian)](http://simulation.su/static/en-books.html)
