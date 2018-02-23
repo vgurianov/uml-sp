@@ -88,7 +88,7 @@ If *isActive* is *false* then particle do not can motion (see below Newton's fir
 The “Carrier” frame define “Agent of force” concept. Agent of force is a carrier of interaction. The frame has «Direction» slot. In 1-dimension space, it is field can has two value are backward and forward.
 
 ##### Cell of space
-The "ListItem" frame define "Cell of space" concept. The frame has "left" and "right" slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion.
+The "ListItem" frame define "Cell of space" concept. The frame has "left" and "right" slots. It is defined "coupling" (or "topology") notion. The frame has “something” slot. It is define "content" notion. The cell of space do not material object (do not daughter of *Component* class).
 
 ##### Physical space
 The "Composite" frame define "Physical space" concept. Physical space has the base point and the anchor points.
