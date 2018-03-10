@@ -15,6 +15,16 @@ Folders:
 - **UML2 SP**             -- UML2 SP installation (it is an implementation of the language for StarUML editor)
 - **examples**            -- The examles of simulation models on UML2 SP and C++
 
+Does this project require use of the StarUML editor?<br/>
+No, the StarUML editor is not required. You can use any UML-editor if it supports uml-profiles (see https://en.wikipedia.org/wiki/List_of_Unified_Modeling_Langu...).<br/>
+It is necessary to perform the following steps:<br/>
+1. create a profile, for example
+- Microsoft Visual Studio: https://msdn.microsoft.com/en-us/library/ee332513.aspx
+- MagicDraw UML tool: https://community.nomagic.com/uml-profile-t2139.html
+- Sparx: http://www.sparxsystems.com/resources/developers/uml_profile...
+- Visual Paradigm: https://www.visual-paradigm.com/tutorials/how-to-define-cust...
+2. create stereotypes using the definitions https://vgurianov.github.io/uml-sp/metamodel
+
 ### License
 This project is licensed under the terms of the [BSD 2-Clause license](LICENSE).
 ### Feedback
