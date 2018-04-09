@@ -33,21 +33,21 @@ Description of application domain semantics.
 Ontology define a set concepts: Social entity, Agent, Space 
 of Small-World, Cell of Space, Environment, Small-World. We discuss “Space of Small-World” concept in detail.
 
-The “Item” frame define "Cell of Space" concept. This concept has "visited", "visited1" attributes. We suggest two-layer model of interaction. The "visited1", "visited2" attributes mark activity on first and second layers. The links ("Vector" structure) attribute is a friends list and it define first layer of graph. The iq ("ItemOfQueue" structure) attribute is a full path on graph and it define second layer of graph.<br/>
+The “Item” frame define "Cell of Space" concept. This concept has "visited1", "visited2" attributes. We suggest two-layer model of interaction. The "visited1", "visited2" attributes mark activity on first and second layers. The links ("Vector" structure) attribute is a friends list and it define first layer of graph. The iq ("ItemOfQueue" structure) attribute is a full path on graph and it define second layer of graph.<br/>
 The “Composite” frame define "Space of Small-World" concept. The frame has headOfList attribute. It is attribute define an entry point to a graph and is some node of graph. For "Space of Small-World" define two activities.<br/> 
-The first activity we simulate as [Depth-first search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search) algorithm. The algorithm is a traversing by graph data structure and similar a diffusion of fire in forest. The dfs() operation define “Perturbation of space” concept. Communication diagram for this activity is depicted in Fig.3.
+The first activity we simulate as [Breadth-first search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search) algorithm. The algorithm is a traversing by graph data structure and similar a diffusion of fire in forest. The bfs() operation define “Perturbation of space” concept. Communication diagram for this activity is depicted in Fig.3.
 <p><img src="Fig3.png" alt="" /></p>
 Figure 3. 	The “Perturbation of space” activity<br/>
 <br/>
 First of all, for current node executed "do1()" operation. Further, node request a contacts list (getContactList() operation). The set of contacts add to tail of queue (addContact() operation). In end, from head of queue take new item. This algorithm repeats while queue is not empty.<br/>  
-The do() operation is a "to tear a near link" act and it generates bfs() activity.<br/>
-The second activity we simulate as [Breadth-first search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search) algorithm. This activity can use DFS algorithm but BFS is a more interesting. The bfs() operation define “Rewrite links” concept. A communication diagram for this activity is depicted in Fig.4.
+The do1() operation is a "to tear a near link" act and it generates dfs() activity.<br/>
+The second activity we simulate as [Depth-first search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search)algorithm. This activity can use BFS algorithm but DFS is a more interesting. The dfs() operation define “Rewrite links” concept. A communication diagram for this activity is depicted in Fig.4.
 <p><img src="Fig4.png" alt="" /></p>
 Figure 4. 	The “Rewrite links” activity<br/>
 <br/>
 First of all, for current item executed "do2()" operation. Further, node requests a contact from contact list. For this contact execute dfs() operation. And so on, i.e. dfs() has recursive call.<br/>
-The "do()" operation is a "Create new link" act. In this model, a probability of new contact is constant but this is optional. Possible, "far" and "near" notions binded with "temperature" notion. If temperature is low then close ties has highest probability.<br/>
-The dfs() activity sets out "visited1" attribute to "OFF". A dfs_restoring() operation restore it attribute to "ON". Similarly, a bfs_restoring() operation restore "visited2" attribute. So, activity can be to repeat again.
+The "do2()" operation is a "Create new link" act. In this model, a probability of new contact is constant but this is optional. Possible, "far" and "near" notions binded with "temperature" notion. If temperature is low then close ties has highest probability.<br/>
+The bfs() activity sets out "visited1" attribute to "OFF". A bfs_restoring() operation restore it attribute to "ON". Similarly, a dfs_restoring() operation restore "visited2" attribute. So, activity can be to repeat again.
 
 ## Verification
 Experiment for N = 10 nodes.<br/>
