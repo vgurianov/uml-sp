@@ -55,7 +55,7 @@ The result of measurement to simulation model is shown on Fig. 5.
 <p><img src="Fig5.png" alt="" /></p>
 Figure 5. Results of measurement to simulation model<br/>
 <br/>
-Item = 9 tear of left with 8 and new link/Item = 6 with 9. 
+Item 9 has tear of left with 8 and new link/Item 6 with 9. 
 
 ## The simulation model in C++ code:  
 [ClassesSwProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/nets/ClassesSwProject.h), 
