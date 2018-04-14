@@ -4,7 +4,7 @@ Terms view on [Wikipedia](https://en.wikipedia.org/wiki/Dialogue).
 The base element of UML2 SP model is elementary act of communication.A model of elementary act of communication was presented to book [1]. The [communication process](https://en.wikipedia.org/wiki/Models_of_communication) consist a set of elementary acts of communication that linked between them. The simplest communication process is a dialog; therefore, its study is of great interest. Dialog is like atom of hydrogen in physical theory.<br/>
 In this example we shall simulated dialogs between humans.<br/>
 
-## Application domain
+## Problem domain
 [Dialogue](https://en.wikipedia.org/wiki/Dialogue) is a written or spoken conversational exchange between two or more people. Dialogue is a process of mutual communication. There is a constant change in the roles of "listening-speaking".
 Replicas of dialogue are speech acts.<br/>
 A typical set of parts of a conversation is given below.
