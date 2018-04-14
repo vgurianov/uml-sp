@@ -18,7 +18,7 @@ There are three different Kripke structure:
 
 These models suggest in work [4]. In this section consider a particular case of fractal worlds, it is a reflexion.
 
-## Application domain
+## Problem domain
 In the book [5, p.248] considered a conceptual graphs for representation knowledge. 
 There an example is given conceptual graph of the statement “Tom believes that Jane likes pizza”. 
 It is use of a propositional concept. 
