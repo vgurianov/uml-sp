@@ -99,7 +99,7 @@ For the class diagram must assign computational semantics and application domain
 ### 2.4. Description of a computational semantics<br> 
 The class diagram is variant of a *Composite* pattern . Threads interact according to the rules like in nature. In this case is *Single Threaded Execution* pattern<br/>
 
-### 2.5. Description of an application domain semantics
+### 2.5. Description of a problem domain semantics
 
 In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation by Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
 
