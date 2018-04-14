@@ -39,8 +39,8 @@ On console executed next a sequence commands. It are input data, program execute
 The input operation calls a copy constructor and creates copy of 'date' object. The program consists at a one operator. 
 The operator executes an authorized operation to data. It is Operation1() operation.
 
-### Description of an application domain semantics
-What is inaccessibility, inaccessible world? Assume, that data is a ciphertext (for example, Maya codices). 
+### Description of an problem domain semantics
+What is an inaccessible world? Assume, that data is a ciphertext (for example, Maya codices). 
 World, described in manuscript, us is an inaccessible. But it's world to be accessible if text will be deciphered. 
 For decipher can use a decryption machine. And conversely, world can make inaccessible if ciphered the text. 
 In this way, Kripke structure is a base notion of cryptology theory. 
