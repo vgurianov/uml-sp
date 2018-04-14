@@ -1,6 +1,6 @@
 # Paradox of barber by Bertrand Russell
 Barber paradox view on [Wikipedia](https://en.wikipedia.org/wiki/Barber_paradox)
-## Application domain
+## Problem domain
 Remind, the barber is the "one who shaves all those, and those only, who do not shave themselves." The question is, does the barber shave himself? The queue is the sequence of village males to the barber.<br/> 
 
 A class diagram from an Analysis Model depicted in Figure 1<br/>
