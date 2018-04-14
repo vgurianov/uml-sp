@@ -10,7 +10,7 @@ We shall discuss mathematical objects such as geometric fractals because main pr
 decomposition principle which set approximate fractal structure of models. 
 We shall considered object model of the Koch snowflake. The model proposed in work [1], also see [2].
 
-## Application domain
+## Problem domain
 A procedure of construction of the the Koch snowflake includes the following steps:
 - choose initiator and generator (see Fig.1);
 - apply generator (see Fig.1);
