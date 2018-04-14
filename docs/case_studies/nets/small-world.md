@@ -6,7 +6,7 @@ In SSP methodology, main principle is a decomposition principle. For decompositi
 In this section, we discuss a dynamics of configuration space.
 
 
-## Application domain
+## Problem domain
 The [small-world](https://en.wikipedia.org/wiki/Small-world_network) model is a model of social network. The small-world network is a network with specific features including short average path lengths and high clustering. 
 In 1998, Duncan J. Watts and Steven Strogatz was proposed procedure for interpolating between a regular ring lattice and a random network [1]. The Watts–Strogatz model is a model that produces graphs with small-world properties (Fig.1).
 <p><img src="Fig1.png" alt="" /></p>
@@ -28,7 +28,7 @@ In UML2 SP, a conceptual model is an ontology, which draws as an analysis class 
 <p><img src="Fig2.png" alt="" /></p>
 Figure 2. 	Model of the Small World<br/>
 <br/>
-Description of application domain semantics.
+Description of problem domain semantics.
 
 Ontology define a set concepts: Social entity, Agent, Space 
 of Small-World, Cell of Space, Environment, Small-World. We discuss “Space of Small-World” concept in detail.
