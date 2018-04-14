@@ -9,7 +9,7 @@ In nature, often different processes have different scale of time. For instance,
 Encapsulate of time is called Tempo-world. [Sergei P. Kurdyumov](https://en.wikipedia.org/wiki/Sergei_P._Kurdyumov) proposed this term [2].<br/>
 We will view example of a time decomposition.
 
-## Application domain
+## Problem domain
 In the pendulum clock, the work of a constant external force (gravity acting on the weight) periodically compensates for the loss of mechanical energy of the pendulum. For details, see [Wikipedia](https://en.wikipedia.org/wiki/Pendulum_clock).
 <p><img src="clock.png" alt="" /></p>
 Figure 1. Pendulum clock (picture from [http://fizportal.ru/](http://fizportal.ru/physics-book-67-3))<br/>
