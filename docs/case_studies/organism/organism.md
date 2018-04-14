@@ -20,7 +20,7 @@ Per each iteration rules are applied simultaneously to all symbols of string.
 Both approach can united to a one model. Now is a lot of a works to morphogenesis.
 We shall consider object model of multicellular organism has been proposed in work [1]. In this section we shall discuss it. 
 
-## Application domain
+## Problem domain
 As example of multicellular organism, consider one-dimensional organism, like is the [Trichoplax](https://en.wikipedia.org/wiki/Trichoplax). We define following set of feature:
 - a cell can be to several states;
 - cells interact across [cell junctions](https://en.wikipedia.org/wiki/Cell_junction);
@@ -39,7 +39,7 @@ Figure 1. The class diagram<br/>
 A one-dimensional structure of organism simulate as a linked list of instance of Leaf class. 
 All objects of Leaf class have concurrent threads.
 
-### Description of an application domain semantics
+### Description of an problem domain semantics
 We shall give definition of concepts to the ontology.
 Note. We tried finding biological terms for concepts of the ontology but definitions of the ontology are a partly different from generally accepted definitions.
 #### Biont
