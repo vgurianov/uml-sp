@@ -1,7 +1,7 @@
 # Simulation model of a fast food restaurant
 That model good known and described as an example [1].
 
-## Application domain
+## Problem domain
 We consider a simplified variant of simulation model of a fast food restaurant from [1]. 
 When a car enters from the street, the driver decides to get in line or not. 
 If the driver decides to leaves the restaurant then he leaves as a dissatisfied customer. 
