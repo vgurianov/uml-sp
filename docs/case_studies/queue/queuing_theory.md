@@ -4,7 +4,7 @@
 ## 1. M/M/1 Queueing System
 The M/M/1 queue is a single server queue with an infinite number of waiting positions where the arrival process is Poisson and the service times are exponentially distributed.
 The barber simulation is a classical example of queueing theory.
-### Application domain
+### Problem domain
 There is a single-chair barbershop. 
 From when it opens in the morning until it closes, customers arrive every 20 ± 10 min at random times. 
 If the barber is not busy, he serves a customer immediately; otherwise they must wait in a queue (FIFO order). 
@@ -20,7 +20,7 @@ Figure 1. 	Analysis class diagram of barber model<br/>
 The object of TreeNode class and the object of TreeLeaf class interact  according Producer-Consumer pattern [1].
 The Producer-Consumer pattern is standard solution for interaction two and more threads. 
 
-### Description of an application domain semantics
+### Description of an problem domain semantics
 The key elements of queueing systems are the customers and servers. The term “customer” can refer to people, 
 parts, trucks, e-mails etc. and the term “server” clerks, mechanics, repairmen, CPUs etc. 
 Further we shall accurately define these concepts.<br/>
@@ -96,7 +96,7 @@ A typical example for used this classification are discussed in the subsequent s
 
 ## 3. Example of Decomposition of Queueing System 
 
-### Application domain
+### Problem domain
 In Fig. 4 present a queueing system consist four servers. Server S1 is a CPU, S2 is Hard Disk (HD). 
 Both a CPU and HD are parts of computer. Peripheral device (PD) consists at S3 and S4 servers; 
 S3 is a printer, S4 is a fax.
@@ -113,7 +113,7 @@ Figure 5. The Class diagram
 The objects of daughters of Component class interact  according Producer-Consumer pattern [1]. 
 There are ten concurrent threads in total.
 
-### Description of an application domain semantics
+### Description of an problem domain semantics
 The TreeRoot class is model of environment, in our case it is a office. SimpleNode class is G/G/1 queueing system. 
 MiddleNode and TopNode classes are levels of decomposition of system.
 These classes used to assemble the queueing system from Fig.4. This communication diagram is depicted in Fig.6
