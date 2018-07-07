@@ -62,7 +62,8 @@ We consider following algorithm
                 } while (yt != null);
 
                 t = t.next;
-                probe = ix.ToString() + ", " + iy.ToString() + ", " + yy.ToString() + ", " + (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
+                probe = ix.ToString() + ", " + iy.ToString() + ", " + yy.ToString() + 
+                ", " + (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
                 last_y = iy;
             }
             else probe = "The end";
@@ -77,7 +78,7 @@ Figure 1. The Fibonacci sequence simulation<br>
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
 **Summary:** In object models, numerical data is result of measurements on object structures.
 
-P.S. It is known that the Fibonacci sequence is closely related to the gold ratio fi = 1.618 …
+P.S. It is known that the Fibonacci sequence is closely related to the gold ratio phi = 1.618 …
 <p><img src="formula.png" alt="" /></p>
 In our opinion, the number of phi is often found in nature because it is the simplest non-trivial algorithm for constructing object structures.
 
