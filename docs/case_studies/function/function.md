@@ -40,24 +40,30 @@ We consider following algorithm
 ```
         public void fbSequence()
         {
+            Node ytmp; 
             if (t != null)
             {
                 ix++;
-                Node tmp = y; int iy = 0; int yy = 0; Node yt;
+                Node yt = y;
+                int iy = 0; // mature couple of rabbits
+                int yy = 0; // all couple of rabbits
                 do
                 {
-                    if (tmp.state)
+                    if (yt.state)
                     {
-                        iy++;
-                        yt = new Node(); yt.next = y; y = yt; }
-                    else { tmp.state = true; };
+                        iy++; // count
+                        ytmp = new Node(); ytmp.state = false;
+                        // insert to head of list
+                        ytmp.next = y; y = ytmp;
+                    }
+                    else { yt.state = true; };
 
-                tmp = tmp.next; yy++;
-                } while (tmp != null);
+                yt = yt.next; yy++;
+                } while (yt != null);
 
-                t = t.next; 
-                probe = ix.ToString() + ", " + iy.ToString()+ 
-                ", " + yy.ToString();
+                t = t.next;
+                probe = ix.ToString() + ", " + iy.ToString() + ", " + yy.ToString() + ", " + (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
+                last_y = iy;
             }
             else probe = "The end";
         },
@@ -70,6 +76,10 @@ Figure 1. The Fibonacci sequence simulation<br>
 
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
 **Summary:** In object models, numerical data is result of measurements on object structures.
+
+P.S. It is known that the Fibonacci sequence is closely related to the gold ratio fi = 1.618 …
+<p><img src="formula.png" alt="" /></p>
+In our opinion, the number of phi is often found in nature because it is the simplest non-trivial algorithm for constructing object structures.
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
