@@ -62,8 +62,9 @@ We consider following algorithm
                 } while (yt != null);
 
                 t = t.next;
-                probe = ix.ToString() + ", " + iy.ToString() + ", " + yy.ToString() + 
-                ", " + (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
+                probe = ix.ToString() + ", " + iy.ToString() + 
+                ", " + yy.ToString() + ", " + 
+                (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
                 last_y = iy;
             }
             else probe = "The end";
