@@ -10,7 +10,7 @@ namespace Sequence
      * 1, 1, 2, 3, 5, 8, 13, ...
      */
 
-    // ** Concept = Couple of rabbits (hares)
+    // ** Concept = Couple of rabbits
     public class Node
     { 
         public string val;
@@ -28,11 +28,12 @@ namespace Sequence
     }
     public class Dependencis
     {
-        public Node x, t;
-        public Node y, f;
+        public Node x, t;  // argument
+        public Node y, f;  // function
 
-        public string probe;
-        int ix, iy;
+        public string probe;  // observer
+        int ix, iy; // count of elements
+        int last_y; // previous of number
 
         public Dependencis()
         {
@@ -47,9 +48,10 @@ namespace Sequence
             }
             ix = 0; iy = 0;
             t = x;
-            // ** y is the couple of rabbits (hares)
+            // ** y is the couple of rabbits
             y = new Node(); y.state = false;
             y.next = new Node(); y.next.state = true;
+            last_y = 1;
         }
         public void Run()
         {
@@ -67,24 +69,31 @@ namespace Sequence
         }
         public void fbSequence()
         {
+            Node ytmp; 
             if (t != null)
             {
                 ix++;
-                Node tt = y; int iy = 0; int yy = 0; Node yt;
+                Node yt = y;
+                int iy = 0; // mature couple of rabbits
+                int yy = 0; // all couple of rabbits
                 do
                 {
-                    if (tt.state)
+                    if (yt.state)
                     {
-                        iy++;
+                        iy++; // count
                         //y.previous = new Node(); yt = y0; y = y.previous; y.next = yt;
-                        yt = new Node(); yt.next = y; y = yt; }
-                    else { tt.state = true; };
+                        ytmp = new Node(); ytmp.state = false;
+                        // insert to head of list
+                        ytmp.next = y; y = ytmp;
+                    }
+                    else { yt.state = true; };
 
-                tt = tt.next; yy++;
-                } while (tt != null);
+                yt = yt.next; yy++;
+                } while (yt != null);
 
-                t = t.next; 
-                probe = ix.ToString() + ", " + iy.ToString()+ ", " + yy.ToString();
+                t = t.next;
+                probe = ix.ToString() + ", " + iy.ToString() + ", " + yy.ToString() + ", " + (Convert.ToDouble(iy)/Convert.ToDouble(last_y) ).ToString();
+                last_y = iy;
             }
             else probe = "The end";
         }
