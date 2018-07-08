@@ -77,11 +77,11 @@ The run result of the simulation is depicted in Fig.1
 Figure 1. The Fibonacci sequence simulation<br>
 
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
-**Summary:** In object models, numerical data is result of measurements on object structures.
-
 P.S. It is known that the Fibonacci sequence is closely related to the gold ratio phi = 1.618 …
 <p><img src="formula.png" alt="" /></p>
 In our opinion, the number of phi is often found in nature because it is the simplest non-trivial algorithm for constructing object structures.
+
+**Summary:** In object models, numerical data is result of measurements on object structures.
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
