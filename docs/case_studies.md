@@ -12,7 +12,7 @@ Contents:<br/>
   <li><a href="case_studies/fractal/fractal">Koch snowflake</a></li>
   <li><a href="case_studies/organism/organism">Multicellular organism</a></li>
   <li><a href="case_studies/dialogs/dialogs">Dialogs</a></li>
-  <li><a href="case_studies/nets/small-world">Space Of Small World</a></li>
+  <li><a href="case_studies/nets/small-world">Space of Small World</a></li>
 </ul>
 
 
