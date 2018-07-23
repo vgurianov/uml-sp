@@ -42,8 +42,8 @@ It build model
 <p><img src="ea/Start5.png" alt="" /></p>
 Figure 5. A UML2 SP simulation model<br/>
 Main work areas see Fig.6.
-<p><img src="images/Start6.png" alt="" /></p>
-Figure 2. Main window for UML2 SP simulation model
+<p><img src="ea/Start6.png" alt="" /></p>
+Figure 6. Main window for UML2 SP simulation model
 
 Save your project (instance as My Simulation Model)/
 
