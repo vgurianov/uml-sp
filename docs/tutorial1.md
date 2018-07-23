@@ -24,10 +24,10 @@ It's necessary create a simulation model of dialog.
 # Main steps of development of a simulation model
 ## 0. Start of development
 Download [Sparx Systems Enterprise Architect](http://www.sparxsystems.com/products/ea/trial/request.html), Trial 30 days, and install it.<br/>
-Download [UML2 SP for EA](ea/MySimulation.rar) and extract (for example, to C:\MySimulation\).<br/>
+Download [UML2 SP for EA](ea/MySimulation.rar) and extract, for example, to C:\MySimulation\.<br/>
 
 Run Enterprise Architect editor. 
-- Created new project and select Cancel for model template. Enterprise Architect will create a new empty model for you to begin working with;
+- Created new project (select Cancel for model template if nesesary). Enterprise Architect will create a new empty model for you to begin working with;
 <p><img src="ea/Start.png" alt="" /></p>
 Figure 1. A selection of Import Technology<br/>
 - Go Resources;
@@ -39,18 +39,18 @@ Figure 2. A selection of Import Technology<br/>
 Figure 3. A selection of file<br/>
 - Go Project Browser, Right Click to Model package, and select Add, and Add a Model using Wizard (Fig.3)
 <p><img src="ea/Start3.png" alt="" /></p>
-Figure 3. A selection of Wizard<br/>
+Figure 4. A selection of Wizard<br/>
 - Select Other group and UML2 SP simulation model option
 <p><img src="ea/Start4.png" alt="" /></p>
-Figure 4. A selection of UML2 SP simulation model<br/>
+Figure 5. A selection of UML2 SP simulation model<br/>
 It build model
 <p><img src="ea/Start5.png" alt="" /></p>
-Figure 5. A UML2 SP simulation model<br/>
+Figure 6. A UML2 SP simulation model<br/>
 Main work areas see Fig.6.
 <p><img src="ea/Start6.png" alt="" /></p>
-Figure 6. Main window for UML2 SP simulation model
+Figure 7. Main window for UML2 SP simulation model
 
-Save your project (instance as My Simulation Model)/
+Save your project, for instance as My Simulation Model.
 
 ## 1. Determination of modeling objectives and requirements to software of simulation
 In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.<br/>
