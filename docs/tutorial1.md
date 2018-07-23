@@ -77,7 +77,7 @@ Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "A
 <p><img src="ea/SimulatorPattern1.png" alt="" /></p>
 Figure 5. "Apply Patterns" window<br/>
 Apply pattern:
-<p><img src="ea/SimulatorPattern_2.png" alt="" /></p>
+<p><img src="ea/SimulatorPattern2.png" alt="" /></p>
 Figure 6. Applying "Simulator" pattern
 ### 2.2. Development realisation of use cases
 In first step, we write use-case realization on a pseudo-code:
