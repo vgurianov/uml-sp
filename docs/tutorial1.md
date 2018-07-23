@@ -53,7 +53,7 @@ In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefac
 **Objective:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
 Go "UseCase" tab and draw Use Case diagram (Fig.3).<br>
-<p><img src="UseCase.png" alt="" /></p>
+<p><img src="ea/UseCase.png" alt="" /></p>
 Figure 3. Use-Case Diagram<br/>
 
 A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".<br/>
@@ -61,7 +61,7 @@ A *Use-Case model* define the functional requirements of the software of simulat
 Use-case must be accurately describe. A main use-case is "Step" use-case.<br/> 
 **Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.<br/>
 The description should be placed in the model, see Fig.4.
-<p><img src="UseCase1.png" alt="" /></p>
+<p><img src="ea/UseCase1.png" alt="" /></p>
 Figure 4. Description into Use-Case Model<br/>
 We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
@@ -74,10 +74,10 @@ So, our end aim is to create Analysis Class Diagram.<br/>
 
 ### 2.1. Apply "Simulator" pattern
 Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
-<p><img src="images/SimulatorPattern_1.png" alt="" /></p>
+<p><img src="ea/SimulatorPattern_1.png" alt="" /></p>
 Figure 5. "Apply Patterns" window<br/>
 Apply pattern:
-<p><img src="images/SimulatorPattern_2.png" alt="" /></p>
+<p><img src="ea/SimulatorPattern_2.png" alt="" /></p>
 Figure 6. Applying "Simulator" pattern
 ### 2.2. Development realisation of use cases
 In first step, we write use-case realization on a pseudo-code:
@@ -100,14 +100,14 @@ this->nextItem();
 ```
 In second step, we draw Communication (or Sequence) Diagram (see Fig.7).<br/>
 Go "UseCaseRealization" tab. Realization "Step" use case :
-<p><img src="UseCaseRealization.png" alt="" /></p> <br/>
+<p><img src="ea/UseCaseRealization.png" alt="" /></p> <br/>
 Figure 7. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
 A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just (Fig.8).<br/>
 
 Go "SP Class diagram" tab. Class diagram:
-<p><img src="SP%20ClassDiagram.png" alt="" /></p> <br/>
+<p><img src="ea/ClassDiagram.png" alt="" /></p> <br/>
 Figure 8. An Analysis Class Diagram for the simulation
 
 For the class diagram must assign computational semantics and application domain semantics.
