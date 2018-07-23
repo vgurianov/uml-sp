@@ -23,6 +23,9 @@ It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
 ## 0. Start of development
+Download [Enterprise Architect](http://www.sparxsystems.com/products/ea/trial/request.html), Trial 30 days (SPARX SYSTEMS)
+Download [UML2 SP for EA](ea/MySimulation.rar) and extract (for example, to C:\MySimulation\).
+
 Run Enterprise Architect editor. 
 - Created new project and select Cancel.
 - Go Project Browser and select Resources tab.
