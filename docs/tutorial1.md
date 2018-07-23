@@ -27,14 +27,16 @@ Download [Sparx Systems Enterprise Architect](http://www.sparxsystems.com/produc
 Download [UML2 SP for EA](ea/MySimulation.rar) and extract (for example, to C:\MySimulation\).<br/>
 
 Run Enterprise Architect editor. 
-- Created new project and select Cancel.
-- Go Project Browser and select Resources tab.
-- Right Click to MDG Technology and select Import Technology (Fig.1):
-<p><img src="ea/Start1.png" alt="" /></p>
+- Created new project and select Cancel for model template. Enterprise Architect will create a new empty model for you to begin working with;
+<p><img src="ea/Start.png" alt="" /></p>
 Figure 1. A selection of Import Technology<br/>
-- Select file with MTS-USP (UML2_SP.xml), Fig.2
+- Go Resources;
+- Right click to MDG Technology and select Import Technology:
+<p><img src="ea/Start1.png" alt="" /></p>
+Figure 2. A selection of Import Technology<br/>
+- Select file with MTS-USP (UML2_SP.xml);
 <p><img src="ea/Start2.png" alt="" /></p>
-Figure 2. A selection of file<br/>
+Figure 3. A selection of file<br/>
 - Go Project Browser, Right Click to Model package, and select Add, and Add a Model using Wizard (Fig.3)
 <p><img src="ea/Start3.png" alt="" /></p>
 Figure 3. A selection of Wizard<br/>
