@@ -27,7 +27,7 @@ Download [Sparx Systems Enterprise Architect](http://www.sparxsystems.com/produc
 Download [UML2 SP for EA](ea/MySimulation.rar) and extract, for example, to C:\MySimulation\.<br/>
 
 Run Enterprise Architect editor. 
-- Created new project (select Cancel for model template if nesesary). Enterprise Architect will create a new empty model for you to begin working with;
+- Created new project (select Cancel for model template if necessary). Enterprise Architect will create a new empty model for you to begin working with;
 <p><img src="ea/Start.png" alt="" /></p>
 Figure 1. A selection of Import Technology<br/>
 - Go Resources;
