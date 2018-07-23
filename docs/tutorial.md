@@ -11,7 +11,7 @@ The research include followes steps:
 7. draw up a tactical plan and execute experiment;
 8. analyze results of experiments.
 
-The Unified Process (UP) is a software engineering process (SEP), and it has five workflow are requirements, analysis, design, implementation, and test. The UML2 SP allow to use UP for a development of simulation models. The  requirements, analysis, and design of UP support three first step of a simulation.
+The [Unified Process (UP)](https://en.wikipedia.org/wiki/Unified_Process) is a software engineering process (SEP), and it has five workflow are requirements, analysis, design, implementation, and test. The UML2 SP allow to use UP for a development of simulation models. The  requirements, analysis, and design of UP support three first step of a simulation.
 
 # Simple example
 In this example we shall simulated dialogs between humans.<br/>
