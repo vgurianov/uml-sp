@@ -106,16 +106,16 @@ this->nextItem();
 }
 ```
 In second step, we draw Communication (or Sequence) Diagram (see Fig.7).<br/>
-Go "UseCaseRealization" tab. Realization "Step" use case :
+Go the 'UseCaseRealization' diagram. Realization "Step" use case :
 <p><img src="ea/UseCaseRealization.png" alt="" /></p> <br/>
-Figure 7. A Communication Diagram for simulation of dialog
+Figure 12. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
 A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just (Fig.8).<br/>
 
-Go "SP Class diagram" tab. Class diagram:
+Go the 'SP Class diagram' diagram. In our case, no configuration space and we delete 'Item' element. Class diagram is:
 <p><img src="ea/ClassDiagram.png" alt="" /></p> <br/>
-Figure 8. An Analysis Class Diagram for the simulation
+Figure 13. An Analysis Class Diagram for the simulation
 
 For the class diagram must assign computational semantics and application domain semantics.
 ### 2.4. Description of a computational semantics<br> 
