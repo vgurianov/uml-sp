@@ -29,23 +29,23 @@ Download [UML2 SP for EA](ea/MySimulation.rar) and extract, for example, to C:\M
 Run Enterprise Architect editor. 
 - Created new project (select Cancel for model template if necessary). Enterprise Architect will create a new empty model for you to begin working with;
 <p><img src="ea/Start.png" alt="" /></p>
-Figure 1. A selection of Import Technology<br/>
-- Go Resources;
-- Right click to the MDG Technology and select Import Technology:
+Figure 1. The new empty model is created<br/>
+- Go the Resources;
+- Right-click to the 'MDG Technology' and select 'Import Technology' option:
 <p><img src="ea/Start1.png" alt="" /></p>
-Figure 2. A selection of Import Technology<br/>
+Figure 2. The 'Import Technology' selection<br/>
 - Select file with the MTS-USP (UML2_SP.xml);
 <p><img src="ea/Start2.png" alt="" /></p>
-Figure 3. A selection of file<br/>
-- Go the Project Browser, Right click to Model package, and select Add, and Add a Model using Wizard (Fig.3)
+Figure 3. The file selection<br/>
+- Go the Project Browser, right-click to 'Model' package, and select 'Add', and 'Add a Model using Wizard' (Fig.3)
 <p><img src="ea/Start3.png" alt="" /></p>
-Figure 4. A selection of the Model Wizard<br/>
-- Select Others group and UML2 SP simulation model option
+Figure 4. The 'Model Wizard' selection<br/>
+- Select the 'Others group' and the 'UML2 SP simulation model' option
 <p><img src="ea/Start4.png" alt="" /></p>
-Figure 5. A selection of UML2 SP simulation model<br/>
+Figure 5. The 'UML2 SP simulation model' selection<br/><br/>
 The Model Wizard automatically creates a new UML2 SP model.
 <p><img src="ea/Start5.png" alt="" /></p>
-Figure 6. A UML2 SP simulation model<br/>
+Figure 6. The UML2 SP simulation model template<br/><br/>
 Main work areas see on Fig.7.
 <p><img src="ea/Start6.png" alt="" /></p>
 Figure 7. Main window for UML2 SP simulation model
