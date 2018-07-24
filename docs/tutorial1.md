@@ -111,9 +111,9 @@ Go the 'UseCaseRealization' diagram. Realization "Step" use case :
 Figure 12. A Communication Diagram for simulation of dialog
 
 ### 2.3. Development of an Analysis classes
-A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just (Fig.8).<br/>
+A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just.<br/>
 
-Go the 'SP Class diagram' diagram. In our case, no configuration space and we delete 'Item' element. Class diagram is:
+Go the 'SP Class diagram' diagram. In our case, a configuration space is degenerate and we delete 'Item' element. Class diagram is:
 <p><img src="ea/ClassDiagram.png" alt="" /></p> <br/>
 Figure 13. An Analysis Class Diagram for the simulation
 
@@ -123,7 +123,7 @@ The class diagram is variant of a *Composite* pattern . Threads interact accordi
 
 ### 2.5. Description of a problem domain semantics
 
-In UML2 SP conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation by Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
+In UML2 SP, conceptual model is an [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)).  Further we use the terms of [Ontology engineering](https://en.wikipedia.org/wiki/Ontology_engineering) in [notation by Marvin Minsky](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)). You must very good understand  a domain of application.The ontology must be true, otherwise the simulation model will not be correct.<br>
 
 A [definition of dialog](https://en.wikipedia.org/wiki/Dialogue) from Wikipedia:
 > "Dialogue (sometimes spelled dialog in U.S. English) is a written or spoken conversational exchange between two or more 
@@ -143,26 +143,27 @@ An ontology is main artefact in the UML2 SP.
 ## 3. Formal description of software
 In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
 
-In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 7 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
+In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 12 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
 This workflow requires a lot of time.<br/>
 It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. <br>
 
 In our case, we select C++ and parallel programming (but not concurrent programming).<br> 
-The StarUML v.5.0 do not support [MDA(Model-driven architecture)](https://en.wikipedia.org/wiki/Model-driven_architecture) in full. So, end step execute in hand mode. Let the code be prepared.<br>
-(a) Connect with the C ++ profile
+So, end step execute in hand mode. Let the code be prepared.<br>
+(a) Connect with the C ++ code
 <p><img src="ea/Design1.png" alt="" /></p>
-Figure 9. The C++ profile <br/>
+Figure 14. Import classes from C++ code <br/>
 
 (b) Execute reverse engineering
 <p><img src="ea/Design2.png" alt="" /></p>
-Figure 10. Run reverse engineering <br/>
+Figure 15. Run reverse engineering <br/>
 
 (c) Compare class diagrams
 <p><img src="ea/Design3.png" alt="" /></p>
-Figure 11. Class diagram of Design Model <br/>
+Figure 16. Class diagram of Design Model <br/>
 
 It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code.<br/>
 Model drive a development of software.
 
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
+The simulation model in Python code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/example.py).
