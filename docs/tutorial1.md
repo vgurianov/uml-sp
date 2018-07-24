@@ -113,7 +113,7 @@ Figure 12. A Communication Diagram for simulation of dialog
 ### 2.3. Development of an Analysis classes
 A class diagram build from communication diagram. This is non-formal procedure. The communication diagram must be an instance of class diagram: object is instance of class, link is instance of association. In this example it is just.<br/>
 
-Go the 'SP Class diagram' diagram. In our case, a configuration space is degenerate and we delete 'Item' element. Class diagram is:
+Go the 'Analysis classes' diagram. In our case, a configuration space is degenerate and we delete 'Item' element. Class diagram is:
 <p><img src="ea/ClassDiagram.png" alt="" /></p> <br/>
 Figure 13. An Analysis Class Diagram for the simulation
 
@@ -141,9 +141,9 @@ An ontology is main artefact in the UML2 SP.
 
 
 ## 3. Formal description of software
-In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br>
+In UML2 SP, this step is a *Design* workflow. A *Design model* is an artefact of *Design* workflow.<br>
 
-In this workflow select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 12 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
+In this workflow, we select a platform, programming language, and design of algorithms for operations of classes. The design of the communication process in Fig. 12 depends on the programming language. For Analysis model can be created several Design models for different programming language.<br/>
 This workflow requires a lot of time.<br/>
 It can be said that the Design Model should provide synchronization between the Analysis Model and the program code. <br>
 
@@ -166,4 +166,4 @@ Model drive a development of software.
 
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
-The simulation model in Python code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/example.py).
+The simulation model in Python code: [example.py](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/example.py).
