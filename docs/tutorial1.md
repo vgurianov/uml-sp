@@ -77,14 +77,14 @@ For description of model use an ontology. An ontology is a rigorous language lik
 We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function.<br/>
 So, our end aim is to create Analysis Class Diagram.<br/>
 
-### 2.1. "Analysis Model" package
+### 2.1. 'Analysis Model' package
 Select 'Analysis Model' package. This package consist 'Analysis classes' diagram and 'Use-Case Realization' diagram.<br/>
 <p><img src="ea/AnalysisModel.png" alt="" /></p>
 Figure 10. 'Analysis Model' package<br/>
-The 'Use-Case Realization' diagram is communication diagram. The 'Analysis class' diagram has 'Simulator' pattern:
+The 'Use-Case Realization' diagram is communication diagram. The 'Analysis class' diagram contain 'Simulator' pattern:
 <p><img src="ea/SimulatorPattern.png" alt="" /></p>
 Figure 11. 'Simulator' pattern<br/>
-The 'Simulator' pattern is 'Composite' pattern from GoF.
+The 'Simulator' pattern is 'Composite' pattern from the GoF.
 
 ### 2.2. Development realisation of use cases
 In first step, we write use-case realization on a pseudo-code:
