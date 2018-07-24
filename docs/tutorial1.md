@@ -31,22 +31,22 @@ Run Enterprise Architect editor.
 <p><img src="ea/Start.png" alt="" /></p>
 Figure 1. A selection of Import Technology<br/>
 - Go Resources;
-- Right click to MDG Technology and select Import Technology:
+- Right click to the MDG Technology and select Import Technology:
 <p><img src="ea/Start1.png" alt="" /></p>
 Figure 2. A selection of Import Technology<br/>
-- Select file with MTS-USP (UML2_SP.xml);
+- Select file with the MTS-USP (UML2_SP.xml);
 <p><img src="ea/Start2.png" alt="" /></p>
 Figure 3. A selection of file<br/>
-- Go Project Browser, Right Click to Model package, and select Add, and Add a Model using Wizard (Fig.3)
+- Go the Project Browser, Right click to Model package, and select Add, and Add a Model using Wizard (Fig.3)
 <p><img src="ea/Start3.png" alt="" /></p>
-Figure 4. A selection of Wizard<br/>
-- Select Other group and UML2 SP simulation model option
+Figure 4. A selection of the Model Wizard<br/>
+- Select Others group and UML2 SP simulation model option
 <p><img src="ea/Start4.png" alt="" /></p>
 Figure 5. A selection of UML2 SP simulation model<br/>
-It build model
+The Model Wizard automatically creates a new UML2 SP model.
 <p><img src="ea/Start5.png" alt="" /></p>
 Figure 6. A UML2 SP simulation model<br/>
-Main work areas see Fig.6.
+Main work areas see on Fig.7.
 <p><img src="ea/Start6.png" alt="" /></p>
 Figure 7. Main window for UML2 SP simulation model
 
