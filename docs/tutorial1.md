@@ -27,7 +27,7 @@ Download [Sparx Systems Enterprise Architect](http://www.sparxsystems.com/produc
 Download [UML2 SP for EA](ea/MySimulation.rar) and extract, for example, to C:\MySimulation\.<br/>
 
 Run Enterprise Architect editor. 
-- Created new project (select Cancel for model template if necessary). Enterprise Architect will create a new empty model for you to begin working with;
+- Created new project (select Cancel for model template if it's necessary). Enterprise Architect will create a new empty model for you to begin working with;
 <p><img src="ea/Start.png" alt="" /></p>
 Figure 1. The new empty model is created<br/>
 - Go the Resources;
@@ -57,33 +57,35 @@ In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefac
 
 **Objective:** What will Mr. Brown answer?<br/>
 **Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/><br/>
-Go "UseCase" tab and draw Use Case diagram (Fig.3).<br>
+Go the "Use-Case Model" package and draw Use Case diagram (Fig.8). The "Use-Case Model" package has Use-Case diagram template.<br>
 <p><img src="ea/UseCase.png" alt="" /></p>
-Figure 3. Use-Case Diagram<br/>
+Figure 8. Use-Case Diagram<br/>
 
 A *Use-Case model* define the functional requirements of the software of simulation: system must do "Prepare","Step" and "Visualize".<br/>
 
 Use-case must be accurately describe. A main use-case is "Step" use-case.<br/> 
 **Description:** Interlocutor listen to the speaker. Interlocutor ponder a message. Interlocutor give answer.<br/>
-The description should be placed in the model, see Fig.4.
+The description should be placed in the model, see Fig.9.
 <p><img src="ea/UseCase1.png" alt="" /></p>
-Figure 4. Description into Use-Case Model<br/>
+Figure 9. Description into Use-Case Model<br/>
 We recommend use a semi-formal description, i.e. specification of use-case (see *UML2 SP Application guide*).
 
 ## 2. Conceptual modeling
 In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/>
 In modern science, description of a model is mathematical description. The UML2 SP provide alternative posible of model description. It is very much useful of whenever a mathematical model do not be exist.<br/>
 For description of model use an ontology. An ontology is a rigorous language like matematics language. In UML2 SP, an ontology is depicted as a class diagram. Application domain semantics is appointed of  "Concept" tagget value. In matematical text, it is "where" word.<br/>
-We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function. We understend "similar" as "same role" to description of model.<br/>
+We draw an analogy with mathematics. The class diagram is similar a differencial equation, a communicative  diagram is similar a particular solution, and sequence diagram is similar a graph of function.<br/>
 So, our end aim is to create Analysis Class Diagram.<br/>
 
-### 2.1. Apply "Simulator" pattern
-Select "ClassDiagram" tab, in main menu select option  "Tool" and next option "Apply Patterns". In new window select folder "UML2SP" and Simulator pattern.<br/>
-<p><img src="ea/SimulatorPattern1.png" alt="" /></p>
-Figure 5. "Apply Patterns" window<br/>
-Apply pattern:
-<p><img src="ea/SimulatorPattern2.png" alt="" /></p>
-Figure 6. Applying "Simulator" pattern
+### 2.1. "Analysis Model" package
+Select 'Analysis Model' package. This package consist 'Analysis classes' diagram and 'Use-Case Realization' diagram.<br/>
+<p><img src="ea/AnalysisModel.png" alt="" /></p>
+Figure 10. 'Analysis Model' package<br/>
+The 'Use-Case Realization' diagram is communication diagram. The 'Analysis class' diagram has 'Simulator' pattern:
+<p><img src="ea/SimulatorPattern.png" alt="" /></p>
+Figure 11. 'Simulator' pattern<br/>
+The 'Simulator' pattern is 'Composite' pattern from GoF.
+
 ### 2.2. Development realisation of use cases
 In first step, we write use-case realization on a pseudo-code:
 ```
