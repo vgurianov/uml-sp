@@ -115,7 +115,7 @@ As we see, the measurement value of box-counting dimension converges to accurate
 
 ## Conclusion
 In this section considered object model of the Koch snowflake. This model can use to construct other fractals such as the Cantor ternary set and more complex.<br/>
-Also, other examples of simulation model of mathematical objects see [3]. 
+In addition, other examples of simulation model of mathematical objects see [3]. 
 
 ## References
 1.	Gurianov V.I. Object Modeling of Fractal Structures // Mathematical Models and Their Applications: 
