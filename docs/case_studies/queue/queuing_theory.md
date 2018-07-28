@@ -136,7 +136,7 @@ head->right = new ItemOfList; head->right->_component = md;
 head->right->left = head;
 tail = head->right;
 ```
-Also, other examples of object-oriented models of queueing system see  in [3,4].
+In addition, other examples of object-oriented models of queueing system see  in [3,4].
 
 ### The simulation model in C++ code:  
 [BaseClassesOfTheoryProject.h](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.h), [BaseClassesOfTheoryProject.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/queue/BaseClassesOfTheoryProject.cpp)
