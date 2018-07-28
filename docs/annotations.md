@@ -12,7 +12,7 @@ A simulation include follow steps:
 UML2 SP support three first step.
 
 # Simple example of development of simulation model
-## Application domain: Greeting
+## Problem domain: Greeting
 -- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
@@ -35,7 +35,7 @@ Realization "Step" use case :
 Class diagram (build from realization):
 <p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
 
-**Application domain semantics.**<br>
+**Problem domain semantics.**<br>
 In UML2 SP conceptual model is an ontology.<br> 
 `The ontology must be true, otherwise the simulation model will not be correct.`<br>
 Further we use the terms of knowledge engineering.<br>
