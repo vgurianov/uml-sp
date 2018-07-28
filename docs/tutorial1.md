@@ -15,7 +15,7 @@ The [Unified Process (UP)](https://en.wikipedia.org/wiki/Unified_Process) is a s
 
 # Simple example
 In this example we shall simulated dialogs between humans.<br/>
-**Application domain**: Greeting <br/>
+**Problem domain**: Greeting <br/>
 -- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
 -- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
