@@ -1,5 +1,5 @@
 <h1 id="case_studies">Case Studies</h1>
-On this page present a scientific simulation models as example.<br/><br/>
+On this page present scientific simulation models as example.<br/><br/>
 Contents:<br/>
 <ul>
   <li><a href="case_studies/queue/queuing_theory">Queuing simulation</a></li>
