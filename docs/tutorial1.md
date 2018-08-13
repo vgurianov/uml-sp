@@ -22,7 +22,7 @@ In this example we shall simulated dialogs between humans.<br/>
 It's necessary create a simulation model of dialog.
 
 # Main steps of development of a simulation model
-UML2 SP ver. 1.0
+UML2 SP ver. 1.1
 
 ## 0. Start of development
 Download [Sparx Systems Enterprise Architect](http://www.sparxsystems.com/products/ea/trial/request.html), Trial 30 days, and install it.<br/>
