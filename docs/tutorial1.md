@@ -36,7 +36,7 @@ Figure 1. The new empty model is created<br/>
 - Right-click to the 'MDG Technology' and select 'Import Technology' option:
 <p><img src="ea/Start1.png" alt="" /></p>
 Figure 2. The 'Import Technology' selection<br/>
-- Select file with the MTS-USP (UML2_SP.xml);
+- Select file with the MDG Technology-UML2 SP (MDGT-usp.xml);
 <p><img src="ea/Start2.png" alt="" /></p>
 Figure 3. The file selection<br/>
 - Go the Project Browser, right-click to 'Model' package, and select 'Add', and 'Add a Model using Wizard' (Fig.3)
@@ -164,7 +164,7 @@ Figure 15. Run reverse engineering <br/>
 Figure 16. Class diagram of Design Model <br/>
 
 It is necessary to make sure that the diagram of the analysis classes coincides with the diagram of the design classes. Otherwise, make changes to the program code.<br/>
-Model drive a development of software.
+Model drive a development of software ([see MDA](https://en.wikipedia.org/wiki/Model-driven_architecture)).
 
 # Further - programming, testing and etc.
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
