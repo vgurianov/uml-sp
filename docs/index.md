@@ -6,7 +6,7 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development of a simulat
 <h1 id="header-3"><a href="#header-2"></a>Learning</h1>
 
 - <a href="tutorial">Tutorial on base StarUML ver. 5.0</a>
-- <a href="tutorial1">Tutorial on base Enterprise Architect (New)</a>
+- <a href="tutorial1">Tutorial on base Enterprise Architect</a>
 - <a href="case_studies">Case Studies</a>
 
 
@@ -14,7 +14,7 @@ The UML2 SP (UML Scientific Profile) is UML-profile for development of a simulat
 
 - <a href="conception">UML2 SP conception</a>
 - <a href="metamodel">Metamodel and definition of stereotypes</a>
-- [UML2 SP Application Guide](https://www.gitbook.com/book/vgurianov/simulation-with-uml2-scientific-profile) (New)
+- [UML2 SP Application Guide](https://www.gitbook.com/book/vgurianov/simulation-with-uml2-scientific-profile) (Update 2010.10.10)
 - <a href="bibliography">Bibliography</a>
 
 
