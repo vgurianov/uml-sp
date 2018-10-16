@@ -1,5 +1,5 @@
 # UML2 Scientific Profile (UML2 SP)
-Version 1.0
+Version 1.1
 
 ## 1. Scope
 This specification defines the UML2 Scientific Profile (UML2 SP), revision 1.0. The objective of UML2 SP is to provide software engineers,software developers and scientists  with tools for analysis and design of simulation models. The UML2 SP define a metamodel of a profile on base of the UML2 metamodel.
