@@ -19,4 +19,4 @@ Contents:<br/>
 
 
 Footnote:<br/>
-<a href="case_studies/function/function">Numerical models vs Non-Numerical models</a>
+<a href="case_studies/function/function">Non-Numerical models vs Numerical models</a>
