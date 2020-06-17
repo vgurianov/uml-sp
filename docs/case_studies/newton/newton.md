@@ -15,7 +15,8 @@ in papers [1-3]. This model based on the Levi-Beck theory of mechanical motion i
 ## Related Works
 There are works on simulation modeling in physics but they are few and most part are case studies. These works cannot compete with works of performed in a traditional manner of research.
 There is a problem of an adequate description of physical processes in the language of simulation modeling. In the book [4] this approach is called *algorithmic* or *constructive physics*. Similar views are held by the authors of the book [5].
-This problem is closely related to the problems of digital physics [6] (see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7]. Let's note, simulation in physics is not the same as information physics, but, of course, these are close approaches.
+This problem is closely related to the problems of digital physics [6] (see [digital mechanics book](http://52.7.130.124/wp-content/uploads/2015/07/digital_mechanics_book.pdf)) and the methods of information physics [7].  
+Our approach relies heavily on the works of Stefon Wolfram [9] and Gerard 't Hooft [10].
 
 ## Problem Domain
 Newton's laws
@@ -222,4 +223,5 @@ In our opinion, the above results allow us to state that the proposed model of m
 6. Website E. Fredkin on Digital Philosophy, URL: [http://www.digitalphilosophy.org/](http://www.digitalphilosophy.org/)
 7. Vstovsky G.V. Elements of Information Physics. Moscow: RIC MGIU, 2002. - 257 p.
 8. Vyaltsev A.N., Discrete space-time. Ed. 3rd, stereotyped. - M .: KomKniga, 2007. - 400 p.
-
+9. Stephen Wolfram. A Class of Models with the Potential to Represent Fundamental Physics, URL: [https://arxiv.org/abs/2004.08210](https://arxiv.org/abs/2004.08210)
+10. Gerard 't Hooft. The Cellular Automaton Interpretation of Quantum Mechanics, URL: [https://link.springer.com/book/10.1007/978-3-319-41285-6](https://link.springer.com/book/10.1007/978-3-319-41285-6)
