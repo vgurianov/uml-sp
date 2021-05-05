@@ -28,4 +28,5 @@ It is necessary to perform the following steps:<br/>
 ### License
 This project is licensed under the terms of the [BSD 2-Clause license](LICENSE).
 ### Feedback
-The feedback is very welcome.
+The feedback is very welcome.  
+e-mail: vg2007sns@rambler.ru  
