@@ -1,5 +1,5 @@
 # UML2 SP: Object-oriented simulation language
-This resource is a live version of the book ["Simulation with UML SP"](Gurianov_V_Simulation_with_UML_SP.pdf) by Vasyliy I. Gurianov.  
+This resource is a live version of the book ["Simulation with UML SP"](https://vgurianov.github.io/uml-sp/Gurianov_V_Simulation_with_UML_SP.pdf) by Vasyliy I. Gurianov.  
 
 The UML-profile intend for the development of simulation models. The development use a modified Unified Process. UML2 SP models are do not depend on the programming language.
 
