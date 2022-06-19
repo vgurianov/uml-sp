@@ -51,7 +51,7 @@ As a rule, ontology alone is not enough to describe a model. For example, it is 
 Class operations define rules for changing slots and define a concepts. A critical meaning is given to the operations of the «Exist» stereotype. These operations determine the course of model time.  
 One may use communication diagrams for this purpose, Figure 2. The communication diagram is an instance of the Class diagram:  
 
- ![Image](UseCaseRealization.png)
+ ![Image](UseCaseRealization.png)  
  Figure 2 - The communication diagram of the dialog
 
  The dialog includes the following events.
@@ -62,7 +62,7 @@ One may use communication diagrams for this purpose, Figure 2. The communication
  5. The list of pl will be shifted by one position, i.e. from a to b
  6. Reactivation of the object pl from the context
  7. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
- 8. Mr. Brown is processing the message
+ 8. Mr. Brown is processing the message  
  9. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
 
  Reply Mr.Goldsmith is not shown in this diagram.
