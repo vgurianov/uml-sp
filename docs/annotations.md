@@ -31,7 +31,7 @@ In UML2 SP conceptual model is an ontology.
 
 Class diagram is:  
 
-![Image](SP%20ClassDiagram.png)
+![Image](SP%20ClassDiagram.png)  
 Figure 1 - The ontology of the situation
 
 **Problem domain semantics.**  
@@ -43,7 +43,7 @@ A "Root" frame define concept "Environment". It is initial and boundary conditio
 A "Node" frame define concept "Greeting" and has "msg" slot. It is the system under study.<br>
 Class operations define a rule of change of slot.<br>
 
-**Computational semantics.**<br>
+**Computational semantics.**
 Ontologies described in UML SP can be attributed to the class of executable ontologies, because the model can be immediately translated into one of the programming languages.  
 With view of computational semantic, the class diagram is variant of a *Composite* pattern by GoF.
 
