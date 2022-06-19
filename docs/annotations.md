@@ -1,4 +1,8 @@
-# About UML2 SP
+# A brief overview of the UML SP
+See also [Gurianov V.I. A Brief Overview of the UML Scientific Profile](https://arxiv.org/abs/2104.10042), arXiv:2104.10042 (cs.DC), 2021
+## 1. About UML2 SP
+UML 2 SP is an abbreviation for UML 2 Scientific Profile and designed for the development of simulation models.  
+
 A simulation include follow steps:
 1. define goals of modeling and requirements to simulator
 2. conceptual modeling
@@ -9,36 +13,29 @@ A simulation include follow steps:
 7. make up tactical plan and execute experiment
 8. analyze results of experiments
 
-UML2 SP support three first step.
+UML2 SP support three first step. This Unified Process (UP)  modification is called SSP (Simulation with Scientific Profile).
 
-# Simple example of development of simulation model
-## Problem domain: Greeting
--- Good morning, Mr. Goldsmith. It’s been a long time since we met. How nice to see you again.<br/>
--- How do you do, Mr. Brown. I’m glad to see you too. How are you?<br/>
+## 2. Simple example
+Consider the following simple situation.  
+Problem domain: Greeting  
+-- Good morning, Mr. Brown. It’s been a long time since we met. How nice to see you again.<br/>
+-- How do you do, Mr. Goldsmith. I’m glad to see you too. How are you?<br/>
 -- Not bad, thank you /Thanks, not so well.<br/><br/>
 It's necessary create a simulation model of dialog.
 
-## 1. Define goals of modeling and requirements to simulator
-In UML2 SP this step is a *Requirement* workflow. A Use-Case model is an artefact of *Requirement* workflow.
+Conceptual modeling  
+As a rule, a scientific models is depicted as an ontologies.
+In our opinion, frame semantic networks can be used to describe scientific models along with mathematical models.  
 
-**Goal:** What will Mr. Brown answer?<br/>
-**Plan of experiment:** Observe Mr. Brown and Mr. Goldsmith dialog.<br/>
+In UML2 SP conceptual model is an ontology.
 
-<p><img src="UseCase.png" alt="" /></p>
-A *Use-Case model* define the functional requirements of the simulator (system must do "Prepare","Step" and "Visualize").
+Class diagram is:  
 
-## 2. Conceptual modeling
-In UML2 SP this step is an *Analysis* workflow. An *Analysis model* is an artefact of *Analysis* workflow.<br/>
-Analysis model is main part of a simulation model.<br/><br/>
-Realization "Step" use case :
-<p><img src="UseCaseRealization.png" alt="" /></p> <br>
-Class diagram (build from realization):
-<p><img src="SP%20ClassDiagram.png" alt="" /></p> <br>
+![Image](SP%20ClassDiagram.png)
+Figure 1 - The ontology of the situation
 
-**Problem domain semantics.**<br>
-In UML2 SP conceptual model is an ontology.<br> 
-`The ontology must be true, otherwise the simulation model will not be correct.`<br>
-Further we use the terms of knowledge engineering.<br>
+**Problem domain semantics.**  
+Further we use the terms of knowledge engineering.  
 A "Component" frame define concept "Subject" . This frame has "name" and "next" slots.<br>
 A "Leaf" frame  define concept "Human".<br>
 A "Composite" frame define concept "Dialog space" and has "pl" slot.<br>
@@ -46,15 +43,30 @@ A "Root" frame define concept "Environment". It is initial and boundary conditio
 A "Node" frame define concept "Greeting" and has "msg" slot. It is the system under study.<br>
 Class operations define a rule of change of slot.<br>
 
-**Computational semantics.**<br> 
-The class diagram is variant of a *Composite* pattern .<br>
+**Computational semantics.**<br>
+Ontologies described in UML SP can be attributed to the class of executable ontologies, because the model can be immediately translated into one of the programming languages.  
+With view of computational semantic, the class diagram is variant of a *Composite* pattern by GoF.
 
-## 3. Formal describe
-In UML2 SP this step is a *Design* workflow.A *Design model* is an artefact of *Design* workflow.<br><br/>
-An algorithm for the Run operation of the Node class:<br>
-<p><img src="ActivityDiagram1.png" alt="" /></p> <br>
-On this workflow select a platform and design an algorithms for operations of classes. For Analysis model can be created several Design models.<br>
-# Further - programming, testing and etc.
+As a rule, ontology alone is not enough to describe a model. For example, it is required to define the operations algorithm in some detail.  
+Class operations define rules for changing slots and define a concepts. A critical meaning is given to the operations of the «Exist» stereotype. These operations determine the course of model time.  
+One may use communication diagrams for this purpose, Figure 2. The communication diagram is an instance of the Class diagram:  
+
+ ![Image](UseCaseRealization.png)
+ Figure 2 - The communication diagram of the dialog
+
+ The dialog includes the following events.
+ 1. Activation of the object pl from the context
+ 2. Mr. Goldsmith sees Mr. Brown
+ 3. Mr. Goldsmith is processing this message
+ 4. Mr. Goldsmith sends the message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again".
+ 5. The list of pl will be shifted by one position, i.e. from a to b
+ 6. Reactivation of the object pl from the context
+ 7. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
+ 8. Mr. Brown is processing the message
+ 9. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
+
+ Reply Mr.Goldsmith is not shown in this diagram.
+
 The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
 
-[See in GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample) 
+[View on GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample)
