@@ -97,7 +97,7 @@ and «Accessibility Relation» stereotypes.
 The considered theme (topic) is very an extensive and this section is limited introduction in the problem.
 
 ## References
-1. [Lefevre V.A. Conflicting structures. The second edition, revised and supplemented. - Moscow: Publishing house "Soviet radio", 1973 (In Russian).](http://314159.ru/lefebvre/lefebvre1.htm) 
+1. [Lefevre V.A. Conflicting structures. The second edition, revised and supplemented. - Moscow: Publishing house "Soviet radio", 1973 (In Russian).](https://algebrasovesti.us/konfliktuyushchie-struktury.html) 
 2.	S. Kripke. A Completeness Theorem in Modal Logic, Journal of Symbolic Logic 24(1):1–14. 1959.
 3.	S. Kripke. Semantical Considerations on Modal Logic, Acta Philosophica Fennica 16:83–94,1963.
 4.	[V.I. Gurianov, Simulation with UML SP. Cheboksary: SPbSEU, branch in Cheboksary, 2014. - 136 p.  (In Russian)](http://simulation.su/static/en-books.html)
