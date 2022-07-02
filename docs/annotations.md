@@ -67,7 +67,7 @@ One may use communication diagrams for this purpose, Figure 2. The communication
  Figure 3 - Step 2
  
  2. Reactivation of the object *place* from the context
- 3. The message "Good morning. How are you?" is received by Mr. brown.
+ 3. The message "Good morning. How are you?" is received by Mr. Brown.
  4. Mr. Brown is processing the message  
  5. Mr. Brown sends the message "Not bad, thank you"  
 
