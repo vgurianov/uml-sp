@@ -52,21 +52,25 @@ Class operations define rules for changing slots and define a concepts. A critic
 One may use communication diagrams for this purpose, Figure 2. The communication diagram is an instance of the Class diagram:  
 
  ![Image](UseCaseRealization.png)  
- Figure 2 - The communication diagram of the dialog
+ Figure 2 - Step 1
 
  The dialog includes the following events.
  1. Activation of the object pl from the context
  2. Mr. Goldsmith sees Mr. Brown
  3. Mr. Goldsmith is processing this message
  4. Mr. Goldsmith sends the message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again".
- 5. The list of pl will be shifted by one position, i.e. from a to b
- 6. Reactivation of the object pl from the context
- 7. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
- 8. Mr. Brown is processing the message  
- 9. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
+ 
+  ![Image](UseCaseRealization.png)  
+ Figure 3 - Step 2
+ 
+ 1. The list of *place* will be shifted by one position, i.e. from a to b
+ 2. Reactivation of the object pl from the context
+ 3. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
+ 4. Mr. Brown is processing the message  
+ 5. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
 
  Reply Mr.Goldsmith is not shown in this diagram.
 
-The simulation model in C++ code: [AppBaseClasses.h](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.h), [AppBaseClasses.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/AppBaseClasses.cpp)<br>
+The simulation model in C++ code: [Main.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/Main.cpp)<br>
 
 [View on GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample)
