@@ -71,6 +71,6 @@ One may use communication diagrams for this purpose, Figure 2. The communication
 
  Reply Mr.Goldsmith is not shown in this diagram.
 
-The simulation model in C++ code: [main.cpp](https://github.com/vgurianov/uml-sp/examples/SimpleExample/main.cpp)<br>
+The simulation model in C++ code: [main.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/main.cpp)<br>
 
 [View on GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample)
