@@ -59,12 +59,12 @@ One may use communication diagrams for this purpose, Figure 2. The communication
  2. Mr. Goldsmith sees Mr. Brown
  3. Mr. Goldsmith is processing this message
  4. Mr. Goldsmith sends the message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again".
- 
+ 5. The list of *place* will be shifted by one position, i.e. from a to b
+
   ![Image](UseCaseRealization2.png)  
  Figure 3 - Step 2
  
- 1. The list of *place* will be shifted by one position, i.e. from a to b
- 2. Reactivation of the object pl from the context
+ 2. Reactivation of the object *place* from the context
  3. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
  4. Mr. Brown is processing the message  
  5. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
