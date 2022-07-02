@@ -18,9 +18,8 @@ UML2 SP support three first step. This Unified Process (UP)  modification is cal
 ## 2. Simple example
 Consider the following simple situation.  
 Problem domain: Greeting  
--- Good morning, Mr. Brown. It’s been a long time since we met. How nice to see you again.<br/>
--- How do you do, Mr. Goldsmith. I’m glad to see you too. How are you?<br/>
--- Not bad, thank you /Thanks, not so well.<br/><br/>
+-- Mr. Goldsmith : Good morning. How are you?.  
+-- Mr. Brown: Not bad, thank you /Thanks, not so well.  
 It's necessary create a simulation model of dialog.
 
 Conceptual modeling  
@@ -54,23 +53,25 @@ One may use communication diagrams for this purpose, Figure 2. The communication
  ![Image](UseCaseRealization1.png)  
  Figure 2 - Step 1
 
+- Mr. Goldsmith : Good morning. How are you?.  
+- Mr. Brown: Not bad, thank you /Thanks, not so well.  
+
  The dialog includes the following events.
  1. Activation of the object pl from the context
  2. Mr. Goldsmith sees Mr. Brown
  3. Mr. Goldsmith is processing this message
- 4. Mr. Goldsmith sends the message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again".
+ 4. Mr. Goldsmith sends the message "Good morning. How are you?"
  5. The list of *place* will be shifted by one position, i.e. from a to b
 
   ![Image](UseCaseRealization2.png)  
  Figure 3 - Step 2
  
  2. Reactivation of the object *place* from the context
- 3. The message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again" is received by Mr. brown.
+ 3. The message "Good morning. How are you?" is received by Mr. brown.
  4. Mr. Brown is processing the message  
- 5. Mr. Brown sends the message "How do you do, Mr. Goldsmith. I'm glad to see you too. How are you?"  
+ 5. Mr. Brown sends the message "Not bad, thank you"  
 
- Reply Mr.Goldsmith is not shown in this diagram.
-
+ 
 The simulation model in C++ code: [main.cpp](https://github.com/vgurianov/uml-sp/blob/master/examples/SimpleExample/main.cpp)<br>
 
 [View on GitHub](https://github.com/vgurianov/uml-sp/tree/master/examples/SimpleExample)
