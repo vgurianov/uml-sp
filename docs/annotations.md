@@ -31,7 +31,7 @@ In UML2 SP conceptual model is an ontology.
 
 Class diagram is:  
 
-![Image](SP%ClassDiagram.png)  
+![Image](SP%20ClassDiagram.png)  
 Figure 1 - The ontology of the situation
 
 **Problem domain semantics.**  
