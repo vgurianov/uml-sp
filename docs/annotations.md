@@ -31,7 +31,7 @@ In UML2 SP conceptual model is an ontology.
 
 Class diagram is:  
 
-![Image](SP%20ClassDiagram.png)  
+![Image](SP%ClassDiagram.png)  
 Figure 1 - The ontology of the situation
 
 **Problem domain semantics.**  
@@ -51,7 +51,7 @@ As a rule, ontology alone is not enough to describe a model. For example, it is 
 Class operations define rules for changing slots and define a concepts. A critical meaning is given to the operations of the «Exist» stereotype. These operations determine the course of model time.  
 One may use communication diagrams for this purpose, Figure 2. The communication diagram is an instance of the Class diagram:  
 
- ![Image](UseCaseRealization.png)  
+ ![Image](UseCaseRealization1.png)  
  Figure 2 - Step 1
 
  The dialog includes the following events.
@@ -60,7 +60,7 @@ One may use communication diagrams for this purpose, Figure 2. The communication
  3. Mr. Goldsmith is processing this message
  4. Mr. Goldsmith sends the message "Good morning, Mr. Brown. It's been a long time since we met. How nice to see you again".
  
-  ![Image](UseCaseRealization.png)  
+  ![Image](UseCaseRealization2.png)  
  Figure 3 - Step 2
  
  1. The list of *place* will be shifted by one position, i.e. from a to b
