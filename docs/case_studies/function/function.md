@@ -79,9 +79,10 @@ Figure 1. The Fibonacci sequence simulation<br>
 As we see, measurements of simulation give the Fibonacci sequence.<br/>
 P.S. It is known that the Fibonacci sequence is closely related to the gold ratio phi = 1.618 …
 <p><img src="formula.png" alt="" /></p>
-In our opinion, the number of phi is often found in nature because it is the simplest non-trivial algorithm for constructing object structures.
-
-**Summary:** In object models, numerical data is result of measurements on object structures.
+In our opinion, the number of phi is often found in nature because it is the simplest non-trivial algorithm for constructing object structures.  
+Let us make the following important remark. Other data structures can be used to model the Fibonacci sequence. For example, a more compact and more elegant model can be created based on a binary tree. This implies that the simulation model requires the definition of additional assumptions. It can be said differently - the same mathematical model can describe different communication processes.  
+  
+**Summary:** In object models, numerical data is result of measurements on object structures.  
 
 ### The simulation model in C# code:  
 [Fibbonachy.cs](https://github.com/vgurianov/uml-sp/blob/master/examples/function/Fibbonachy.cs) 
